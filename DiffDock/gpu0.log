@@ -125,4 +125,859 @@ Processing 90 of 90 batches (11 sequences)
 [2025-Jun-18 03:00:25 PDT] WARNING -Complex ['Cyclothiazide'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
 [2025-Jun-18 03:00:25 PDT] WARNING -Complex ['Cyclothiazide'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
 [2025-Jun-18 03:00:26 PDT] WARNING -Complex ['Cyclothiazide'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
-57it [19:52, 18.88s/it]58it [20:08, 17.82s/it]59it [20:19, 15.97s/it]60it [20:40, 17.41s/it]61it [20:55, 16.56s/it]62it [21:17, 18.35s/it]63it [21:40, 19.60s/it]64it [22:03, 20.68s/it]65it [22:19, 19.22s/it]66it [22:33, 17.81s/it]67it [23:30, 29.43s/it]68it [23:47, 25.76s/it]69it [24:01, 22.23s/it]70it [24:31, 24.62s/it]71it [24:51, 23.04s/it]72it [25:13, 22.71s/it]73it [25:30, 21.26s/it]74it [25:56, 22.59s/it]75it [26:18, 22.46s/it]76it [26:44, 23.54s/it]77it [27:00, 21.05s/it]78it [27:21, 21.12s/it]79it [27:42, 21.25s/it]80it [28:19, 25.84s/it]81it [29:07, 32.57s/it]82it [29:38, 32.11s/it]83it [29:52, 26.64s/it]84it [30:10, 23.97s/it]85it [30:34, 24.06s/it]86it [30:47, 20.65s/it]87it [30:59, 18.19s/it]88it [31:13, 16.86s/it]89it [31:22, 14.48s/it]90it [31:40, 15.41s/it]91it [31:56, 15.63s/it]92it [32:18, 17.52s/it]93it [32:49, 21.60s/it]94it [33:19, 24.04s/it]
+57it [19:52, 18.88s/it]58it [20:08, 17.82s/it]59it [20:19, 15.97s/it]60it [20:40, 17.41s/it]61it [20:55, 16.56s/it]62it [21:17, 18.35s/it]63it [21:40, 19.60s/it]64it [22:03, 20.68s/it]65it [22:19, 19.22s/it]66it [22:33, 17.81s/it]67it [23:30, 29.43s/it]68it [23:47, 25.76s/it]69it [24:01, 22.23s/it]70it [24:31, 24.62s/it]71it [24:51, 23.04s/it]72it [25:13, 22.71s/it]73it [25:30, 21.26s/it]74it [25:56, 22.59s/it]75it [26:18, 22.46s/it]76it [26:44, 23.54s/it]77it [27:00, 21.05s/it]78it [27:21, 21.12s/it]79it [27:42, 21.25s/it]80it [28:19, 25.84s/it]81it [29:07, 32.57s/it]82it [29:38, 32.11s/it]83it [29:52, 26.64s/it]84it [30:10, 23.97s/it]85it [30:34, 24.06s/it]86it [30:47, 20.65s/it]87it [30:59, 18.19s/it]88it [31:13, 16.86s/it]89it [31:22, 14.48s/it]90it [31:40, 15.41s/it]91it [31:56, 15.63s/it]92it [32:18, 17.52s/it]93it [32:49, 21.60s/it]94it [33:19, 24.04s/it]95it [33:31, 20.46s/it]96it [33:53, 21.17s/it]97it [34:09, 19.45s/it]98it [34:38, 22.39s/it]99it [34:52, 19.91s/it]100it [35:19, 21.83s/it][2025-Jun-18 03:15:56 PDT] WARNING -Complex ['Levacecarnine_hci'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 03:15:57 PDT] WARNING -Complex ['Levacecarnine_hci'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 03:15:57 PDT] WARNING -Complex ['Levacecarnine_hci'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 03:15:58 PDT] WARNING -Complex ['Levacecarnine_hci'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 03:15:58 PDT] WARNING -Complex ['Levacecarnine_hci'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 03:15:59 PDT] WARNING -Complex ['Levacecarnine_hci'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 03:15:59 PDT] WARNING -Complex ['Levacecarnine_hci'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 03:16:00 PDT] WARNING -Complex ['Levacecarnine_hci'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 03:16:00 PDT] WARNING -Complex ['Levacecarnine_hci'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 03:16:00 PDT] WARNING -Complex ['Levacecarnine_hci'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 03:16:01 PDT] WARNING -Complex ['Levacecarnine_hci'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 03:16:01 PDT] WARNING -Complex ['Levacecarnine_hci'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 03:16:01 PDT] WARNING -Complex ['Levacecarnine_hci'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 03:16:02 PDT] WARNING -Complex ['Levacecarnine_hci'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 03:16:02 PDT] WARNING -Complex ['Levacecarnine_hci'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 03:16:02 PDT] WARNING -Complex ['Levacecarnine_hci'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+101it [35:29, 18.39s/it]102it [35:48, 18.65s/it]103it [36:12, 20.09s/it]104it [36:34, 20.85s/it]105it [36:45, 17.75s/it]106it [37:08, 19.52s/it]107it [37:26, 18.84s/it]108it [37:53, 21.29s/it]109it [38:19, 22.70s/it]110it [38:28, 18.66s/it][2025-Jun-18 03:19:04 PDT] WARNING -Complex ['Salicyclic_acid'] Batch 1 Inference Iteration 1: 1 / 10 samples failed
+111it [38:40, 16.83s/it]112it [39:03, 18.63s/it][2025-Jun-18 03:19:55 PDT] WARNING -Complex ['Caspofungin'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 03:19:58 PDT] WARNING -Complex ['Caspofungin'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+113it [39:49, 26.69s/it]114it [40:18, 27.31s/it]115it [40:50, 28.83s/it]116it [41:10, 26.32s/it]117it [41:32, 24.77s/it]118it [41:59, 25.65s/it]119it [42:18, 23.48s/it]120it [42:42, 23.80s/it]121it [43:04, 23.26s/it]122it [43:49, 29.79s/it]123it [44:10, 27.19s/it][2025-Jun-18 03:24:48 PDT] WARNING -Complex ['Phentermine'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 03:24:48 PDT] WARNING -Complex ['Phentermine'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 03:24:49 PDT] WARNING -Complex ['Phentermine'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 03:24:50 PDT] WARNING -Complex ['Phentermine'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 03:24:50 PDT] WARNING -Complex ['Phentermine'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 03:24:51 PDT] WARNING -Complex ['Phentermine'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 03:24:51 PDT] WARNING -Complex ['Phentermine'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 03:24:52 PDT] WARNING -Complex ['Phentermine'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 03:24:52 PDT] WARNING -Complex ['Phentermine'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 03:24:52 PDT] WARNING -Complex ['Phentermine'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 03:24:53 PDT] WARNING -Complex ['Phentermine'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 03:24:53 PDT] WARNING -Complex ['Phentermine'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 03:24:54 PDT] WARNING -Complex ['Phentermine'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 03:24:54 PDT] WARNING -Complex ['Phentermine'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 03:24:54 PDT] WARNING -Complex ['Phentermine'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 03:24:55 PDT] WARNING -Complex ['Phentermine'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+124it [44:21, 22.29s/it]125it [45:06, 29.00s/it]126it [45:28, 27.06s/it]127it [45:47, 24.39s/it]128it [46:08, 23.60s/it]129it [46:18, 19.56s/it]130it [47:06, 27.91s/it][2025-Jun-18 03:27:43 PDT] WARNING -Complex ['L_Tryptophan'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 03:27:44 PDT] WARNING -Complex ['L_Tryptophan'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 03:27:45 PDT] WARNING -Complex ['L_Tryptophan'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 03:27:46 PDT] WARNING -Complex ['L_Tryptophan'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 03:27:47 PDT] WARNING -Complex ['L_Tryptophan'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 03:27:47 PDT] WARNING -Complex ['L_Tryptophan'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 03:27:48 PDT] WARNING -Complex ['L_Tryptophan'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 03:27:49 PDT] WARNING -Complex ['L_Tryptophan'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 03:27:49 PDT] WARNING -Complex ['L_Tryptophan'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 03:27:50 PDT] WARNING -Complex ['L_Tryptophan'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 03:27:50 PDT] WARNING -Complex ['L_Tryptophan'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 03:27:51 PDT] WARNING -Complex ['L_Tryptophan'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 03:27:51 PDT] WARNING -Complex ['L_Tryptophan'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 03:27:52 PDT] WARNING -Complex ['L_Tryptophan'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 03:27:52 PDT] WARNING -Complex ['L_Tryptophan'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 03:27:53 PDT] WARNING -Complex ['L_Tryptophan'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 03:27:53 PDT] WARNING -Complex ['L_Tryptophan'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+131it [47:20, 23.75s/it]132it [47:28, 19.20s/it]133it [47:52, 20.64s/it]134it [48:07, 18.72s/it]135it [48:31, 20.32s/it]136it [48:48, 19.24s/it]137it [48:57, 16.32s/it]138it [49:14, 16.47s/it]139it [49:37, 18.57s/it]140it [49:53, 17.80s/it]141it [50:06, 16.19s/it]142it [50:20, 15.61s/it]143it [50:42, 17.53s/it]144it [51:01, 18.08s/it]145it [51:25, 19.86s/it]146it [51:36, 17.22s/it]147it [52:06, 21.00s/it]148it [52:30, 21.75s/it][2025-Jun-18 03:33:08 PDT] WARNING -Complex ['Sodium_bicarbonate'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+149it [52:39, 17.87s/it]150it [52:50, 15.92s/it]151it [53:07, 16.15s/it]152it [53:22, 16.03s/it]153it [53:46, 18.19s/it]154it [53:58, 16.35s/it]155it [54:28, 20.55s/it]156it [54:44, 19.13s/it]157it [55:01, 18.48s/it]158it [55:16, 17.46s/it]159it [55:38, 18.93s/it]160it [55:50, 16.77s/it]161it [56:07, 16.78s/it]162it [56:21, 16.11s/it]163it [57:01, 23.12s/it]164it [57:23, 22.72s/it]165it [57:58, 26.63s/it]166it [58:21, 25.43s/it]167it [58:42, 24.06s/it][2025-Jun-18 03:39:20 PDT] WARNING -Complex ['Cyclophosphamide'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+168it [58:55, 20.92s/it]169it [59:08, 18.51s/it]170it [59:29, 19.17s/it]171it [1:00:01, 22.91s/it][2025-Jun-18 03:40:36 PDT] WARNING -Complex ['Ammonium_chloride'] Batch 1 Inference Iteration 1: 5 / 10 samples failed
+[2025-Jun-18 03:40:36 PDT] WARNING -Complex ['Ammonium_chloride'] Batch 1 Inference Iteration 2: 8 / 10 samples failed
+[2025-Jun-18 03:40:36 PDT] WARNING -Complex ['Ammonium_chloride'] Batch 1 Inference Iteration 3: 9 / 10 samples failed
+[2025-Jun-18 03:40:36 PDT] WARNING -Failed on ['Ammonium_chloride'] : No edges and no nodes
+172it [1:00:02, 16.51s/it]173it [1:00:17, 16.08s/it][2025-Jun-18 03:40:53 PDT] WARNING -Complex ['Attapulgite'] Batch 1 Inference Iteration 0: 1 / 10 samples failed
+[2025-Jun-18 03:40:53 PDT] WARNING -Failed on ['Attapulgite'] : No edges and no nodes
+174it [1:00:19, 11.72s/it]175it [1:00:50, 17.63s/it][2025-Jun-18 03:41:40 PDT] WARNING -Complex ['Rifampin'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 03:41:42 PDT] WARNING -Complex ['Rifampin'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 03:41:44 PDT] WARNING -Complex ['Rifampin'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 03:41:46 PDT] WARNING -Complex ['Rifampin'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 03:41:47 PDT] WARNING -Complex ['Rifampin'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 03:41:49 PDT] WARNING -Complex ['Rifampin'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 03:41:50 PDT] WARNING -Complex ['Rifampin'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 03:41:52 PDT] WARNING -Complex ['Rifampin'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 03:41:53 PDT] WARNING -Complex ['Rifampin'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 03:41:55 PDT] WARNING -Complex ['Rifampin'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 03:41:56 PDT] WARNING -Complex ['Rifampin'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 03:41:57 PDT] WARNING -Complex ['Rifampin'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 03:41:58 PDT] WARNING -Complex ['Rifampin'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 03:42:00 PDT] WARNING -Complex ['Rifampin'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+176it [1:01:26, 23.09s/it]177it [1:01:48, 22.59s/it]178it [1:01:58, 18.94s/it]179it [1:02:19, 19.71s/it]180it [1:02:40, 20.05s/it]181it [1:02:57, 18.90s/it]182it [1:03:20, 20.27s/it]183it [1:03:40, 20.19s/it]184it [1:04:04, 21.19s/it]185it [1:04:26, 21.45s/it]186it [1:04:37, 18.50s/it]187it [1:05:02, 20.30s/it]188it [1:05:13, 17.45s/it]189it [1:05:55, 24.99s/it]190it [1:06:41, 31.28s/it]191it [1:07:04, 28.81s/it][2025-Jun-18 03:47:45 PDT] WARNING -Complex ['Silver_sulfadiazine'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+192it [1:07:21, 25.15s/it]193it [1:07:43, 24.42s/it]194it [1:08:13, 26.04s/it]195it [1:08:30, 23.16s/it]196it [1:09:00, 25.41s/it]197it [1:09:22, 24.28s/it]198it [1:09:35, 20.78s/it]199it [1:10:29, 30.80s/it]200it [1:10:48, 27.35s/it]201it [1:11:05, 24.13s/it]202it [1:11:18, 20.82s/it]203it [1:11:31, 18.50s/it]204it [1:11:51, 18.94s/it][2025-Jun-18 04:06:33 PDT] WARNING -Complex ['Insulin_glulisine'] Batch 1 Inference Iteration 1: 1 / 10 samples failed
+[2025-Jun-18 04:07:45 PDT] WARNING -Complex ['Insulin_glulisine'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 04:08:58 PDT] WARNING -Complex ['Insulin_glulisine'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 04:10:12 PDT] WARNING -Complex ['Insulin_glulisine'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 04:11:18 PDT] WARNING -Complex ['Insulin_glulisine'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 04:12:10 PDT] WARNING -Complex ['Insulin_glulisine'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 04:12:53 PDT] WARNING -Complex ['Insulin_glulisine'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 04:13:25 PDT] WARNING -Complex ['Insulin_glulisine'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 04:13:50 PDT] WARNING -Complex ['Insulin_glulisine'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 04:14:09 PDT] WARNING -Complex ['Insulin_glulisine'] Batch 1 Inference Iteration 10: 2 / 10 samples failed
+[2025-Jun-18 04:14:22 PDT] WARNING -Complex ['Insulin_glulisine'] Batch 1 Inference Iteration 11: 2 / 10 samples failed
+[2025-Jun-18 04:14:30 PDT] WARNING -Complex ['Insulin_glulisine'] Batch 1 Inference Iteration 12: 2 / 10 samples failed
+[2025-Jun-18 04:14:35 PDT] WARNING -Complex ['Insulin_glulisine'] Batch 1 Inference Iteration 13: 2 / 10 samples failed
+[2025-Jun-18 04:14:41 PDT] WARNING -Complex ['Insulin_glulisine'] Batch 1 Inference Iteration 14: 2 / 10 samples failed
+[2025-Jun-18 04:14:46 PDT] WARNING -Complex ['Insulin_glulisine'] Batch 1 Inference Iteration 15: 2 / 10 samples failed
+[2025-Jun-18 04:14:50 PDT] WARNING -Complex ['Insulin_glulisine'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 04:14:55 PDT] WARNING -Complex ['Insulin_glulisine'] Batch 1 Inference Iteration 17: 2 / 10 samples failed
+[2025-Jun-18 04:15:00 PDT] WARNING -Complex ['Insulin_glulisine'] Batch 1 Inference Iteration 18: 2 / 10 samples failed
+205it [1:34:28, 420.30s/it]206it [1:34:42, 298.61s/it]207it [1:35:00, 214.27s/it][2025-Jun-18 04:15:38 PDT] WARNING -Complex ['Efavirenz'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 04:15:39 PDT] WARNING -Complex ['Efavirenz'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 04:15:40 PDT] WARNING -Complex ['Efavirenz'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 04:15:41 PDT] WARNING -Complex ['Efavirenz'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 04:15:42 PDT] WARNING -Complex ['Efavirenz'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 04:15:43 PDT] WARNING -Complex ['Efavirenz'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 04:15:44 PDT] WARNING -Complex ['Efavirenz'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 04:15:45 PDT] WARNING -Complex ['Efavirenz'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 04:15:45 PDT] WARNING -Complex ['Efavirenz'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 04:15:46 PDT] WARNING -Complex ['Efavirenz'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 04:15:47 PDT] WARNING -Complex ['Efavirenz'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 04:15:47 PDT] WARNING -Complex ['Efavirenz'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 04:15:48 PDT] WARNING -Complex ['Efavirenz'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 04:15:49 PDT] WARNING -Complex ['Efavirenz'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 04:15:49 PDT] WARNING -Complex ['Efavirenz'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 04:15:50 PDT] WARNING -Complex ['Efavirenz'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 04:15:50 PDT] WARNING -Complex ['Efavirenz'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+208it [1:35:17, 155.10s/it]209it [1:35:40, 115.54s/it]210it [1:35:59, 86.55s/it] 211it [1:36:26, 68.78s/it]212it [1:36:48, 54.75s/it]213it [1:37:07, 43.94s/it]214it [1:37:32, 38.24s/it]215it [1:37:50, 32.23s/it]216it [1:38:17, 30.48s/it][2025-Jun-18 04:18:54 PDT] WARNING -Complex ['Polidocanol'] Batch 1 Inference Iteration 1: 4 / 10 samples failed
+[2025-Jun-18 04:18:55 PDT] WARNING -Complex ['Polidocanol'] Batch 1 Inference Iteration 2: 5 / 10 samples failed
+[2025-Jun-18 04:18:56 PDT] WARNING -Complex ['Polidocanol'] Batch 1 Inference Iteration 3: 6 / 10 samples failed
+[2025-Jun-18 04:18:57 PDT] WARNING -Complex ['Polidocanol'] Batch 1 Inference Iteration 4: 7 / 10 samples failed
+[2025-Jun-18 04:18:57 PDT] WARNING -Complex ['Polidocanol'] Batch 1 Inference Iteration 5: 8 / 10 samples failed
+[2025-Jun-18 04:18:58 PDT] WARNING -Complex ['Polidocanol'] Batch 1 Inference Iteration 6: 8 / 10 samples failed
+[2025-Jun-18 04:18:58 PDT] WARNING -Complex ['Polidocanol'] Batch 1 Inference Iteration 7: 8 / 10 samples failed
+[2025-Jun-18 04:18:59 PDT] WARNING -Complex ['Polidocanol'] Batch 1 Inference Iteration 8: 8 / 10 samples failed
+[2025-Jun-18 04:18:59 PDT] WARNING -Complex ['Polidocanol'] Batch 1 Inference Iteration 9: 8 / 10 samples failed
+[2025-Jun-18 04:19:00 PDT] WARNING -Complex ['Polidocanol'] Batch 1 Inference Iteration 10: 8 / 10 samples failed
+[2025-Jun-18 04:19:00 PDT] WARNING -Complex ['Polidocanol'] Batch 1 Inference Iteration 11: 9 / 10 samples failed
+[2025-Jun-18 04:19:00 PDT] WARNING -Complex ['Polidocanol'] Batch 1 Inference Iteration 12: 9 / 10 samples failed
+[2025-Jun-18 04:19:00 PDT] WARNING -Complex ['Polidocanol'] Batch 1 Inference Iteration 13: 9 / 10 samples failed
+[2025-Jun-18 04:19:01 PDT] WARNING -Complex ['Polidocanol'] Batch 1 Inference Iteration 14: 9 / 10 samples failed
+[2025-Jun-18 04:19:01 PDT] WARNING -Complex ['Polidocanol'] Batch 1 Inference Iteration 15: 9 / 10 samples failed
+[2025-Jun-18 04:19:01 PDT] WARNING -Complex ['Polidocanol'] Batch 1 Inference Iteration 16: 9 / 10 samples failed
+[2025-Jun-18 04:19:01 PDT] WARNING -Complex ['Polidocanol'] Batch 1 Inference Iteration 17: 9 / 10 samples failed
+[2025-Jun-18 04:19:02 PDT] WARNING -Complex ['Polidocanol'] Batch 1 Inference Iteration 18: 9 / 10 samples failed
+217it [1:38:28, 24.81s/it]218it [1:38:46, 22.65s/it]219it [1:39:23, 27.12s/it]220it [1:39:47, 26.06s/it][2025-Jun-18 04:20:53 PDT] WARNING -Complex ['Urofollitropin'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+221it [1:40:26, 30.03s/it]222it [1:40:52, 28.75s/it]223it [1:41:10, 25.55s/it]224it [1:41:27, 23.04s/it]225it [1:41:51, 23.38s/it]226it [1:42:09, 21.77s/it][2025-Jun-18 04:22:50 PDT] WARNING -Complex ['LCZ696'] Batch 1 Inference Iteration 1: 1 / 10 samples failed
+[2025-Jun-18 04:22:52 PDT] WARNING -Complex ['LCZ696'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 04:22:55 PDT] WARNING -Complex ['LCZ696'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 04:22:57 PDT] WARNING -Complex ['LCZ696'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 04:23:00 PDT] WARNING -Complex ['LCZ696'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 04:23:02 PDT] WARNING -Complex ['LCZ696'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 04:23:04 PDT] WARNING -Complex ['LCZ696'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 04:23:06 PDT] WARNING -Complex ['LCZ696'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 04:23:08 PDT] WARNING -Complex ['LCZ696'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 04:23:10 PDT] WARNING -Complex ['LCZ696'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 04:23:11 PDT] WARNING -Complex ['LCZ696'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 04:23:13 PDT] WARNING -Complex ['LCZ696'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 04:23:14 PDT] WARNING -Complex ['LCZ696'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 04:23:16 PDT] WARNING -Complex ['LCZ696'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 04:23:17 PDT] WARNING -Complex ['LCZ696'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 04:23:18 PDT] WARNING -Complex ['LCZ696'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 04:23:20 PDT] WARNING -Complex ['LCZ696'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 04:23:21 PDT] WARNING -Complex ['LCZ696'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+227it [1:42:48, 26.74s/it]228it [1:43:09, 24.96s/it]229it [1:43:25, 22.28s/it]230it [1:43:43, 21.07s/it]231it [1:44:01, 20.13s/it]232it [1:44:35, 24.34s/it]233it [1:44:51, 21.89s/it]234it [1:45:15, 22.44s/it][2025-Jun-18 04:35:55 PDT] WARNING -Complex ['Human_neutral_insulin'] Batch 1 Inference Iteration 1: 1 / 10 samples failed
+[2025-Jun-18 04:37:03 PDT] WARNING -Complex ['Human_neutral_insulin'] Batch 1 Inference Iteration 2: 2 / 10 samples failed
+[2025-Jun-18 04:38:01 PDT] WARNING -Complex ['Human_neutral_insulin'] Batch 1 Inference Iteration 3: 2 / 10 samples failed
+[2025-Jun-18 04:38:52 PDT] WARNING -Complex ['Human_neutral_insulin'] Batch 1 Inference Iteration 4: 2 / 10 samples failed
+[2025-Jun-18 04:39:43 PDT] WARNING -Complex ['Human_neutral_insulin'] Batch 1 Inference Iteration 5: 2 / 10 samples failed
+[2025-Jun-18 04:40:22 PDT] WARNING -Complex ['Human_neutral_insulin'] Batch 1 Inference Iteration 6: 2 / 10 samples failed
+[2025-Jun-18 04:40:53 PDT] WARNING -Complex ['Human_neutral_insulin'] Batch 1 Inference Iteration 7: 2 / 10 samples failed
+[2025-Jun-18 04:41:18 PDT] WARNING -Complex ['Human_neutral_insulin'] Batch 1 Inference Iteration 8: 2 / 10 samples failed
+[2025-Jun-18 04:41:34 PDT] WARNING -Complex ['Human_neutral_insulin'] Batch 1 Inference Iteration 9: 2 / 10 samples failed
+[2025-Jun-18 04:41:44 PDT] WARNING -Complex ['Human_neutral_insulin'] Batch 1 Inference Iteration 10: 3 / 10 samples failed
+[2025-Jun-18 04:41:52 PDT] WARNING -Complex ['Human_neutral_insulin'] Batch 1 Inference Iteration 11: 2 / 10 samples failed
+[2025-Jun-18 04:41:57 PDT] WARNING -Complex ['Human_neutral_insulin'] Batch 1 Inference Iteration 12: 3 / 10 samples failed
+[2025-Jun-18 04:42:02 PDT] WARNING -Complex ['Human_neutral_insulin'] Batch 1 Inference Iteration 13: 3 / 10 samples failed
+[2025-Jun-18 04:42:07 PDT] WARNING -Complex ['Human_neutral_insulin'] Batch 1 Inference Iteration 14: 3 / 10 samples failed
+[2025-Jun-18 04:42:11 PDT] WARNING -Complex ['Human_neutral_insulin'] Batch 1 Inference Iteration 15: 3 / 10 samples failed
+[2025-Jun-18 04:42:16 PDT] WARNING -Complex ['Human_neutral_insulin'] Batch 1 Inference Iteration 16: 3 / 10 samples failed
+[2025-Jun-18 04:42:20 PDT] WARNING -Complex ['Human_neutral_insulin'] Batch 1 Inference Iteration 17: 3 / 10 samples failed
+[2025-Jun-18 04:42:24 PDT] WARNING -Complex ['Human_neutral_insulin'] Batch 1 Inference Iteration 18: 3 / 10 samples failed
+235it [2:01:52, 314.76s/it]236it [2:02:04, 224.03s/it]237it [2:02:25, 163.27s/it]238it [2:02:48, 121.18s/it]239it [2:03:08, 90.67s/it] 240it [2:03:31, 70.26s/it]241it [2:03:47, 54.25s/it]242it [2:04:07, 43.78s/it]243it [2:04:18, 33.93s/it]244it [2:04:28, 26.76s/it]245it [2:04:46, 24.14s/it]246it [2:05:09, 23.89s/it]247it [2:05:27, 22.19s/it]248it [2:05:39, 19.19s/it]249it [2:05:59, 19.27s/it]250it [2:06:21, 20.07s/it]251it [2:06:47, 21.74s/it][2025-Jun-18 04:47:25 PDT] WARNING -Complex ['Bornaprine'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+252it [2:07:05, 20.70s/it]253it [2:07:30, 22.09s/it]254it [2:08:02, 24.93s/it]255it [2:08:22, 23.67s/it]256it [2:08:41, 22.23s/it]257it [2:08:57, 20.22s/it]258it [2:09:53, 30.96s/it]259it [2:10:02, 24.57s/it]260it [2:10:15, 21.03s/it]261it [2:10:33, 20.04s/it]262it [2:10:48, 18.52s/it][2025-Jun-18 04:51:26 PDT] WARNING -Complex ['Alclofenac'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+263it [2:11:02, 17.09s/it]264it [2:11:25, 18.94s/it]265it [2:11:43, 18.73s/it]266it [2:11:53, 16.01s/it][2025-Jun-18 04:55:01 PDT] WARNING -Complex ['Cyanocobalamin_Co_60'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+267it [2:15:03, 68.37s/it]268it [2:15:29, 55.61s/it]269it [2:15:54, 46.22s/it]270it [2:16:11, 37.54s/it]271it [2:16:35, 33.53s/it]272it [2:17:00, 30.89s/it]273it [2:17:17, 26.92s/it]274it [2:17:38, 24.93s/it]275it [2:17:55, 22.63s/it]276it [2:18:07, 19.53s/it]277it [2:18:28, 19.86s/it]278it [2:18:40, 17.45s/it]279it [2:19:01, 18.59s/it]280it [2:19:17, 17.90s/it]281it [2:19:36, 18.20s/it]282it [2:19:45, 15.46s/it]283it [2:20:03, 16.20s/it][2025-Jun-18 05:00:45 PDT] WARNING -Complex ['Ulipristal'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 05:00:47 PDT] WARNING -Complex ['Ulipristal'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 05:00:48 PDT] WARNING -Complex ['Ulipristal'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 05:00:49 PDT] WARNING -Complex ['Ulipristal'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 05:00:50 PDT] WARNING -Complex ['Ulipristal'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 05:00:51 PDT] WARNING -Complex ['Ulipristal'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 05:00:52 PDT] WARNING -Complex ['Ulipristal'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 05:00:53 PDT] WARNING -Complex ['Ulipristal'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 05:00:54 PDT] WARNING -Complex ['Ulipristal'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 05:00:55 PDT] WARNING -Complex ['Ulipristal'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 05:00:56 PDT] WARNING -Complex ['Ulipristal'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 05:00:57 PDT] WARNING -Complex ['Ulipristal'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 05:00:57 PDT] WARNING -Complex ['Ulipristal'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 05:00:58 PDT] WARNING -Complex ['Ulipristal'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 05:00:59 PDT] WARNING -Complex ['Ulipristal'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+284it [2:20:25, 18.03s/it]285it [2:20:37, 16.01s/it]286it [2:21:08, 20.52s/it]287it [2:21:18, 17.32s/it]288it [2:21:32, 16.47s/it]289it [2:21:45, 15.53s/it]290it [2:21:59, 15.01s/it]291it [2:22:22, 17.34s/it][2025-Jun-18 05:02:59 PDT] WARNING -Complex ['Niclosamide'] Batch 1 Inference Iteration 1: 1 / 10 samples failed
+292it [2:22:39, 17.20s/it]293it [2:22:50, 15.37s/it][2025-Jun-18 05:03:39 PDT] WARNING -Complex ['Micronomicin_sulfate'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 05:03:41 PDT] WARNING -Complex ['Micronomicin_sulfate'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+294it [2:23:15, 18.16s/it]295it [2:23:31, 17.56s/it]296it [2:23:47, 17.28s/it]297it [2:24:05, 17.46s/it]298it [2:24:19, 16.21s/it]299it [2:24:41, 18.03s/it]300it [2:24:58, 17.86s/it]301it [2:25:22, 19.54s/it]302it [2:25:40, 19.03s/it]303it [2:26:04, 20.65s/it]304it [2:26:23, 20.15s/it]305it [2:26:37, 18.34s/it]306it [2:27:01, 20.01s/it]307it [2:27:26, 21.37s/it]308it [2:27:43, 20.18s/it]309it [2:28:30, 28.35s/it]310it [2:29:19, 34.30s/it]311it [2:29:35, 29.06s/it]312it [2:29:55, 26.20s/it]313it [2:30:24, 26.96s/it]314it [2:30:37, 22.84s/it]315it [2:31:01, 23.17s/it]316it [2:31:17, 21.03s/it][2025-Jun-18 05:12:10 PDT] WARNING -Complex ['Gallamine_Triethiodide'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 05:12:10 PDT] WARNING -Complex ['Gallamine_Triethiodide'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 05:12:11 PDT] WARNING -Complex ['Gallamine_Triethiodide'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 05:12:13 PDT] WARNING -Complex ['Gallamine_Triethiodide'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+317it [2:31:40, 21.63s/it]318it [2:32:08, 23.54s/it]319it [2:32:26, 21.88s/it]320it [2:32:50, 22.59s/it]321it [2:33:12, 22.23s/it]322it [2:33:29, 20.65s/it]323it [2:33:47, 19.90s/it][2025-Jun-18 05:14:22 PDT] WARNING -Complex ['Sodium_sulfide_sulfur'] Batch 1 Inference Iteration 1: 1 / 10 samples failed
+[2025-Jun-18 05:14:24 PDT] WARNING -Complex ['Sodium_sulfide_sulfur'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 05:14:24 PDT] WARNING -Complex ['Sodium_sulfide_sulfur'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 05:14:25 PDT] WARNING -Complex ['Sodium_sulfide_sulfur'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 05:14:25 PDT] WARNING -Complex ['Sodium_sulfide_sulfur'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 05:14:25 PDT] WARNING -Complex ['Sodium_sulfide_sulfur'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 05:14:26 PDT] WARNING -Complex ['Sodium_sulfide_sulfur'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 05:14:26 PDT] WARNING -Complex ['Sodium_sulfide_sulfur'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 05:14:26 PDT] WARNING -Complex ['Sodium_sulfide_sulfur'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 05:14:26 PDT] WARNING -Complex ['Sodium_sulfide_sulfur'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 05:14:27 PDT] WARNING -Complex ['Sodium_sulfide_sulfur'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 05:14:27 PDT] WARNING -Complex ['Sodium_sulfide_sulfur'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 05:14:27 PDT] WARNING -Complex ['Sodium_sulfide_sulfur'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 05:14:27 PDT] WARNING -Complex ['Sodium_sulfide_sulfur'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 05:14:28 PDT] WARNING -Complex ['Sodium_sulfide_sulfur'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 05:14:28 PDT] WARNING -Complex ['Sodium_sulfide_sulfur'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+324it [2:33:54, 16.16s/it]325it [2:34:13, 17.07s/it]326it [2:35:05, 27.46s/it]327it [2:35:32, 27.22s/it]328it [2:35:54, 25.71s/it]329it [2:36:10, 22.86s/it]330it [2:36:26, 20.63s/it]331it [2:37:05, 26.42s/it]332it [2:37:23, 23.83s/it]333it [2:37:51, 25.01s/it]334it [2:38:07, 22.28s/it]335it [2:38:25, 20.91s/it]336it [2:38:37, 18.23s/it]337it [2:38:51, 17.06s/it]338it [2:39:06, 16.60s/it]339it [2:39:24, 17.02s/it]340it [2:39:49, 19.36s/it]341it [2:40:08, 19.22s/it]342it [2:40:36, 21.90s/it]343it [2:41:02, 22.99s/it]344it [2:41:22, 22.15s/it]345it [2:41:38, 20.35s/it]346it [2:41:57, 19.89s/it]347it [2:42:20, 20.85s/it]348it [2:42:44, 21.62s/it]349it [2:43:05, 21.54s/it]350it [2:43:20, 19.47s/it]351it [2:43:43, 20.76s/it]352it [2:44:06, 21.36s/it]353it [2:44:22, 19.75s/it]354it [2:44:47, 21.22s/it]355it [2:45:10, 21.73s/it]356it [2:45:30, 21.35s/it]357it [2:45:52, 21.41s/it]358it [2:46:09, 20.32s/it]359it [2:46:26, 19.06s/it]360it [2:46:46, 19.46s/it]361it [2:47:04, 19.08s/it]362it [2:47:20, 18.14s/it]363it [2:47:55, 23.14s/it]364it [2:48:20, 23.74s/it]365it [2:48:44, 23.89s/it]366it [2:49:03, 22.35s/it]367it [2:49:24, 21.97s/it]368it [2:49:46, 21.86s/it]369it [2:50:11, 22.80s/it]370it [2:50:27, 20.85s/it]371it [2:50:42, 19.14s/it]372it [2:50:54, 17.10s/it]373it [2:51:31, 22.82s/it]374it [2:51:51, 22.00s/it]375it [2:52:02, 18.87s/it]376it [2:52:11, 15.70s/it]377it [2:52:28, 16.32s/it]378it [2:52:48, 17.43s/it]379it [2:53:14, 20.00s/it]380it [2:53:37, 20.72s/it]381it [2:53:54, 19.81s/it]382it [2:54:09, 18.31s/it]383it [2:54:32, 19.78s/it]384it [2:54:51, 19.46s/it]385it [2:55:31, 25.44s/it]386it [2:55:50, 23.63s/it]387it [2:56:07, 21.50s/it]388it [2:56:27, 21.27s/it]389it [2:56:47, 20.76s/it]390it [2:57:09, 21.29s/it][2025-Jun-18 05:38:04 PDT] WARNING -Complex ['Astromycin_sulfate'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 05:38:05 PDT] WARNING -Complex ['Astromycin_sulfate'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 05:38:05 PDT] WARNING -Complex ['Astromycin_sulfate'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 05:38:06 PDT] WARNING -Complex ['Astromycin_sulfate'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 05:38:07 PDT] WARNING -Complex ['Astromycin_sulfate'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+391it [2:57:33, 22.05s/it]392it [2:57:46, 19.36s/it]393it [2:57:59, 17.24s/it]394it [2:58:13, 16.40s/it]395it [2:58:37, 18.54s/it]396it [2:59:10, 23.06s/it]397it [2:59:33, 23.11s/it]398it [2:59:53, 22.02s/it]399it [3:00:12, 21.17s/it]400it [3:00:24, 18.32s/it]401it [3:00:36, 16.47s/it]402it [3:00:53, 16.64s/it]403it [3:01:12, 17.38s/it]404it [3:01:27, 16.55s/it]405it [3:01:42, 16.11s/it]406it [3:02:13, 20.76s/it]407it [3:02:32, 20.24s/it]408it [3:02:50, 19.38s/it]409it [3:03:08, 19.14s/it][2025-Jun-18 05:44:22 PDT] WARNING -Complex ['Ziconotide'] Batch 1 Inference Iteration 1: 2 / 10 samples failed
+[2025-Jun-18 05:44:29 PDT] WARNING -Complex ['Ziconotide'] Batch 1 Inference Iteration 2: 2 / 10 samples failed
+[2025-Jun-18 05:44:34 PDT] WARNING -Complex ['Ziconotide'] Batch 1 Inference Iteration 3: 2 / 10 samples failed
+[2025-Jun-18 05:44:39 PDT] WARNING -Complex ['Ziconotide'] Batch 1 Inference Iteration 4: 2 / 10 samples failed
+[2025-Jun-18 05:44:43 PDT] WARNING -Complex ['Ziconotide'] Batch 1 Inference Iteration 5: 2 / 10 samples failed
+[2025-Jun-18 05:44:48 PDT] WARNING -Complex ['Ziconotide'] Batch 1 Inference Iteration 6: 2 / 10 samples failed
+[2025-Jun-18 05:44:52 PDT] WARNING -Complex ['Ziconotide'] Batch 1 Inference Iteration 7: 2 / 10 samples failed
+[2025-Jun-18 05:44:55 PDT] WARNING -Complex ['Ziconotide'] Batch 1 Inference Iteration 8: 2 / 10 samples failed
+[2025-Jun-18 05:44:59 PDT] WARNING -Complex ['Ziconotide'] Batch 1 Inference Iteration 9: 2 / 10 samples failed
+[2025-Jun-18 05:45:02 PDT] WARNING -Complex ['Ziconotide'] Batch 1 Inference Iteration 10: 2 / 10 samples failed
+[2025-Jun-18 05:45:05 PDT] WARNING -Complex ['Ziconotide'] Batch 1 Inference Iteration 11: 2 / 10 samples failed
+[2025-Jun-18 05:45:07 PDT] WARNING -Complex ['Ziconotide'] Batch 1 Inference Iteration 12: 2 / 10 samples failed
+[2025-Jun-18 05:45:10 PDT] WARNING -Complex ['Ziconotide'] Batch 1 Inference Iteration 13: 2 / 10 samples failed
+[2025-Jun-18 05:45:12 PDT] WARNING -Complex ['Ziconotide'] Batch 1 Inference Iteration 14: 2 / 10 samples failed
+[2025-Jun-18 05:45:14 PDT] WARNING -Complex ['Ziconotide'] Batch 1 Inference Iteration 15: 2 / 10 samples failed
+[2025-Jun-18 05:45:17 PDT] WARNING -Complex ['Ziconotide'] Batch 1 Inference Iteration 16: 2 / 10 samples failed
+[2025-Jun-18 05:45:19 PDT] WARNING -Complex ['Ziconotide'] Batch 1 Inference Iteration 17: 2 / 10 samples failed
+[2025-Jun-18 05:45:21 PDT] WARNING -Complex ['Ziconotide'] Batch 1 Inference Iteration 18: 2 / 10 samples failed
+410it [3:04:48, 43.18s/it]411it [3:05:06, 35.65s/it]412it [3:05:42, 35.72s/it]413it [3:06:06, 32.22s/it]414it [3:06:16, 25.71s/it]415it [3:06:37, 24.29s/it]416it [3:06:56, 22.55s/it]417it [3:07:19, 22.87s/it]418it [3:07:36, 20.92s/it][2025-Jun-18 05:48:25 PDT] WARNING -Complex ['Lactitol'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 05:48:25 PDT] WARNING -Complex ['Lactitol'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+419it [3:07:52, 19.50s/it]420it [3:08:05, 17.58s/it]421it [3:08:34, 21.08s/it]422it [3:08:57, 21.62s/it]423it [3:09:16, 20.84s/it]424it [3:09:35, 20.18s/it]425it [3:09:58, 21.21s/it]426it [3:10:36, 26.28s/it]427it [3:10:56, 24.39s/it]428it [3:11:07, 20.33s/it]429it [3:11:29, 20.89s/it]430it [3:11:45, 19.26s/it]431it [3:12:00, 17.89s/it]432it [3:12:17, 17.69s/it]433it [3:12:28, 15.74s/it]434it [3:13:18, 26.10s/it]435it [3:13:38, 24.07s/it]436it [3:14:02, 24.06s/it]437it [3:14:36, 27.14s/it]438it [3:14:57, 25.24s/it]439it [3:15:16, 23.47s/it]440it [3:15:32, 21.29s/it]441it [3:15:54, 21.37s/it]442it [3:16:22, 23.47s/it]443it [3:16:39, 21.34s/it]444it [3:16:59, 21.09s/it]445it [3:17:20, 20.92s/it]446it [3:17:40, 20.70s/it]447it [3:18:08, 22.82s/it]448it [3:18:33, 23.50s/it]449it [3:18:51, 21.83s/it]450it [3:19:03, 19.05s/it]451it [3:19:23, 19.45s/it]452it [3:20:03, 25.58s/it]453it [3:20:23, 23.77s/it]454it [3:20:44, 22.99s/it][2025-Jun-18 06:01:24 PDT] WARNING -Complex ['Chloroprocaine'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+455it [3:20:58, 20.37s/it]456it [3:21:18, 20.06s/it]457it [3:21:37, 19.78s/it][2025-Jun-18 06:02:17 PDT] WARNING -Complex ['Palladium_Pd_103'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 06:02:17 PDT] WARNING -Complex ['Palladium_Pd_103'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 06:02:18 PDT] WARNING -Failed on ['Palladium_Pd_103'] : number sections must be larger than 0.
+458it [3:21:44, 15.90s/it]459it [3:22:06, 17.75s/it]460it [3:22:28, 19.19s/it]461it [3:22:50, 19.95s/it]462it [3:23:02, 17.66s/it]463it [3:23:21, 17.87s/it][2025-Jun-18 06:04:10 PDT] WARNING -Complex ['Tiapride'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 06:04:10 PDT] WARNING -Complex ['Tiapride'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 06:04:11 PDT] WARNING -Complex ['Tiapride'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 06:04:12 PDT] WARNING -Complex ['Tiapride'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+464it [3:23:39, 17.94s/it]465it [3:24:00, 18.94s/it]466it [3:24:13, 17.20s/it][2025-Jun-18 06:05:05 PDT] WARNING -Complex ['Acetophenazine'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 06:05:06 PDT] WARNING -Complex ['Acetophenazine'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 06:05:06 PDT] WARNING -Complex ['Acetophenazine'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 06:05:07 PDT] WARNING -Complex ['Acetophenazine'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 06:05:08 PDT] WARNING -Complex ['Acetophenazine'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+467it [3:24:34, 18.29s/it]468it [3:25:00, 20.60s/it][2025-Jun-18 06:06:46 PDT] WARNING -Complex ['MK_8616'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 06:06:48 PDT] WARNING -Complex ['MK_8616'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 06:06:50 PDT] WARNING -Complex ['MK_8616'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 06:06:52 PDT] WARNING -Complex ['MK_8616'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 06:06:54 PDT] WARNING -Complex ['MK_8616'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+469it [3:26:20, 38.54s/it]470it [3:26:46, 34.60s/it][2025-Jun-18 06:07:29 PDT] WARNING -Complex ['Bromhexine'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 06:07:30 PDT] WARNING -Complex ['Bromhexine'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 06:07:30 PDT] WARNING -Complex ['Bromhexine'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 06:07:31 PDT] WARNING -Complex ['Bromhexine'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 06:07:31 PDT] WARNING -Complex ['Bromhexine'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 06:07:32 PDT] WARNING -Complex ['Bromhexine'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 06:07:32 PDT] WARNING -Complex ['Bromhexine'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 06:07:33 PDT] WARNING -Complex ['Bromhexine'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 06:07:33 PDT] WARNING -Complex ['Bromhexine'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 06:07:34 PDT] WARNING -Complex ['Bromhexine'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+471it [3:27:00, 28.51s/it]472it [3:27:20, 25.96s/it]473it [3:28:03, 30.91s/it]474it [3:28:20, 27.00s/it][2025-Jun-18 06:09:07 PDT] WARNING -Complex ['N_Acetyl_D_glucosamine'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 06:09:08 PDT] WARNING -Complex ['N_Acetyl_D_glucosamine'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+475it [3:28:35, 23.33s/it]476it [3:29:01, 23.95s/it]477it [3:29:28, 25.12s/it]478it [3:29:45, 22.55s/it]479it [3:29:57, 19.27s/it]480it [3:30:08, 17.03s/it]481it [3:30:31, 18.75s/it]482it [3:30:54, 19.89s/it]483it [3:31:18, 21.20s/it][2025-Jun-18 06:11:56 PDT] WARNING -Complex ['Oxiracetam'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 06:12:01 PDT] WARNING -Complex ['Oxiracetam'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 06:12:03 PDT] WARNING -Complex ['Oxiracetam'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 06:12:05 PDT] WARNING -Complex ['Oxiracetam'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+484it [3:31:31, 18.71s/it]485it [3:32:05, 23.41s/it]486it [3:32:29, 23.59s/it]487it [3:32:53, 23.63s/it]488it [3:33:01, 18.98s/it]489it [3:33:18, 18.42s/it][2025-Jun-18 06:13:59 PDT] WARNING -Complex ['Saxagliptin'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 06:14:02 PDT] WARNING -Complex ['Saxagliptin'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 06:14:02 PDT] WARNING -Complex ['Saxagliptin'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 06:14:03 PDT] WARNING -Complex ['Saxagliptin'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 06:14:04 PDT] WARNING -Complex ['Saxagliptin'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 06:14:04 PDT] WARNING -Complex ['Saxagliptin'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 06:14:05 PDT] WARNING -Complex ['Saxagliptin'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 06:14:05 PDT] WARNING -Complex ['Saxagliptin'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 06:14:05 PDT] WARNING -Complex ['Saxagliptin'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 06:14:06 PDT] WARNING -Complex ['Saxagliptin'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 06:14:06 PDT] WARNING -Complex ['Saxagliptin'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 06:14:07 PDT] WARNING -Complex ['Saxagliptin'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+490it [3:33:33, 17.41s/it]491it [3:33:50, 17.14s/it]492it [3:34:09, 17.65s/it]493it [3:34:25, 17.13s/it]494it [3:34:47, 18.85s/it]495it [3:35:04, 18.03s/it]496it [3:35:53, 27.48s/it]497it [3:36:07, 23.46s/it]498it [3:36:21, 20.46s/it]499it [3:36:41, 20.36s/it]500it [3:36:59, 19.73s/it]501it [3:37:25, 21.65s/it]502it [3:38:08, 27.98s/it]503it [3:38:30, 26.11s/it]504it [3:38:50, 24.34s/it]505it [3:39:07, 22.15s/it]506it [3:39:24, 20.58s/it]507it [3:39:39, 18.85s/it]508it [3:39:58, 19.14s/it]509it [3:40:11, 17.03s/it]510it [3:40:30, 17.81s/it]511it [3:40:49, 18.05s/it]512it [3:41:02, 16.65s/it]513it [3:41:19, 16.75s/it]514it [3:41:40, 17.98s/it][2025-Jun-18 06:22:24 PDT] WARNING -Complex ['Metocurine_Iodide'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 06:22:26 PDT] WARNING -Complex ['Metocurine_Iodide'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 06:22:27 PDT] WARNING -Complex ['Metocurine_Iodide'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 06:22:29 PDT] WARNING -Complex ['Metocurine_Iodide'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 06:22:31 PDT] WARNING -Complex ['Metocurine_Iodide'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 06:22:32 PDT] WARNING -Complex ['Metocurine_Iodide'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 06:22:34 PDT] WARNING -Complex ['Metocurine_Iodide'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 06:22:35 PDT] WARNING -Complex ['Metocurine_Iodide'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 06:22:36 PDT] WARNING -Complex ['Metocurine_Iodide'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 06:22:37 PDT] WARNING -Complex ['Metocurine_Iodide'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 06:22:38 PDT] WARNING -Complex ['Metocurine_Iodide'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 06:22:39 PDT] WARNING -Complex ['Metocurine_Iodide'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 06:22:40 PDT] WARNING -Complex ['Metocurine_Iodide'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 06:22:41 PDT] WARNING -Complex ['Metocurine_Iodide'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 06:22:42 PDT] WARNING -Complex ['Metocurine_Iodide'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 06:22:43 PDT] WARNING -Complex ['Metocurine_Iodide'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+515it [3:42:09, 21.37s/it]516it [3:42:22, 18.62s/it]517it [3:42:35, 17.01s/it][2025-Jun-18 06:23:15 PDT] WARNING -Complex ['Phosphate'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+518it [3:42:44, 14.56s/it]519it [3:43:04, 16.22s/it]520it [3:43:21, 16.41s/it]521it [3:43:40, 17.34s/it]522it [3:44:03, 19.11s/it]523it [3:44:27, 20.43s/it]524it [3:44:49, 20.99s/it]525it [3:45:07, 20.16s/it][2025-Jun-18 06:25:48 PDT] WARNING -Complex ['Dosmalfate'] Batch 1 Inference Iteration 1: 1 / 10 samples failed
+[2025-Jun-18 06:25:51 PDT] WARNING -Complex ['Dosmalfate'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 06:25:53 PDT] WARNING -Complex ['Dosmalfate'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 06:25:56 PDT] WARNING -Complex ['Dosmalfate'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 06:25:57 PDT] WARNING -Complex ['Dosmalfate'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 06:25:59 PDT] WARNING -Complex ['Dosmalfate'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 06:26:02 PDT] WARNING -Complex ['Dosmalfate'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 06:26:03 PDT] WARNING -Complex ['Dosmalfate'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 06:26:04 PDT] WARNING -Complex ['Dosmalfate'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 06:26:05 PDT] WARNING -Complex ['Dosmalfate'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 06:26:06 PDT] WARNING -Complex ['Dosmalfate'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 06:26:06 PDT] WARNING -Complex ['Dosmalfate'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 06:26:07 PDT] WARNING -Complex ['Dosmalfate'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 06:26:08 PDT] WARNING -Complex ['Dosmalfate'] Batch 1 Inference Iteration 15: 2 / 10 samples failed
+[2025-Jun-18 06:26:09 PDT] WARNING -Complex ['Dosmalfate'] Batch 1 Inference Iteration 16: 2 / 10 samples failed
+[2025-Jun-18 06:26:10 PDT] WARNING -Complex ['Dosmalfate'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 06:26:10 PDT] WARNING -Complex ['Dosmalfate'] Batch 1 Inference Iteration 18: 2 / 10 samples failed
+526it [3:45:37, 22.93s/it]527it [3:46:02, 23.64s/it]528it [3:46:26, 23.83s/it]529it [3:46:45, 22.21s/it]530it [3:47:43, 33.00s/it]531it [3:48:10, 31.33s/it]532it [3:48:35, 29.38s/it]533it [3:48:59, 27.74s/it]534it [3:49:25, 27.04s/it]535it [3:49:39, 23.34s/it][2025-Jun-18 06:30:18 PDT] WARNING -Complex ['Chlorphenesin'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+536it [3:49:52, 20.22s/it]537it [3:50:12, 20.13s/it]538it [3:50:33, 20.40s/it]539it [3:50:51, 19.60s/it]540it [3:51:17, 21.57s/it]541it [3:51:38, 21.33s/it]542it [3:51:56, 20.47s/it]543it [3:52:09, 18.21s/it]544it [3:52:22, 16.47s/it]545it [3:52:40, 17.09s/it][2025-Jun-18 06:33:21 PDT] WARNING -Complex ['Nicorandil'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 06:33:22 PDT] WARNING -Complex ['Nicorandil'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 06:33:23 PDT] WARNING -Complex ['Nicorandil'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 06:33:23 PDT] WARNING -Complex ['Nicorandil'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 06:33:24 PDT] WARNING -Complex ['Nicorandil'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 06:33:24 PDT] WARNING -Complex ['Nicorandil'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 06:33:25 PDT] WARNING -Complex ['Nicorandil'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 06:33:26 PDT] WARNING -Complex ['Nicorandil'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 06:33:26 PDT] WARNING -Complex ['Nicorandil'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 06:33:27 PDT] WARNING -Complex ['Nicorandil'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 06:33:27 PDT] WARNING -Complex ['Nicorandil'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 06:33:28 PDT] WARNING -Complex ['Nicorandil'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 06:33:28 PDT] WARNING -Complex ['Nicorandil'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+546it [3:52:54, 16.28s/it]547it [3:53:18, 18.37s/it]548it [3:53:59, 25.25s/it]549it [3:54:15, 22.34s/it]550it [3:54:27, 19.24s/it]551it [3:54:48, 19.79s/it]552it [3:55:11, 20.76s/it]553it [3:55:35, 21.94s/it]554it [3:56:01, 23.19s/it]555it [3:56:55, 32.42s/it]556it [3:57:20, 30.11s/it]557it [3:57:35, 25.45s/it]558it [3:57:50, 22.49s/it]559it [3:58:03, 19.47s/it]560it [3:58:19, 18.48s/it]561it [3:58:49, 22.01s/it][2025-Jun-18 06:39:28 PDT] WARNING -Complex ['Acetohydroxamic_Acid'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+562it [3:58:58, 18.12s/it]563it [3:59:22, 19.70s/it]564it [3:59:36, 18.24s/it]565it [4:00:04, 21.08s/it]566it [4:00:37, 24.59s/it]567it [4:01:04, 25.26s/it]568it [4:01:26, 24.25s/it]569it [4:01:47, 23.53s/it][2025-Jun-18 06:42:27 PDT] WARNING -Complex ['Vildagliptin'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 06:42:28 PDT] WARNING -Complex ['Vildagliptin'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 06:42:29 PDT] WARNING -Complex ['Vildagliptin'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 06:42:30 PDT] WARNING -Complex ['Vildagliptin'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 06:42:31 PDT] WARNING -Complex ['Vildagliptin'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 06:42:31 PDT] WARNING -Complex ['Vildagliptin'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 06:42:32 PDT] WARNING -Complex ['Vildagliptin'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 06:42:33 PDT] WARNING -Complex ['Vildagliptin'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 06:42:33 PDT] WARNING -Complex ['Vildagliptin'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 06:42:34 PDT] WARNING -Complex ['Vildagliptin'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 06:42:34 PDT] WARNING -Complex ['Vildagliptin'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 06:42:35 PDT] WARNING -Complex ['Vildagliptin'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 06:42:35 PDT] WARNING -Complex ['Vildagliptin'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 06:42:36 PDT] WARNING -Complex ['Vildagliptin'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 06:42:36 PDT] WARNING -Complex ['Vildagliptin'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+570it [4:02:02, 20.96s/it]571it [4:02:26, 21.69s/it]572it [4:02:52, 23.08s/it]573it [4:03:22, 25.24s/it]574it [4:03:46, 24.64s/it]575it [4:04:12, 25.13s/it]576it [4:04:41, 26.31s/it]577it [4:04:58, 23.41s/it]578it [4:05:10, 20.17s/it]579it [4:05:34, 21.18s/it]580it [4:05:54, 20.90s/it]581it [4:06:08, 18.84s/it]582it [4:06:36, 21.46s/it]583it [4:06:53, 20.37s/it]584it [4:07:10, 19.22s/it]585it [4:07:37, 21.63s/it]586it [4:07:56, 20.89s/it]587it [4:08:20, 21.57s/it]588it [4:08:48, 23.67s/it]589it [4:09:08, 22.45s/it]590it [4:09:30, 22.32s/it]591it [4:09:59, 24.29s/it]592it [4:10:21, 23.57s/it]593it [4:10:30, 19.42s/it]594it [4:10:51, 19.69s/it]595it [4:11:03, 17.56s/it]596it [4:11:16, 15.98s/it]597it [4:11:40, 18.52s/it][2025-Jun-18 06:52:17 PDT] WARNING -Complex ['Menadione'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 06:52:18 PDT] WARNING -Complex ['Menadione'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 06:52:18 PDT] WARNING -Complex ['Menadione'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 06:52:19 PDT] WARNING -Complex ['Menadione'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 06:52:20 PDT] WARNING -Complex ['Menadione'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 06:52:20 PDT] WARNING -Complex ['Menadione'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 06:52:21 PDT] WARNING -Complex ['Menadione'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 06:52:21 PDT] WARNING -Complex ['Menadione'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 06:52:22 PDT] WARNING -Complex ['Menadione'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 06:52:22 PDT] WARNING -Complex ['Menadione'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 06:52:23 PDT] WARNING -Complex ['Menadione'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 06:52:23 PDT] WARNING -Complex ['Menadione'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 06:52:24 PDT] WARNING -Complex ['Menadione'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 06:52:24 PDT] WARNING -Complex ['Menadione'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 06:52:24 PDT] WARNING -Complex ['Menadione'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 06:52:25 PDT] WARNING -Complex ['Menadione'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 06:52:25 PDT] WARNING -Complex ['Menadione'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+598it [4:11:52, 16.45s/it]599it [4:12:18, 19.30s/it]600it [4:12:36, 19.05s/it]601it [4:12:50, 17.67s/it]602it [4:13:19, 21.04s/it]603it [4:13:47, 23.12s/it][2025-Jun-18 06:54:24 PDT] WARNING -Complex ['Selegiline_Hydrochloride'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 06:54:25 PDT] WARNING -Complex ['Selegiline_Hydrochloride'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 06:54:26 PDT] WARNING -Complex ['Selegiline_Hydrochloride'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 06:54:26 PDT] WARNING -Complex ['Selegiline_Hydrochloride'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 06:54:27 PDT] WARNING -Complex ['Selegiline_Hydrochloride'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 06:54:28 PDT] WARNING -Complex ['Selegiline_Hydrochloride'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 06:54:28 PDT] WARNING -Complex ['Selegiline_Hydrochloride'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 06:54:29 PDT] WARNING -Complex ['Selegiline_Hydrochloride'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 06:54:29 PDT] WARNING -Complex ['Selegiline_Hydrochloride'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 06:54:30 PDT] WARNING -Complex ['Selegiline_Hydrochloride'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 06:54:30 PDT] WARNING -Complex ['Selegiline_Hydrochloride'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 06:54:30 PDT] WARNING -Complex ['Selegiline_Hydrochloride'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 06:54:31 PDT] WARNING -Complex ['Selegiline_Hydrochloride'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 06:54:31 PDT] WARNING -Complex ['Selegiline_Hydrochloride'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 06:54:32 PDT] WARNING -Complex ['Selegiline_Hydrochloride'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 06:54:32 PDT] WARNING -Complex ['Selegiline_Hydrochloride'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 06:54:32 PDT] WARNING -Complex ['Selegiline_Hydrochloride'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+604it [4:13:59, 19.63s/it]605it [4:14:23, 21.14s/it][2025-Jun-18 06:55:10 PDT] WARNING -Complex ['Atenolol'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 06:55:11 PDT] WARNING -Complex ['Atenolol'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 06:55:11 PDT] WARNING -Complex ['Atenolol'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 06:55:12 PDT] WARNING -Complex ['Atenolol'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 06:55:12 PDT] WARNING -Complex ['Atenolol'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 06:55:13 PDT] WARNING -Complex ['Atenolol'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 06:55:13 PDT] WARNING -Complex ['Atenolol'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+606it [4:14:40, 19.71s/it]607it [4:14:55, 18.32s/it]608it [4:15:08, 16.80s/it]609it [4:15:17, 14.47s/it]610it [4:15:46, 18.81s/it]611it [4:16:10, 20.41s/it]612it [4:16:35, 21.76s/it]613it [4:16:58, 21.99s/it]614it [4:17:14, 20.25s/it]615it [4:17:37, 21.14s/it]616it [4:17:50, 18.78s/it]617it [4:18:08, 18.40s/it]618it [4:18:25, 18.15s/it]619it [4:18:54, 21.21s/it]620it [4:19:19, 22.26s/it]621it [4:19:39, 21.68s/it]622it [4:19:52, 18.98s/it]623it [4:20:04, 17.04s/it]624it [4:20:34, 20.83s/it]625it [4:20:53, 20.48s/it]626it [4:21:11, 19.52s/it]627it [4:21:34, 20.62s/it]628it [4:21:55, 20.65s/it]629it [4:22:16, 21.00s/it]630it [4:22:58, 27.22s/it][2025-Jun-18 07:03:45 PDT] WARNING -Complex ['Oxybutynin_hydrochloride'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+631it [4:23:18, 25.00s/it]632it [4:23:39, 23.82s/it]633it [4:23:58, 22.45s/it]634it [4:24:16, 20.91s/it][2025-Jun-18 07:05:33 PDT] WARNING -Complex ['Cobicistat_darunavir'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 07:05:34 PDT] WARNING -Complex ['Cobicistat_darunavir'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 07:05:36 PDT] WARNING -Complex ['Cobicistat_darunavir'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 07:05:37 PDT] WARNING -Complex ['Cobicistat_darunavir'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+635it [4:25:04, 29.15s/it]636it [4:25:40, 31.13s/it]637it [4:25:55, 26.46s/it]638it [4:26:11, 23.12s/it]639it [4:26:22, 19.58s/it]640it [4:26:38, 18.39s/it]641it [4:27:00, 19.76s/it]642it [4:27:16, 18.61s/it][2025-Jun-18 07:07:54 PDT] WARNING -Complex ['Carphenazine'] Batch 1 Inference Iteration 1: 1 / 10 samples failed
+643it [4:27:37, 19.23s/it][2025-Jun-18 07:08:32 PDT] WARNING -Complex ['Hidrosmin'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 07:08:33 PDT] WARNING -Complex ['Hidrosmin'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 07:08:34 PDT] WARNING -Complex ['Hidrosmin'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 07:08:35 PDT] WARNING -Complex ['Hidrosmin'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 07:08:36 PDT] WARNING -Complex ['Hidrosmin'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 07:08:37 PDT] WARNING -Complex ['Hidrosmin'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 07:08:38 PDT] WARNING -Complex ['Hidrosmin'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 07:08:39 PDT] WARNING -Complex ['Hidrosmin'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 07:08:40 PDT] WARNING -Complex ['Hidrosmin'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+644it [4:28:06, 22.22s/it]645it [4:28:32, 23.23s/it]646it [4:28:58, 24.07s/it]647it [4:29:16, 22.16s/it]648it [4:29:36, 21.59s/it]649it [4:30:01, 22.66s/it]650it [4:30:45, 29.08s/it]651it [4:31:02, 25.53s/it]652it [4:31:24, 24.43s/it]653it [4:32:05, 29.19s/it]654it [4:32:29, 27.73s/it]655it [4:32:38, 22.05s/it]656it [4:33:02, 22.67s/it]657it [4:33:23, 22.12s/it]658it [4:33:45, 22.24s/it]659it [4:34:05, 21.40s/it]660it [4:34:40, 25.61s/it]661it [4:35:02, 24.49s/it]662it [4:35:19, 22.34s/it][2025-Jun-18 07:15:57 PDT] WARNING -Complex ['Delorazepam'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 07:15:58 PDT] WARNING -Complex ['Delorazepam'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 07:15:59 PDT] WARNING -Complex ['Delorazepam'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 07:16:00 PDT] WARNING -Complex ['Delorazepam'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 07:16:01 PDT] WARNING -Complex ['Delorazepam'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 07:16:02 PDT] WARNING -Complex ['Delorazepam'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 07:16:03 PDT] WARNING -Complex ['Delorazepam'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 07:16:04 PDT] WARNING -Complex ['Delorazepam'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 07:16:04 PDT] WARNING -Complex ['Delorazepam'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 07:16:05 PDT] WARNING -Complex ['Delorazepam'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 07:16:06 PDT] WARNING -Complex ['Delorazepam'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 07:16:06 PDT] WARNING -Complex ['Delorazepam'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 07:16:07 PDT] WARNING -Complex ['Delorazepam'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 07:16:08 PDT] WARNING -Complex ['Delorazepam'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 07:16:08 PDT] WARNING -Complex ['Delorazepam'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 07:16:09 PDT] WARNING -Complex ['Delorazepam'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 07:16:09 PDT] WARNING -Complex ['Delorazepam'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+663it [4:35:36, 20.58s/it]664it [4:35:51, 19.00s/it]665it [4:36:19, 21.82s/it]666it [4:36:35, 19.88s/it]667it [4:36:49, 18.31s/it]668it [4:37:01, 16.37s/it][2025-Jun-18 07:17:37 PDT] WARNING -Complex ['Hydrochloric_acid'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 07:17:37 PDT] WARNING -Complex ['Hydrochloric_acid'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 07:17:38 PDT] WARNING -Complex ['Hydrochloric_acid'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 07:17:38 PDT] WARNING -Complex ['Hydrochloric_acid'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 07:17:39 PDT] WARNING -Complex ['Hydrochloric_acid'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 07:17:39 PDT] WARNING -Complex ['Hydrochloric_acid'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 07:17:39 PDT] WARNING -Complex ['Hydrochloric_acid'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 07:17:40 PDT] WARNING -Complex ['Hydrochloric_acid'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 07:17:40 PDT] WARNING -Complex ['Hydrochloric_acid'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 07:17:40 PDT] WARNING -Complex ['Hydrochloric_acid'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 07:17:40 PDT] WARNING -Complex ['Hydrochloric_acid'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 07:17:41 PDT] WARNING -Complex ['Hydrochloric_acid'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 07:17:41 PDT] WARNING -Complex ['Hydrochloric_acid'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 07:17:41 PDT] WARNING -Complex ['Hydrochloric_acid'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 07:17:41 PDT] WARNING -Complex ['Hydrochloric_acid'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 07:17:42 PDT] WARNING -Complex ['Hydrochloric_acid'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 07:17:42 PDT] WARNING -Complex ['Hydrochloric_acid'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+[2025-Jun-18 07:17:42 PDT] WARNING -Failed on ['Hydrochloric_acid'] : number sections must be larger than 0.
+669it [4:37:08, 13.48s/it]670it [4:37:29, 15.73s/it]671it [4:37:54, 18.43s/it]672it [4:38:17, 19.93s/it][2025-Jun-18 07:19:19 PDT] WARNING -Complex ['Somapacitan'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 07:19:30 PDT] WARNING -Complex ['Somapacitan'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 07:19:32 PDT] WARNING -Complex ['Somapacitan'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 07:19:34 PDT] WARNING -Complex ['Somapacitan'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 07:19:35 PDT] WARNING -Complex ['Somapacitan'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 07:19:37 PDT] WARNING -Complex ['Somapacitan'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 07:19:40 PDT] WARNING -Complex ['Somapacitan'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 07:19:42 PDT] WARNING -Complex ['Somapacitan'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+673it [4:39:09, 29.41s/it]674it [4:39:33, 27.89s/it]675it [4:39:53, 25.61s/it]676it [4:40:06, 21.65s/it]677it [4:40:23, 20.40s/it]678it [4:40:47, 21.50s/it]679it [4:41:03, 19.77s/it]680it [4:41:25, 20.60s/it]681it [4:42:11, 28.13s/it]682it [4:42:31, 25.66s/it]683it [4:42:56, 25.58s/it]684it [4:43:13, 22.84s/it]685it [4:43:38, 23.37s/it]686it [4:43:59, 22.80s/it]687it [4:44:16, 21.16s/it]688it [4:44:37, 20.94s/it][2025-Jun-18 07:25:12 PDT] WARNING -Complex ['Manganese_Chloride'] Batch 1 Inference Iteration 1: 1 / 10 samples failed
+[2025-Jun-18 07:25:13 PDT] WARNING -Complex ['Manganese_Chloride'] Batch 1 Inference Iteration 2: 2 / 10 samples failed
+[2025-Jun-18 07:25:14 PDT] WARNING -Complex ['Manganese_Chloride'] Batch 1 Inference Iteration 3: 2 / 10 samples failed
+[2025-Jun-18 07:25:14 PDT] WARNING -Complex ['Manganese_Chloride'] Batch 1 Inference Iteration 4: 2 / 10 samples failed
+[2025-Jun-18 07:25:15 PDT] WARNING -Complex ['Manganese_Chloride'] Batch 1 Inference Iteration 5: 2 / 10 samples failed
+[2025-Jun-18 07:25:15 PDT] WARNING -Complex ['Manganese_Chloride'] Batch 1 Inference Iteration 6: 2 / 10 samples failed
+[2025-Jun-18 07:25:16 PDT] WARNING -Complex ['Manganese_Chloride'] Batch 1 Inference Iteration 7: 2 / 10 samples failed
+[2025-Jun-18 07:25:16 PDT] WARNING -Complex ['Manganese_Chloride'] Batch 1 Inference Iteration 8: 2 / 10 samples failed
+[2025-Jun-18 07:25:16 PDT] WARNING -Complex ['Manganese_Chloride'] Batch 1 Inference Iteration 9: 2 / 10 samples failed
+[2025-Jun-18 07:25:17 PDT] WARNING -Complex ['Manganese_Chloride'] Batch 1 Inference Iteration 10: 2 / 10 samples failed
+[2025-Jun-18 07:25:17 PDT] WARNING -Complex ['Manganese_Chloride'] Batch 1 Inference Iteration 11: 2 / 10 samples failed
+[2025-Jun-18 07:25:17 PDT] WARNING -Complex ['Manganese_Chloride'] Batch 1 Inference Iteration 12: 2 / 10 samples failed
+[2025-Jun-18 07:25:17 PDT] WARNING -Complex ['Manganese_Chloride'] Batch 1 Inference Iteration 13: 2 / 10 samples failed
+[2025-Jun-18 07:25:18 PDT] WARNING -Complex ['Manganese_Chloride'] Batch 1 Inference Iteration 14: 2 / 10 samples failed
+[2025-Jun-18 07:25:18 PDT] WARNING -Complex ['Manganese_Chloride'] Batch 1 Inference Iteration 15: 2 / 10 samples failed
+[2025-Jun-18 07:25:18 PDT] WARNING -Complex ['Manganese_Chloride'] Batch 1 Inference Iteration 16: 2 / 10 samples failed
+[2025-Jun-18 07:25:18 PDT] WARNING -Complex ['Manganese_Chloride'] Batch 1 Inference Iteration 17: 2 / 10 samples failed
+[2025-Jun-18 07:25:19 PDT] WARNING -Complex ['Manganese_Chloride'] Batch 1 Inference Iteration 18: 2 / 10 samples failed
+689it [4:44:45, 17.15s/it]690it [4:44:56, 15.27s/it]691it [4:45:33, 21.78s/it][2025-Jun-18 07:26:10 PDT] WARNING -Complex ['Gadodiamide'] Batch 1 Inference Iteration 1: 1 / 10 samples failed
+[2025-Jun-18 07:26:11 PDT] WARNING -Complex ['Gadodiamide'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 07:26:13 PDT] WARNING -Complex ['Gadodiamide'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 07:26:14 PDT] WARNING -Complex ['Gadodiamide'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 07:26:15 PDT] WARNING -Complex ['Gadodiamide'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 07:26:17 PDT] WARNING -Complex ['Gadodiamide'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 07:26:18 PDT] WARNING -Complex ['Gadodiamide'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 07:26:19 PDT] WARNING -Complex ['Gadodiamide'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 07:26:20 PDT] WARNING -Complex ['Gadodiamide'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 07:26:21 PDT] WARNING -Complex ['Gadodiamide'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 07:26:22 PDT] WARNING -Complex ['Gadodiamide'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 07:26:22 PDT] WARNING -Complex ['Gadodiamide'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 07:26:23 PDT] WARNING -Complex ['Gadodiamide'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 07:26:24 PDT] WARNING -Complex ['Gadodiamide'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 07:26:25 PDT] WARNING -Complex ['Gadodiamide'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 07:26:25 PDT] WARNING -Complex ['Gadodiamide'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 07:26:26 PDT] WARNING -Complex ['Gadodiamide'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 07:26:27 PDT] WARNING -Complex ['Gadodiamide'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+692it [4:45:53, 21.28s/it]693it [4:46:13, 20.98s/it]694it [4:46:31, 20.04s/it]695it [4:46:44, 17.79s/it]696it [4:47:05, 18.98s/it]697it [4:47:25, 19.04s/it]698it [4:47:37, 17.05s/it]699it [4:48:34, 29.03s/it]700it [4:48:49, 24.75s/it]701it [4:49:08, 23.19s/it]702it [4:49:26, 21.50s/it]703it [4:49:36, 18.19s/it]704it [4:49:53, 17.59s/it][2025-Jun-18 07:30:32 PDT] WARNING -Complex ['Gentamicine_sulfate'] Batch 1 Inference Iteration 0: 10 / 10 samples failed
+[2025-Jun-18 07:30:32 PDT] WARNING -Failed on ['Gentamicine_sulfate'] : No edges and no nodes
+705it [4:49:58, 13.85s/it]706it [4:50:25, 17.92s/it]707it [4:50:37, 16.14s/it]708it [4:50:53, 16.12s/it]709it [4:51:17, 18.56s/it]710it [4:51:46, 21.49s/it]711it [4:52:00, 19.29s/it]712it [4:52:11, 16.70s/it]713it [4:52:32, 18.07s/it]714it [4:52:49, 17.84s/it]715it [4:53:10, 18.87s/it]716it [4:53:29, 18.92s/it]717it [4:53:42, 17.08s/it]718it [4:54:06, 19.08s/it]719it [4:54:35, 22.15s/it][2025-Jun-18 07:35:14 PDT] WARNING -Complex ['Pachycarpine'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 07:35:15 PDT] WARNING -Complex ['Pachycarpine'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+720it [4:54:48, 19.39s/it]721it [4:55:04, 18.41s/it][2025-Jun-18 07:35:55 PDT] WARNING -Complex ['Eterobarb'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 07:35:56 PDT] WARNING -Complex ['Eterobarb'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+722it [4:55:24, 18.76s/it][2025-Jun-18 07:36:11 PDT] WARNING -Complex ['Pipotiazine'] Batch 1 Inference Iteration 8: 2 / 10 samples failed
+[2025-Jun-18 07:36:12 PDT] WARNING -Complex ['Pipotiazine'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+723it [4:55:44, 19.26s/it]724it [4:56:03, 19.17s/it]725it [4:56:29, 21.21s/it]726it [4:56:46, 19.93s/it]727it [4:57:01, 18.38s/it]728it [4:57:09, 15.39s/it][2025-Jun-18 07:37:57 PDT] WARNING -Complex ['Fosfosal'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+729it [4:57:24, 15.21s/it]730it [4:57:45, 16.79s/it]731it [4:58:15, 20.92s/it]732it [4:58:38, 21.60s/it]733it [4:59:01, 21.92s/it]734it [4:59:20, 21.04s/it]735it [4:59:47, 22.96s/it]736it [5:00:02, 20.46s/it]737it [5:00:37, 24.78s/it]738it [5:00:53, 22.03s/it]739it [5:01:15, 22.22s/it]740it [5:01:33, 20.79s/it]741it [5:02:01, 23.00s/it]742it [5:02:14, 20.04s/it]743it [5:02:31, 19.04s/it]744it [5:02:53, 19.93s/it]745it [5:03:29, 24.75s/it]746it [5:03:37, 19.90s/it]747it [5:04:00, 20.82s/it]748it [5:04:21, 20.75s/it]749it [5:04:40, 20.34s/it]750it [5:05:03, 21.16s/it]751it [5:05:20, 19.80s/it]752it [5:05:41, 20.05s/it]753it [5:06:01, 20.09s/it]754it [5:06:17, 18.93s/it]755it [5:06:34, 18.44s/it]756it [5:06:52, 18.34s/it]757it [5:07:33, 25.00s/it]758it [5:07:56, 24.43s/it]759it [5:08:11, 21.51s/it]760it [5:08:25, 19.40s/it][2025-Jun-18 07:49:03 PDT] WARNING -Complex ['Crizotinib'] Batch 1 Inference Iteration 1: 1 / 10 samples failed
+[2025-Jun-18 07:49:04 PDT] WARNING -Complex ['Crizotinib'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 07:49:05 PDT] WARNING -Complex ['Crizotinib'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 07:49:07 PDT] WARNING -Complex ['Crizotinib'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 07:49:08 PDT] WARNING -Complex ['Crizotinib'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 07:49:09 PDT] WARNING -Complex ['Crizotinib'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 07:49:11 PDT] WARNING -Complex ['Crizotinib'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 07:49:12 PDT] WARNING -Complex ['Crizotinib'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 07:49:13 PDT] WARNING -Complex ['Crizotinib'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 07:49:14 PDT] WARNING -Complex ['Crizotinib'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 07:49:15 PDT] WARNING -Complex ['Crizotinib'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 07:49:16 PDT] WARNING -Complex ['Crizotinib'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 07:49:16 PDT] WARNING -Complex ['Crizotinib'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 07:49:17 PDT] WARNING -Complex ['Crizotinib'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 07:49:18 PDT] WARNING -Complex ['Crizotinib'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 07:49:18 PDT] WARNING -Complex ['Crizotinib'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 07:49:19 PDT] WARNING -Complex ['Crizotinib'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 07:49:20 PDT] WARNING -Complex ['Crizotinib'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+761it [5:08:46, 19.94s/it]762it [5:09:24, 25.16s/it]763it [5:09:42, 23.08s/it][2025-Jun-18 07:50:23 PDT] WARNING -Complex ['Pizotyline'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 07:50:24 PDT] WARNING -Complex ['Pizotyline'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+764it [5:09:58, 20.99s/it]765it [5:10:16, 19.94s/it]766it [5:10:43, 22.26s/it]767it [5:11:03, 21.53s/it]768it [5:11:24, 21.45s/it]769it [5:12:15, 30.30s/it]770it [5:12:47, 30.64s/it]771it [5:13:28, 33.93s/it]772it [5:14:20, 39.37s/it][2025-Jun-18 07:55:12 PDT] WARNING -Complex ['Colistimethate'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 07:55:16 PDT] WARNING -Complex ['Colistimethate'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 07:55:20 PDT] WARNING -Complex ['Colistimethate'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 07:55:23 PDT] WARNING -Complex ['Colistimethate'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 07:55:27 PDT] WARNING -Complex ['Colistimethate'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 07:55:30 PDT] WARNING -Complex ['Colistimethate'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 07:55:32 PDT] WARNING -Complex ['Colistimethate'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 07:55:35 PDT] WARNING -Complex ['Colistimethate'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 07:55:37 PDT] WARNING -Complex ['Colistimethate'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 07:55:39 PDT] WARNING -Complex ['Colistimethate'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 07:55:41 PDT] WARNING -Complex ['Colistimethate'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 07:55:43 PDT] WARNING -Complex ['Colistimethate'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 07:55:45 PDT] WARNING -Complex ['Colistimethate'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 07:55:46 PDT] WARNING -Complex ['Colistimethate'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 07:55:48 PDT] WARNING -Complex ['Colistimethate'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 07:55:50 PDT] WARNING -Complex ['Colistimethate'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 07:55:51 PDT] WARNING -Complex ['Colistimethate'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+773it [5:15:18, 44.87s/it]774it [5:15:44, 39.08s/it]775it [5:16:39, 43.92s/it]776it [5:16:55, 35.63s/it]777it [5:17:27, 34.60s/it]778it [5:17:54, 32.28s/it]779it [5:18:30, 33.47s/it]780it [5:18:55, 30.90s/it]781it [5:19:15, 27.44s/it]782it [5:19:36, 25.64s/it]783it [5:19:54, 23.28s/it]784it [5:20:20, 24.18s/it]785it [5:20:36, 21.54s/it]786it [5:20:59, 22.20s/it]787it [5:21:18, 21.19s/it]788it [5:21:41, 21.68s/it]789it [5:21:56, 19.68s/it]790it [5:22:22, 21.45s/it]791it [5:22:38, 19.80s/it]792it [5:23:00, 20.49s/it]793it [5:23:15, 19.08s/it]794it [5:23:29, 17.43s/it]795it [5:23:47, 17.46s/it]796it [5:24:11, 19.64s/it]797it [5:24:21, 16.55s/it]798it [5:25:13, 27.40s/it]799it [5:25:38, 26.52s/it]800it [5:25:53, 23.16s/it]801it [5:26:14, 22.49s/it]802it [5:26:26, 19.43s/it]803it [5:26:38, 17.25s/it]804it [5:27:06, 20.22s/it]805it [5:27:20, 18.55s/it]806it [5:27:41, 19.09s/it]807it [5:27:53, 17.21s/it]808it [5:28:10, 16.91s/it]809it [5:28:36, 19.66s/it]810it [5:28:54, 19.14s/it]811it [5:29:13, 19.08s/it]812it [5:29:23, 16.39s/it]813it [5:30:15, 27.10s/it]814it [5:30:39, 26.08s/it]815it [5:30:58, 24.15s/it]816it [5:31:18, 22.77s/it]817it [5:31:32, 20.09s/it]818it [5:31:53, 20.43s/it]819it [5:32:09, 19.03s/it]820it [5:32:21, 17.11s/it][2025-Jun-18 08:13:24 PDT] WARNING -Complex ['Midecamycin'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 08:13:25 PDT] WARNING -Complex ['Midecamycin'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+821it [5:32:52, 21.22s/it]822it [5:33:16, 21.96s/it]823it [5:33:29, 19.31s/it]824it [5:33:48, 19.17s/it]825it [5:34:08, 19.41s/it]826it [5:34:16, 16.00s/it]827it [5:35:16, 29.24s/it][2025-Jun-18 08:15:52 PDT] WARNING -Complex ['Fluvoxamine'] Batch 1 Inference Iteration 1: 1 / 10 samples failed
+[2025-Jun-18 08:15:53 PDT] WARNING -Complex ['Fluvoxamine'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 08:15:54 PDT] WARNING -Complex ['Fluvoxamine'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 08:15:55 PDT] WARNING -Complex ['Fluvoxamine'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 08:15:56 PDT] WARNING -Complex ['Fluvoxamine'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 08:15:57 PDT] WARNING -Complex ['Fluvoxamine'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 08:15:58 PDT] WARNING -Complex ['Fluvoxamine'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 08:15:59 PDT] WARNING -Complex ['Fluvoxamine'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 08:15:59 PDT] WARNING -Complex ['Fluvoxamine'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 08:16:00 PDT] WARNING -Complex ['Fluvoxamine'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 08:16:01 PDT] WARNING -Complex ['Fluvoxamine'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 08:16:01 PDT] WARNING -Complex ['Fluvoxamine'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 08:16:02 PDT] WARNING -Complex ['Fluvoxamine'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 08:16:02 PDT] WARNING -Complex ['Fluvoxamine'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 08:16:03 PDT] WARNING -Complex ['Fluvoxamine'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 08:16:03 PDT] WARNING -Complex ['Fluvoxamine'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 08:16:04 PDT] WARNING -Complex ['Fluvoxamine'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 08:16:04 PDT] WARNING -Complex ['Fluvoxamine'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+828it [5:35:31, 25.03s/it]829it [5:35:54, 24.54s/it]830it [5:36:09, 21.41s/it]831it [5:36:34, 22.78s/it]832it [5:36:54, 21.77s/it]833it [5:37:24, 24.14s/it]834it [5:37:51, 25.24s/it]835it [5:38:08, 22.71s/it][2025-Jun-18 08:19:13 PDT] WARNING -Complex ['Pegfilgrastim'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+836it [5:38:40, 25.42s/it]837it [5:39:02, 24.56s/it]838it [5:39:26, 24.24s/it]839it [5:39:41, 21.59s/it]840it [5:39:58, 20.12s/it]841it [5:40:21, 20.84s/it]842it [5:40:39, 20.06s/it]843it [5:40:50, 17.49s/it]844it [5:41:16, 19.96s/it][2025-Jun-18 08:29:07 PDT] WARNING -Complex ['Aprotinin'] Batch 1 Inference Iteration 1: 2 / 10 samples failed
+[2025-Jun-18 08:30:09 PDT] WARNING -Complex ['Aprotinin'] Batch 1 Inference Iteration 2: 2 / 10 samples failed
+[2025-Jun-18 08:30:59 PDT] WARNING -Complex ['Aprotinin'] Batch 1 Inference Iteration 3: 4 / 10 samples failed
+[2025-Jun-18 08:31:47 PDT] WARNING -Complex ['Aprotinin'] Batch 1 Inference Iteration 4: 4 / 10 samples failed
+[2025-Jun-18 08:32:29 PDT] WARNING -Complex ['Aprotinin'] Batch 1 Inference Iteration 5: 4 / 10 samples failed
+[2025-Jun-18 08:33:04 PDT] WARNING -Complex ['Aprotinin'] Batch 1 Inference Iteration 6: 4 / 10 samples failed
+[2025-Jun-18 08:33:34 PDT] WARNING -Complex ['Aprotinin'] Batch 1 Inference Iteration 7: 4 / 10 samples failed
+[2025-Jun-18 08:33:52 PDT] WARNING -Complex ['Aprotinin'] Batch 1 Inference Iteration 8: 5 / 10 samples failed
+[2025-Jun-18 08:33:57 PDT] WARNING -Complex ['Aprotinin'] Batch 1 Inference Iteration 9: 6 / 10 samples failed
+[2025-Jun-18 08:34:01 PDT] WARNING -Complex ['Aprotinin'] Batch 1 Inference Iteration 10: 6 / 10 samples failed
+[2025-Jun-18 08:34:05 PDT] WARNING -Complex ['Aprotinin'] Batch 1 Inference Iteration 11: 6 / 10 samples failed
+[2025-Jun-18 08:34:09 PDT] WARNING -Complex ['Aprotinin'] Batch 1 Inference Iteration 12: 6 / 10 samples failed
+[2025-Jun-18 08:34:13 PDT] WARNING -Complex ['Aprotinin'] Batch 1 Inference Iteration 13: 6 / 10 samples failed
+[2025-Jun-18 08:34:16 PDT] WARNING -Complex ['Aprotinin'] Batch 1 Inference Iteration 14: 6 / 10 samples failed
+[2025-Jun-18 08:34:20 PDT] WARNING -Complex ['Aprotinin'] Batch 1 Inference Iteration 15: 6 / 10 samples failed
+[2025-Jun-18 08:34:24 PDT] WARNING -Complex ['Aprotinin'] Batch 1 Inference Iteration 16: 6 / 10 samples failed
+[2025-Jun-18 08:34:27 PDT] WARNING -Complex ['Aprotinin'] Batch 1 Inference Iteration 17: 6 / 10 samples failed
+[2025-Jun-18 08:34:31 PDT] WARNING -Complex ['Aprotinin'] Batch 1 Inference Iteration 18: 6 / 10 samples failed
+845it [5:53:58, 242.50s/it]846it [5:54:18, 175.89s/it]847it [5:54:51, 132.84s/it]848it [5:55:00, 95.84s/it] 849it [5:55:25, 74.44s/it]850it [5:55:40, 56.60s/it]851it [5:56:06, 47.51s/it][2025-Jun-18 08:36:43 PDT] WARNING -Complex ['DTI_015'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+852it [5:56:18, 36.89s/it][2025-Jun-18 08:37:48 PDT] WARNING -Complex ['Bacitracin'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 08:37:50 PDT] WARNING -Complex ['Bacitracin'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+853it [5:57:24, 45.60s/it]854it [5:57:48, 39.10s/it]855it [5:58:04, 32.26s/it]856it [5:58:28, 29.61s/it]857it [5:58:56, 29.29s/it]858it [5:59:12, 25.30s/it]859it [5:59:38, 25.55s/it]860it [6:00:31, 33.65s/it][2025-Jun-18 08:41:14 PDT] WARNING -Complex ['VIT_45'] Batch 1 Inference Iteration 3: 2 / 10 samples failed
+[2025-Jun-18 08:41:27 PDT] WARNING -Complex ['VIT_45'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 08:41:28 PDT] WARNING -Complex ['VIT_45'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+861it [6:00:54, 30.63s/it][2025-Jun-18 08:41:32 PDT] WARNING -Complex ['Pargyline'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+862it [6:01:07, 25.05s/it]863it [6:01:29, 24.24s/it]864it [6:01:53, 24.28s/it]865it [6:02:19, 24.80s/it]866it [6:02:43, 24.40s/it]867it [6:03:02, 23.01s/it]868it [6:03:28, 23.71s/it]869it [6:03:55, 24.69s/it][2025-Jun-18 08:44:30 PDT] WARNING -Complex ['Sodium_Iodide_I_123'] Batch 1 Inference Iteration 0: 9 / 10 samples failed
+[2025-Jun-18 08:44:30 PDT] WARNING -Failed on ['Sodium_Iodide_I_123'] : No edges and no nodes
+870it [6:03:56, 17.53s/it]871it [6:04:15, 18.20s/it]872it [6:04:38, 19.53s/it]873it [6:04:55, 18.65s/it]874it [6:05:16, 19.60s/it]875it [6:05:28, 17.29s/it]876it [6:05:47, 17.67s/it]877it [6:06:17, 21.36s/it]878it [6:06:35, 20.34s/it]879it [6:07:04, 22.98s/it]880it [6:07:31, 24.35s/it]881it [6:08:06, 27.49s/it]882it [6:08:21, 23.75s/it]883it [6:08:45, 23.70s/it]884it [6:08:56, 19.84s/it]885it [6:09:27, 23.21s/it]886it [6:09:48, 22.54s/it]887it [6:10:08, 21.71s/it]888it [6:10:43, 25.86s/it]889it [6:10:55, 21.65s/it][2025-Jun-18 08:51:53 PDT] WARNING -Complex ['Maralixibat'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+890it [6:11:26, 24.48s/it]891it [6:11:47, 23.31s/it][2025-Jun-18 08:52:24 PDT] WARNING -Complex ['Carbinoxamine'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 08:52:25 PDT] WARNING -Complex ['Carbinoxamine'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 08:52:27 PDT] WARNING -Complex ['Carbinoxamine'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 08:52:28 PDT] WARNING -Complex ['Carbinoxamine'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 08:52:28 PDT] WARNING -Complex ['Carbinoxamine'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 08:52:29 PDT] WARNING -Complex ['Carbinoxamine'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 08:52:30 PDT] WARNING -Complex ['Carbinoxamine'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 08:52:30 PDT] WARNING -Complex ['Carbinoxamine'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 08:52:31 PDT] WARNING -Complex ['Carbinoxamine'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 08:52:32 PDT] WARNING -Complex ['Carbinoxamine'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 08:52:32 PDT] WARNING -Complex ['Carbinoxamine'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 08:52:33 PDT] WARNING -Complex ['Carbinoxamine'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 08:52:33 PDT] WARNING -Complex ['Carbinoxamine'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 08:52:34 PDT] WARNING -Complex ['Carbinoxamine'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 08:52:34 PDT] WARNING -Complex ['Carbinoxamine'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 08:52:35 PDT] WARNING -Complex ['Carbinoxamine'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 08:52:35 PDT] WARNING -Complex ['Carbinoxamine'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+892it [6:12:02, 20.85s/it]893it [6:12:43, 26.97s/it]894it [6:13:10, 27.12s/it]895it [6:13:34, 26.11s/it]896it [6:13:57, 25.06s/it]897it [6:14:09, 21.29s/it]898it [6:14:24, 19.45s/it]899it [6:14:45, 19.65s/it]900it [6:15:08, 20.77s/it]901it [6:15:24, 19.21s/it]902it [6:15:50, 21.27s/it][2025-Jun-18 08:56:30 PDT] WARNING -Complex ['Indecainide'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+903it [6:16:08, 20.32s/it]904it [6:16:35, 22.37s/it]905it [6:16:45, 18.64s/it]906it [6:16:59, 17.20s/it]907it [6:17:16, 17.14s/it]908it [6:17:40, 19.37s/it]909it [6:18:06, 21.17s/it]910it [6:18:17, 18.26s/it]911it [6:18:33, 17.67s/it]912it [6:19:04, 21.69s/it]913it [6:19:32, 23.38s/it]914it [6:21:07, 44.81s/it]915it [6:21:35, 39.84s/it]916it [6:21:58, 34.93s/it]917it [6:22:17, 30.09s/it]918it [6:22:37, 26.96s/it][2025-Jun-18 09:45:35 PDT] WARNING -Complex ['Insulin_degludec'] Batch 1 Inference Iteration 1: 1 / 10 samples failed
+[2025-Jun-18 09:46:50 PDT] WARNING -Complex ['Insulin_degludec'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 09:48:04 PDT] WARNING -Complex ['Insulin_degludec'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 09:49:13 PDT] WARNING -Complex ['Insulin_degludec'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 09:50:23 PDT] WARNING -Complex ['Insulin_degludec'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 09:51:27 PDT] WARNING -Complex ['Insulin_degludec'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 09:52:20 PDT] WARNING -Complex ['Insulin_degludec'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 09:53:02 PDT] WARNING -Complex ['Insulin_degludec'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 09:53:38 PDT] WARNING -Complex ['Insulin_degludec'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 09:54:07 PDT] WARNING -Complex ['Insulin_degludec'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 09:54:33 PDT] WARNING -Complex ['Insulin_degludec'] Batch 1 Inference Iteration 11: 2 / 10 samples failed
+[2025-Jun-18 09:54:55 PDT] WARNING -Complex ['Insulin_degludec'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 09:55:13 PDT] WARNING -Complex ['Insulin_degludec'] Batch 1 Inference Iteration 13: 3 / 10 samples failed
+[2025-Jun-18 09:55:29 PDT] WARNING -Complex ['Insulin_degludec'] Batch 1 Inference Iteration 14: 2 / 10 samples failed
+[2025-Jun-18 09:55:43 PDT] WARNING -Complex ['Insulin_degludec'] Batch 1 Inference Iteration 15: 2 / 10 samples failed
+[2025-Jun-18 09:55:47 PDT] WARNING -Complex ['Insulin_degludec'] Batch 1 Inference Iteration 16: 3 / 10 samples failed
+[2025-Jun-18 09:55:52 PDT] WARNING -Complex ['Insulin_degludec'] Batch 1 Inference Iteration 17: 3 / 10 samples failed
+[2025-Jun-18 09:55:56 PDT] WARNING -Complex ['Insulin_degludec'] Batch 1 Inference Iteration 18: 3 / 10 samples failed
+919it [7:15:24, 969.18s/it]920it [7:15:38, 682.45s/it][2025-Jun-18 09:56:44 PDT] WARNING -Complex ['Polymyxin_B_Sulfate'] Batch 1 Inference Iteration 9: 2 / 10 samples failed
+[2025-Jun-18 09:56:46 PDT] WARNING -Complex ['Polymyxin_B_Sulfate'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 09:56:48 PDT] WARNING -Complex ['Polymyxin_B_Sulfate'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 09:56:49 PDT] WARNING -Complex ['Polymyxin_B_Sulfate'] Batch 1 Inference Iteration 12: 2 / 10 samples failed
+[2025-Jun-18 09:56:50 PDT] WARNING -Complex ['Polymyxin_B_Sulfate'] Batch 1 Inference Iteration 13: 3 / 10 samples failed
+[2025-Jun-18 09:56:51 PDT] WARNING -Complex ['Polymyxin_B_Sulfate'] Batch 1 Inference Iteration 14: 3 / 10 samples failed
+[2025-Jun-18 09:56:52 PDT] WARNING -Complex ['Polymyxin_B_Sulfate'] Batch 1 Inference Iteration 15: 4 / 10 samples failed
+[2025-Jun-18 09:56:53 PDT] WARNING -Complex ['Polymyxin_B_Sulfate'] Batch 1 Inference Iteration 16: 4 / 10 samples failed
+[2025-Jun-18 09:56:54 PDT] WARNING -Complex ['Polymyxin_B_Sulfate'] Batch 1 Inference Iteration 17: 5 / 10 samples failed
+[2025-Jun-18 09:56:55 PDT] WARNING -Complex ['Polymyxin_B_Sulfate'] Batch 1 Inference Iteration 18: 5 / 10 samples failed
+921it [7:16:22, 490.98s/it]922it [7:16:46, 350.81s/it]923it [7:17:07, 251.89s/it]924it [7:17:29, 182.91s/it]925it [7:17:38, 130.83s/it]926it [7:17:50, 95.16s/it] 927it [7:18:10, 72.60s/it]928it [7:18:25, 55.18s/it]929it [7:18:51, 46.61s/it]930it [7:19:09, 37.83s/it]931it [7:19:18, 29.38s/it]932it [7:19:45, 28.47s/it]933it [7:20:05, 26.18s/it]934it [7:20:25, 24.10s/it]935it [7:20:34, 19.74s/it][2025-Jun-18 10:01:16 PDT] WARNING -Complex ['Liranaftate'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+936it [7:20:52, 19.26s/it]937it [7:21:06, 17.55s/it]938it [7:21:18, 16.03s/it]939it [7:21:47, 19.73s/it]940it [7:22:08, 20.21s/it]941it [7:22:38, 23.05s/it]942it [7:23:02, 23.50s/it]943it [7:23:16, 20.52s/it]944it [7:23:33, 19.45s/it][2025-Jun-18 10:04:10 PDT] WARNING -Complex ['Isoflurane'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 10:04:10 PDT] WARNING -Complex ['Isoflurane'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 10:04:11 PDT] WARNING -Complex ['Isoflurane'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 10:04:12 PDT] WARNING -Complex ['Isoflurane'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 10:04:12 PDT] WARNING -Complex ['Isoflurane'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 10:04:13 PDT] WARNING -Complex ['Isoflurane'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 10:04:13 PDT] WARNING -Complex ['Isoflurane'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 10:04:14 PDT] WARNING -Complex ['Isoflurane'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 10:04:14 PDT] WARNING -Complex ['Isoflurane'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 10:04:14 PDT] WARNING -Complex ['Isoflurane'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 10:04:15 PDT] WARNING -Complex ['Isoflurane'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 10:04:15 PDT] WARNING -Complex ['Isoflurane'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 10:04:16 PDT] WARNING -Complex ['Isoflurane'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 10:04:16 PDT] WARNING -Complex ['Isoflurane'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 10:04:16 PDT] WARNING -Complex ['Isoflurane'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 10:04:17 PDT] WARNING -Complex ['Isoflurane'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 10:04:17 PDT] WARNING -Complex ['Isoflurane'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+945it [7:23:44, 16.85s/it]946it [7:24:03, 17.74s/it]947it [7:24:24, 18.64s/it]948it [7:24:37, 16.87s/it]949it [7:25:01, 19.02s/it]950it [7:25:23, 19.84s/it]951it [7:26:05, 26.65s/it]952it [7:26:23, 24.12s/it]953it [7:26:41, 22.25s/it][2025-Jun-18 10:07:25 PDT] WARNING -Complex ['Streptozocin'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+954it [7:26:58, 20.54s/it]955it [7:27:41, 27.33s/it]956it [7:28:05, 26.44s/it]957it [7:28:14, 21.16s/it]958it [7:28:36, 21.20s/it]959it [7:28:53, 20.11s/it]960it [7:29:06, 17.80s/it]961it [7:29:32, 20.28s/it]962it [7:29:59, 22.42s/it]963it [7:30:17, 21.06s/it]964it [7:30:51, 24.97s/it]965it [7:31:08, 22.69s/it]966it [7:31:27, 21.36s/it][2025-Jun-18 10:12:05 PDT] WARNING -Complex ['Ciclopirox'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 10:12:06 PDT] WARNING -Complex ['Ciclopirox'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 10:12:07 PDT] WARNING -Complex ['Ciclopirox'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 10:12:08 PDT] WARNING -Complex ['Ciclopirox'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 10:12:08 PDT] WARNING -Complex ['Ciclopirox'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 10:12:09 PDT] WARNING -Complex ['Ciclopirox'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 10:12:09 PDT] WARNING -Complex ['Ciclopirox'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 10:12:10 PDT] WARNING -Complex ['Ciclopirox'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 10:12:10 PDT] WARNING -Complex ['Ciclopirox'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 10:12:11 PDT] WARNING -Complex ['Ciclopirox'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 10:12:11 PDT] WARNING -Complex ['Ciclopirox'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 10:12:12 PDT] WARNING -Complex ['Ciclopirox'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 10:12:11 PDT] WARNING -Complex ['Ciclopirox'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 10:12:12 PDT] WARNING -Complex ['Ciclopirox'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 10:12:12 PDT] WARNING -Complex ['Ciclopirox'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+967it [7:31:39, 18.62s/it]968it [7:32:05, 20.84s/it]969it [7:32:30, 22.07s/it]970it [7:32:51, 21.83s/it]971it [7:33:10, 21.06s/it]972it [7:33:35, 22.22s/it]973it [7:33:56, 21.81s/it]974it [7:34:07, 18.57s/it]975it [7:34:50, 25.79s/it]976it [7:35:13, 25.01s/it]977it [7:35:29, 22.31s/it]978it [7:35:53, 22.83s/it]979it [7:36:10, 21.03s/it]980it [7:36:33, 21.57s/it]981it [7:36:48, 19.78s/it]982it [7:37:07, 19.52s/it]983it [7:37:27, 19.58s/it]984it [7:37:52, 21.33s/it][2025-Jun-18 10:19:58 PDT] WARNING -The test dataset did not contain Ingenol_mebutate for ligand_sdf_files/Ingenol_mebutate.sdf and 2GQG_one_chain_docking.pdb. We are skipping this complex.
+985it [7:39:24, 42.34s/it]986it [7:39:44, 35.66s/it]987it [7:39:54, 27.92s/it]988it [7:40:07, 23.65s/it]989it [7:40:18, 19.89s/it]990it [7:40:43, 21.26s/it][2025-Jun-18 10:21:27 PDT] WARNING -Complex ['Nicardipine'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 10:21:29 PDT] WARNING -Complex ['Nicardipine'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 10:21:30 PDT] WARNING -Complex ['Nicardipine'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 10:21:31 PDT] WARNING -Complex ['Nicardipine'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 10:21:33 PDT] WARNING -Complex ['Nicardipine'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 10:21:34 PDT] WARNING -Complex ['Nicardipine'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 10:21:35 PDT] WARNING -Complex ['Nicardipine'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 10:21:36 PDT] WARNING -Complex ['Nicardipine'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 10:21:37 PDT] WARNING -Complex ['Nicardipine'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 10:21:38 PDT] WARNING -Complex ['Nicardipine'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 10:21:39 PDT] WARNING -Complex ['Nicardipine'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 10:21:40 PDT] WARNING -Complex ['Nicardipine'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 10:21:41 PDT] WARNING -Complex ['Nicardipine'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 10:21:42 PDT] WARNING -Complex ['Nicardipine'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+991it [7:41:08, 22.52s/it]992it [7:41:30, 22.34s/it]993it [7:41:45, 19.95s/it]994it [7:42:04, 19.79s/it]995it [7:42:25, 20.01s/it]996it [7:42:47, 20.72s/it]997it [7:43:07, 20.60s/it]998it [7:43:20, 18.36s/it]999it [7:43:35, 17.37s/it]1000it [7:43:56, 18.22s/it]1001it [7:44:09, 16.92s/it]1002it [7:44:38, 20.49s/it]1003it [7:45:05, 22.21s/it]1004it [7:45:16, 19.00s/it]1005it [7:45:35, 18.94s/it]1006it [7:45:53, 18.81s/it]1007it [7:46:09, 17.72s/it]1008it [7:46:26, 17.54s/it]1009it [7:46:46, 18.46s/it]1010it [7:47:05, 18.50s/it]1011it [7:47:29, 20.32s/it]1012it [7:47:39, 17.00s/it][2025-Jun-18 10:28:37 PDT] WARNING -Complex ['Colesevelam'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 10:28:37 PDT] WARNING -Complex ['Colesevelam'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 10:28:38 PDT] WARNING -Complex ['Colesevelam'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 10:28:39 PDT] WARNING -Complex ['Colesevelam'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+1013it [7:48:05, 19.90s/it]1014it [7:48:20, 18.39s/it]1015it [7:48:41, 19.00s/it]1016it [7:49:01, 19.33s/it]1017it [7:49:21, 19.68s/it]1018it [7:49:37, 18.64s/it]1019it [7:50:06, 21.50s/it]1020it [7:50:46, 27.18s/it]1021it [7:51:06, 24.95s/it][2025-Jun-18 10:33:06 PDT] WARNING -The test dataset did not contain Neocarzinostatin for ligand_sdf_files/Neocarzinostatin.sdf and 2GQG_one_chain_docking.pdb. We are skipping this complex.
+1022it [7:52:32, 43.31s/it]1023it [7:52:50, 35.70s/it]1024it [7:53:09, 30.79s/it]1025it [7:53:20, 24.92s/it]1026it [7:53:36, 22.05s/it]1027it [7:53:51, 20.11s/it]1028it [7:54:22, 23.36s/it]1029it [7:54:40, 21.67s/it]1030it [7:55:02, 21.85s/it]1031it [7:55:26, 22.44s/it]1032it [7:56:03, 26.71s/it]1033it [7:56:22, 24.45s/it]1034it [7:56:41, 22.96s/it]1035it [7:56:59, 21.23s/it]1036it [7:57:12, 18.82s/it]1037it [7:57:31, 18.86s/it][2025-Jun-18 10:38:11 PDT] WARNING -Failed on ['Calcium'] : number sections must be larger than 0.
+1038it [7:57:37, 15.13s/it]1039it [7:58:02, 17.87s/it]1040it [7:58:13, 15.86s/it]1041it [7:58:30, 16.28s/it]1042it [7:59:01, 20.79s/it]1043it [7:59:54, 30.33s/it]1044it [8:00:19, 28.76s/it]1045it [8:00:46, 28.33s/it]1046it [8:01:07, 25.97s/it]1047it [8:01:24, 23.49s/it]1048it [8:02:05, 28.62s/it]1049it [8:02:54, 34.60s/it]1050it [8:03:14, 30.28s/it]1051it [8:03:32, 26.68s/it]1052it [8:03:50, 24.06s/it]1053it [8:04:12, 23.31s/it]1054it [8:04:21, 19.24s/it]1055it [8:04:37, 18.03s/it]1056it [8:04:56, 18.45s/it]1057it [8:05:22, 20.68s/it]1058it [8:05:36, 18.76s/it]1059it [8:05:56, 18.97s/it]1060it [8:06:07, 16.77s/it]1061it [8:06:29, 18.35s/it]1062it [8:07:05, 23.48s/it]1063it [8:07:17, 20.09s/it][2025-Jun-18 10:48:11 PDT] WARNING -Complex ['Lmw_heparin'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 10:48:11 PDT] WARNING -Complex ['Lmw_heparin'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 10:48:12 PDT] WARNING -Complex ['Lmw_heparin'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 10:48:13 PDT] WARNING -Complex ['Lmw_heparin'] Batch 1 Inference Iteration 17: 2 / 10 samples failed
+1064it [8:07:40, 21.00s/it]1065it [8:07:50, 17.73s/it]1066it [8:08:15, 19.88s/it]1067it [8:08:25, 16.79s/it]1068it [8:08:42, 16.91s/it]1069it [8:08:58, 16.70s/it]1070it [8:09:21, 18.45s/it]1071it [8:09:41, 19.11s/it]1072it [8:10:01, 19.38s/it]1073it [8:10:22, 19.80s/it][2025-Jun-18 10:51:24 PDT] WARNING -Complex ['TRYPAN_BLUE'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 10:51:25 PDT] WARNING -Complex ['TRYPAN_BLUE'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 10:51:26 PDT] WARNING -Complex ['TRYPAN_BLUE'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 10:51:28 PDT] WARNING -Complex ['TRYPAN_BLUE'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 10:51:29 PDT] WARNING -Complex ['TRYPAN_BLUE'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+1074it [8:10:56, 24.03s/it]1075it [8:11:15, 22.52s/it]1076it [8:11:26, 19.16s/it][2025-Jun-18 10:52:07 PDT] WARNING -Failed on ['Potassium'] : number sections must be larger than 0.
+1077it [8:11:33, 15.47s/it]1078it [8:11:56, 17.71s/it]1079it [8:12:06, 15.51s/it]1080it [8:12:30, 17.92s/it]1081it [8:12:39, 15.21s/it]1082it [8:13:02, 17.47s/it]1083it [8:13:18, 17.16s/it]1084it [8:13:34, 16.88s/it]1085it [8:13:53, 17.42s/it]1086it [8:14:13, 18.16s/it]1087it [8:14:46, 22.64s/it]1088it [8:15:07, 22.10s/it]1089it [8:15:26, 21.42s/it]1090it [8:15:43, 20.08s/it]1091it [8:16:26, 26.96s/it]1092it [8:16:49, 25.73s/it]1093it [8:17:06, 23.08s/it]1094it [8:17:26, 22.04s/it]1095it [8:18:04, 26.95s/it]1096it [8:18:28, 26.14s/it]1097it [8:18:45, 23.11s/it]1098it [8:19:12, 24.41s/it]1099it [8:19:28, 21.95s/it]1100it [8:20:11, 28.32s/it]1101it [8:21:06, 36.20s/it]1102it [8:21:16, 28.31s/it]1103it [8:21:42, 27.55s/it]1104it [8:22:03, 25.70s/it]1105it [8:22:20, 23.01s/it]1106it [8:22:35, 20.65s/it]1107it [8:22:55, 20.61s/it][2025-Jun-18 11:03:46 PDT] WARNING -Complex ['Tebipenem_pivoxil'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 11:03:47 PDT] WARNING -Complex ['Tebipenem_pivoxil'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+1108it [8:23:19, 21.56s/it]1109it [8:23:57, 26.53s/it]1110it [8:24:21, 25.66s/it]1111it [8:24:42, 24.30s/it]1112it [8:24:59, 22.13s/it]1113it [8:25:24, 23.06s/it]1114it [8:25:40, 20.72s/it]1115it [8:25:56, 19.43s/it]1116it [8:26:20, 20.77s/it]1117it [8:26:37, 19.54s/it]1118it [8:27:01, 21.02s/it]1119it [8:27:21, 20.62s/it]1120it [8:27:35, 18.76s/it]1121it [8:27:53, 18.57s/it]1122it [8:28:17, 20.25s/it]1123it [8:28:46, 22.58s/it]1124it [8:29:11, 23.53s/it]1125it [8:29:41, 25.31s/it]1126it [8:29:59, 23.19s/it][2025-Jun-18 11:10:40 PDT] WARNING -Failed on ['Xenon_Xe_133'] : number sections must be larger than 0.
+1127it [8:30:06, 18.40s/it]1128it [8:30:30, 19.98s/it]1129it [8:31:02, 23.60s/it]1130it [8:31:15, 20.57s/it]1131it [8:31:37, 21.02s/it]1132it [8:32:10, 24.51s/it]1133it [8:32:31, 23.37s/it]1134it [8:32:42, 19.75s/it]1135it [8:32:52, 16.68s/it]1136it [8:33:21, 20.59s/it]1137it [8:33:56, 24.91s/it]1138it [8:34:25, 25.99s/it]1139it [8:34:43, 23.76s/it]1140it [8:35:23, 28.37s/it]1141it [8:35:44, 26.39s/it]1142it [8:36:11, 26.38s/it]1143it [8:36:45, 28.69s/it]1144it [8:36:57, 23.80s/it]1145it [8:37:19, 23.36s/it]1146it [8:37:47, 24.74s/it][2025-Jun-18 11:18:23 PDT] WARNING -Complex ['Hydroxyamphetamine_Hydrobromide'] Batch 1 Inference Iteration 1: 1 / 10 samples failed
+[2025-Jun-18 11:18:24 PDT] WARNING -Complex ['Hydroxyamphetamine_Hydrobromide'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 11:18:25 PDT] WARNING -Complex ['Hydroxyamphetamine_Hydrobromide'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 11:18:25 PDT] WARNING -Complex ['Hydroxyamphetamine_Hydrobromide'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 11:18:26 PDT] WARNING -Complex ['Hydroxyamphetamine_Hydrobromide'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 11:18:26 PDT] WARNING -Complex ['Hydroxyamphetamine_Hydrobromide'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 11:18:27 PDT] WARNING -Complex ['Hydroxyamphetamine_Hydrobromide'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 11:18:27 PDT] WARNING -Complex ['Hydroxyamphetamine_Hydrobromide'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 11:18:28 PDT] WARNING -Complex ['Hydroxyamphetamine_Hydrobromide'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 11:18:28 PDT] WARNING -Complex ['Hydroxyamphetamine_Hydrobromide'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 11:18:29 PDT] WARNING -Complex ['Hydroxyamphetamine_Hydrobromide'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 11:18:29 PDT] WARNING -Complex ['Hydroxyamphetamine_Hydrobromide'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 11:18:30 PDT] WARNING -Complex ['Hydroxyamphetamine_Hydrobromide'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 11:18:30 PDT] WARNING -Complex ['Hydroxyamphetamine_Hydrobromide'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 11:18:31 PDT] WARNING -Complex ['Hydroxyamphetamine_Hydrobromide'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 11:18:31 PDT] WARNING -Complex ['Hydroxyamphetamine_Hydrobromide'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 11:18:31 PDT] WARNING -Complex ['Hydroxyamphetamine_Hydrobromide'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 11:18:32 PDT] WARNING -Complex ['Hydroxyamphetamine_Hydrobromide'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+1147it [8:37:58, 20.57s/it]1148it [8:38:07, 16.91s/it]1149it [8:38:35, 20.37s/it]1150it [8:39:00, 21.75s/it]1151it [8:39:31, 24.52s/it]1152it [8:39:54, 24.19s/it]1153it [8:40:20, 24.56s/it][2025-Jun-18 11:20:57 PDT] WARNING -Complex ['Valaciclovir'] Batch 1 Inference Iteration 1: 1 / 10 samples failed
+[2025-Jun-18 11:20:58 PDT] WARNING -Complex ['Valaciclovir'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 11:20:59 PDT] WARNING -Complex ['Valaciclovir'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 11:21:01 PDT] WARNING -Complex ['Valaciclovir'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 11:21:02 PDT] WARNING -Complex ['Valaciclovir'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 11:21:03 PDT] WARNING -Complex ['Valaciclovir'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 11:21:04 PDT] WARNING -Complex ['Valaciclovir'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 11:21:05 PDT] WARNING -Complex ['Valaciclovir'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 11:21:05 PDT] WARNING -Complex ['Valaciclovir'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 11:21:06 PDT] WARNING -Complex ['Valaciclovir'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 11:21:07 PDT] WARNING -Complex ['Valaciclovir'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 11:21:08 PDT] WARNING -Complex ['Valaciclovir'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 11:21:09 PDT] WARNING -Complex ['Valaciclovir'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 11:21:09 PDT] WARNING -Complex ['Valaciclovir'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 11:21:10 PDT] WARNING -Complex ['Valaciclovir'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 11:21:11 PDT] WARNING -Complex ['Valaciclovir'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 11:21:12 PDT] WARNING -Complex ['Valaciclovir'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 11:21:12 PDT] WARNING -Complex ['Valaciclovir'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+1154it [8:40:39, 22.89s/it]1155it [8:40:56, 21.24s/it]1156it [8:41:13, 19.93s/it]1157it [8:41:35, 20.46s/it]1158it [8:41:48, 18.21s/it]1159it [8:42:20, 22.47s/it]1160it [8:42:40, 21.61s/it]1161it [8:43:02, 21.71s/it]1162it [8:43:24, 21.94s/it]1163it [8:43:46, 21.85s/it]1164it [8:44:20, 25.40s/it]1165it [8:44:38, 23.40s/it]1166it [8:45:02, 23.43s/it]1167it [8:45:15, 20.48s/it]1168it [8:45:34, 19.94s/it]1169it [8:45:54, 20.07s/it][2025-Jun-18 11:26:45 PDT] WARNING -Complex ['Rapacuronium_bromide'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 11:26:46 PDT] WARNING -Complex ['Rapacuronium_bromide'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 11:26:47 PDT] WARNING -Complex ['Rapacuronium_bromide'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 11:26:48 PDT] WARNING -Complex ['Rapacuronium_bromide'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 11:26:49 PDT] WARNING -Complex ['Rapacuronium_bromide'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 11:26:50 PDT] WARNING -Complex ['Rapacuronium_bromide'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 11:26:51 PDT] WARNING -Complex ['Rapacuronium_bromide'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 11:26:52 PDT] WARNING -Complex ['Rapacuronium_bromide'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 11:26:53 PDT] WARNING -Complex ['Rapacuronium_bromide'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 11:26:53 PDT] WARNING -Complex ['Rapacuronium_bromide'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 11:26:54 PDT] WARNING -Complex ['Rapacuronium_bromide'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+1170it [8:46:21, 21.94s/it]1171it [8:46:42, 21.74s/it]1172it [8:47:02, 21.21s/it]1173it [8:47:21, 20.42s/it]1174it [8:47:40, 20.06s/it]1175it [8:47:56, 18.97s/it]1176it [8:48:13, 18.33s/it][2025-Jun-18 11:29:10 PDT] WARNING -Complex ['Hyaluronate_sodium'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 11:29:13 PDT] WARNING -Complex ['Hyaluronate_sodium'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 11:29:14 PDT] WARNING -Complex ['Hyaluronate_sodium'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 11:29:17 PDT] WARNING -Complex ['Hyaluronate_sodium'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 11:29:18 PDT] WARNING -Complex ['Hyaluronate_sodium'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+1177it [8:48:44, 22.25s/it]1178it [8:49:04, 21.50s/it]1179it [8:49:19, 19.37s/it]1180it [8:49:40, 20.00s/it]1181it [8:49:55, 18.59s/it][2025-Jun-18 11:30:55 PDT] WARNING -The test dataset did not contain Kombiglyze_XR_Komboglyze_FDC for ligand_sdf_files/Kombiglyze_XR_Komboglyze_FDC.sdf and 2GQG_one_chain_docking.pdb. We are skipping this complex.
+1182it [8:50:21, 20.80s/it]1183it [8:50:36, 19.09s/it]1184it [8:51:01, 20.69s/it]1185it [8:51:20, 20.33s/it]1186it [8:51:36, 19.04s/it]1187it [8:51:57, 19.55s/it]1188it [8:52:12, 18.19s/it]1189it [8:52:34, 19.42s/it]1190it [8:52:48, 17.70s/it][2025-Jun-18 11:33:28 PDT] WARNING -Complex ['Rolapitant'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 11:33:29 PDT] WARNING -Complex ['Rolapitant'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 11:33:30 PDT] WARNING -Complex ['Rolapitant'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 11:33:32 PDT] WARNING -Complex ['Rolapitant'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 11:33:33 PDT] WARNING -Complex ['Rolapitant'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 11:33:34 PDT] WARNING -Complex ['Rolapitant'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 11:33:35 PDT] WARNING -Complex ['Rolapitant'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 11:33:36 PDT] WARNING -Complex ['Rolapitant'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 11:33:37 PDT] WARNING -Complex ['Rolapitant'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 11:33:38 PDT] WARNING -Complex ['Rolapitant'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 11:33:38 PDT] WARNING -Complex ['Rolapitant'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 11:33:39 PDT] WARNING -Complex ['Rolapitant'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 11:33:40 PDT] WARNING -Complex ['Rolapitant'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 11:33:41 PDT] WARNING -Complex ['Rolapitant'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 11:33:42 PDT] WARNING -Complex ['Rolapitant'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 11:33:42 PDT] WARNING -Complex ['Rolapitant'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 11:33:43 PDT] WARNING -Complex ['Rolapitant'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+1191it [8:53:10, 18.82s/it]1192it [8:53:24, 17.42s/it][2025-Jun-18 11:34:00 PDT] WARNING -Complex ['Technetium_Tc_99m_Succimer_Kit'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 11:34:01 PDT] WARNING -Complex ['Technetium_Tc_99m_Succimer_Kit'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 11:34:02 PDT] WARNING -Complex ['Technetium_Tc_99m_Succimer_Kit'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 11:34:03 PDT] WARNING -Complex ['Technetium_Tc_99m_Succimer_Kit'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 11:34:03 PDT] WARNING -Complex ['Technetium_Tc_99m_Succimer_Kit'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 11:34:04 PDT] WARNING -Complex ['Technetium_Tc_99m_Succimer_Kit'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 11:34:04 PDT] WARNING -Complex ['Technetium_Tc_99m_Succimer_Kit'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 11:34:05 PDT] WARNING -Complex ['Technetium_Tc_99m_Succimer_Kit'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 11:34:05 PDT] WARNING -Complex ['Technetium_Tc_99m_Succimer_Kit'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 11:34:05 PDT] WARNING -Complex ['Technetium_Tc_99m_Succimer_Kit'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 11:34:06 PDT] WARNING -Complex ['Technetium_Tc_99m_Succimer_Kit'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 11:34:06 PDT] WARNING -Complex ['Technetium_Tc_99m_Succimer_Kit'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 11:34:07 PDT] WARNING -Complex ['Technetium_Tc_99m_Succimer_Kit'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 11:34:07 PDT] WARNING -Complex ['Technetium_Tc_99m_Succimer_Kit'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 11:34:07 PDT] WARNING -Complex ['Technetium_Tc_99m_Succimer_Kit'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 11:34:08 PDT] WARNING -Complex ['Technetium_Tc_99m_Succimer_Kit'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 11:34:08 PDT] WARNING -Complex ['Technetium_Tc_99m_Succimer_Kit'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+1193it [8:53:34, 15.37s/it]1194it [8:54:03, 19.51s/it]1195it [8:54:21, 18.85s/it]1196it [8:54:40, 19.02s/it]1197it [8:55:20, 25.17s/it]1198it [8:55:38, 23.00s/it]1199it [8:55:59, 22.59s/it]1200it [8:56:13, 19.86s/it]1201it [8:56:34, 20.15s/it][2025-Jun-18 11:43:22 PDT] WARNING -Complex ['Charybdotoxin'] Batch 1 Inference Iteration 5: 2 / 10 samples failed
+[2025-Jun-18 11:43:48 PDT] WARNING -Complex ['Charybdotoxin'] Batch 1 Inference Iteration 6: 3 / 10 samples failed
+[2025-Jun-18 11:44:01 PDT] WARNING -Complex ['Charybdotoxin'] Batch 1 Inference Iteration 7: 5 / 10 samples failed
+[2025-Jun-18 11:44:06 PDT] WARNING -Complex ['Charybdotoxin'] Batch 1 Inference Iteration 8: 5 / 10 samples failed
+[2025-Jun-18 11:44:10 PDT] WARNING -Complex ['Charybdotoxin'] Batch 1 Inference Iteration 9: 5 / 10 samples failed
+[2025-Jun-18 11:44:12 PDT] WARNING -Complex ['Charybdotoxin'] Batch 1 Inference Iteration 10: 7 / 10 samples failed
+[2025-Jun-18 11:44:15 PDT] WARNING -Complex ['Charybdotoxin'] Batch 1 Inference Iteration 11: 6 / 10 samples failed
+[2025-Jun-18 11:44:18 PDT] WARNING -Complex ['Charybdotoxin'] Batch 1 Inference Iteration 12: 7 / 10 samples failed
+[2025-Jun-18 11:44:20 PDT] WARNING -Complex ['Charybdotoxin'] Batch 1 Inference Iteration 13: 7 / 10 samples failed
+[2025-Jun-18 11:44:22 PDT] WARNING -Complex ['Charybdotoxin'] Batch 1 Inference Iteration 14: 7 / 10 samples failed
+[2025-Jun-18 11:44:25 PDT] WARNING -Complex ['Charybdotoxin'] Batch 1 Inference Iteration 15: 7 / 10 samples failed
+[2025-Jun-18 11:44:26 PDT] WARNING -Complex ['Charybdotoxin'] Batch 1 Inference Iteration 16: 7 / 10 samples failed
+[2025-Jun-18 11:44:28 PDT] WARNING -Complex ['Charybdotoxin'] Batch 1 Inference Iteration 17: 7 / 10 samples failed
+[2025-Jun-18 11:44:30 PDT] WARNING -Complex ['Charybdotoxin'] Batch 1 Inference Iteration 18: 7 / 10 samples failed
+1202it [9:03:57, 147.21s/it]1203it [9:04:21, 110.22s/it]1204it [9:04:39, 82.43s/it] 1205it [9:04:55, 62.54s/it]1206it [9:05:29, 54.02s/it]1207it [9:05:39, 40.75s/it]1208it [9:05:57, 34.11s/it][2025-Jun-18 11:46:33 PDT] WARNING -Complex ['Practolol'] Batch 1 Inference Iteration 1: 1 / 10 samples failed
+[2025-Jun-18 11:46:34 PDT] WARNING -Complex ['Practolol'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 11:46:36 PDT] WARNING -Complex ['Practolol'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 11:46:37 PDT] WARNING -Complex ['Practolol'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 11:46:38 PDT] WARNING -Complex ['Practolol'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 11:46:38 PDT] WARNING -Complex ['Practolol'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 11:46:39 PDT] WARNING -Complex ['Practolol'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 11:46:40 PDT] WARNING -Complex ['Practolol'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 11:46:41 PDT] WARNING -Complex ['Practolol'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 11:46:41 PDT] WARNING -Complex ['Practolol'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 11:46:42 PDT] WARNING -Complex ['Practolol'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 11:46:43 PDT] WARNING -Complex ['Practolol'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 11:46:43 PDT] WARNING -Complex ['Practolol'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 11:46:44 PDT] WARNING -Complex ['Practolol'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 11:46:44 PDT] WARNING -Complex ['Practolol'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 11:46:45 PDT] WARNING -Complex ['Practolol'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 11:46:45 PDT] WARNING -Complex ['Practolol'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 11:46:46 PDT] WARNING -Complex ['Practolol'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+1209it [9:06:13, 28.40s/it]1210it [9:06:25, 23.74s/it]1211it [9:06:40, 21.06s/it]1212it [9:07:02, 21.27s/it]1213it [9:07:25, 21.87s/it][2025-Jun-18 12:02:37 PDT] WARNING -Complex ['Insulin_detemir'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 12:03:42 PDT] WARNING -Complex ['Insulin_detemir'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 12:04:43 PDT] WARNING -Complex ['Insulin_detemir'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 12:05:40 PDT] WARNING -Complex ['Insulin_detemir'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 12:06:29 PDT] WARNING -Complex ['Insulin_detemir'] Batch 1 Inference Iteration 6: 2 / 10 samples failed
+[2025-Jun-18 12:07:18 PDT] WARNING -Complex ['Insulin_detemir'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 12:07:54 PDT] WARNING -Complex ['Insulin_detemir'] Batch 1 Inference Iteration 8: 2 / 10 samples failed
+[2025-Jun-18 12:08:25 PDT] WARNING -Complex ['Insulin_detemir'] Batch 1 Inference Iteration 9: 2 / 10 samples failed
+[2025-Jun-18 12:08:50 PDT] WARNING -Complex ['Insulin_detemir'] Batch 1 Inference Iteration 10: 3 / 10 samples failed
+[2025-Jun-18 12:09:07 PDT] WARNING -Complex ['Insulin_detemir'] Batch 1 Inference Iteration 11: 3 / 10 samples failed
+[2025-Jun-18 12:09:22 PDT] WARNING -Complex ['Insulin_detemir'] Batch 1 Inference Iteration 12: 3 / 10 samples failed
+[2025-Jun-18 12:09:35 PDT] WARNING -Complex ['Insulin_detemir'] Batch 1 Inference Iteration 13: 3 / 10 samples failed
+[2025-Jun-18 12:09:48 PDT] WARNING -Complex ['Insulin_detemir'] Batch 1 Inference Iteration 14: 2 / 10 samples failed
+[2025-Jun-18 12:09:53 PDT] WARNING -Complex ['Insulin_detemir'] Batch 1 Inference Iteration 15: 3 / 10 samples failed
+[2025-Jun-18 12:09:58 PDT] WARNING -Complex ['Insulin_detemir'] Batch 1 Inference Iteration 16: 3 / 10 samples failed
+[2025-Jun-18 12:10:02 PDT] WARNING -Complex ['Insulin_detemir'] Batch 1 Inference Iteration 17: 3 / 10 samples failed
+[2025-Jun-18 12:10:06 PDT] WARNING -Complex ['Insulin_detemir'] Batch 1 Inference Iteration 18: 4 / 10 samples failed
+1214it [9:29:34, 413.81s/it]1215it [9:29:49, 294.41s/it]1216it [9:30:13, 213.31s/it]1217it [9:30:39, 156.93s/it]1218it [9:31:04, 117.39s/it]1219it [9:31:29, 89.78s/it] 1220it [9:31:39, 65.69s/it]1221it [9:32:02, 52.82s/it]1222it [9:32:27, 44.65s/it]1223it [9:32:54, 39.36s/it]1224it [9:33:25, 36.86s/it]1225it [9:33:44, 31.58s/it][2025-Jun-18 12:14:26 PDT] WARNING -Complex ['Cetraxate'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+1226it [9:34:02, 27.35s/it]1227it [9:34:24, 25.89s/it]1228it [9:34:41, 23.21s/it]1229it [9:35:05, 23.37s/it]1230it [9:35:27, 23.02s/it]1231it [9:35:51, 23.23s/it][2025-Jun-18 12:16:29 PDT] WARNING -Complex ['Cefsulodin'] Batch 1 Inference Iteration 1: 1 / 10 samples failed
+[2025-Jun-18 12:16:30 PDT] WARNING -Complex ['Cefsulodin'] Batch 1 Inference Iteration 2: 1 / 10 samples failed
+[2025-Jun-18 12:16:32 PDT] WARNING -Complex ['Cefsulodin'] Batch 1 Inference Iteration 3: 1 / 10 samples failed
+[2025-Jun-18 12:16:34 PDT] WARNING -Complex ['Cefsulodin'] Batch 1 Inference Iteration 4: 1 / 10 samples failed
+[2025-Jun-18 12:16:35 PDT] WARNING -Complex ['Cefsulodin'] Batch 1 Inference Iteration 5: 1 / 10 samples failed
+[2025-Jun-18 12:16:37 PDT] WARNING -Complex ['Cefsulodin'] Batch 1 Inference Iteration 6: 1 / 10 samples failed
+[2025-Jun-18 12:16:38 PDT] WARNING -Complex ['Cefsulodin'] Batch 1 Inference Iteration 7: 1 / 10 samples failed
+[2025-Jun-18 12:16:39 PDT] WARNING -Complex ['Cefsulodin'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 12:16:41 PDT] WARNING -Complex ['Cefsulodin'] Batch 1 Inference Iteration 9: 1 / 10 samples failed
+[2025-Jun-18 12:16:42 PDT] WARNING -Complex ['Cefsulodin'] Batch 1 Inference Iteration 10: 1 / 10 samples failed
+[2025-Jun-18 12:16:43 PDT] WARNING -Complex ['Cefsulodin'] Batch 1 Inference Iteration 11: 1 / 10 samples failed
+[2025-Jun-18 12:16:44 PDT] WARNING -Complex ['Cefsulodin'] Batch 1 Inference Iteration 12: 1 / 10 samples failed
+[2025-Jun-18 12:16:45 PDT] WARNING -Complex ['Cefsulodin'] Batch 1 Inference Iteration 13: 1 / 10 samples failed
+[2025-Jun-18 12:16:46 PDT] WARNING -Complex ['Cefsulodin'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+[2025-Jun-18 12:16:47 PDT] WARNING -Complex ['Cefsulodin'] Batch 1 Inference Iteration 15: 1 / 10 samples failed
+[2025-Jun-18 12:16:48 PDT] WARNING -Complex ['Cefsulodin'] Batch 1 Inference Iteration 16: 1 / 10 samples failed
+[2025-Jun-18 12:16:49 PDT] WARNING -Complex ['Cefsulodin'] Batch 1 Inference Iteration 17: 1 / 10 samples failed
+[2025-Jun-18 12:16:49 PDT] WARNING -Complex ['Cefsulodin'] Batch 1 Inference Iteration 18: 1 / 10 samples failed
+1232it [9:36:16, 23.76s/it]1233it [9:36:31, 21.15s/it]1234it [9:36:48, 19.91s/it]1235it [9:37:05, 18.86s/it][2025-Jun-18 12:33:38 PDT] WARNING -Complex ['Insulin_aspart'] Batch 1 Inference Iteration 8: 1 / 10 samples failed
+[2025-Jun-18 12:36:13 PDT] WARNING -Complex ['Insulin_aspart'] Batch 1 Inference Iteration 14: 2 / 10 samples failed
+[2025-Jun-18 12:36:27 PDT] WARNING -Complex ['Insulin_aspart'] Batch 1 Inference Iteration 15: 2 / 10 samples failed
+[2025-Jun-18 12:36:31 PDT] WARNING -Complex ['Insulin_aspart'] Batch 1 Inference Iteration 16: 3 / 10 samples failed
+[2025-Jun-18 12:36:35 PDT] WARNING -Complex ['Insulin_aspart'] Batch 1 Inference Iteration 17: 3 / 10 samples failed
+[2025-Jun-18 12:36:39 PDT] WARNING -Complex ['Insulin_aspart'] Batch 1 Inference Iteration 18: 3 / 10 samples failed
+1236it [9:56:07, 355.87s/it]1237it [9:56:29, 255.69s/it]1238it [9:56:45, 183.99s/it]1239it [9:57:02, 133.85s/it]1240it [9:57:11, 96.29s/it] 1241it [9:57:29, 72.69s/it][2025-Jun-18 12:38:05 PDT] WARNING -Complex ['Potassium_Aminosalicylate'] Batch 1 Inference Iteration 1: 1 / 10 samples failed
+1242it [9:57:41, 54.73s/it]1243it [9:57:57, 42.86s/it]1244it [9:58:15, 35.43s/it]1245it [9:58:39, 32.18s/it]1246it [9:58:56, 27.53s/it]1247it [9:59:18, 25.88s/it]1248it [9:59:41, 25.02s/it]1249it [10:00:00, 23.17s/it]1250it [10:00:17, 21.38s/it]1251it [10:00:35, 20.26s/it]1252it [10:01:02, 22.48s/it]1253it [10:01:22, 21.69s/it]1254it [10:01:45, 21.92s/it]1255it [10:02:18, 25.30s/it][2025-Jun-18 12:43:07 PDT] WARNING -Complex ['Cetiedil'] Batch 1 Inference Iteration 14: 1 / 10 samples failed
+1256it [10:02:36, 23.32s/it]1257it [10:02:50, 20.49s/it]1257it [10:02:50, 28.78s/it]
+[2025-Jun-18 12:43:24 PDT] WARNING -
+    Failed for 10 / 1257 complexes.
+    Skipped 3 / 1257 complexes.
+
+Failed to read molecule  ligand_sdf_files/Ingenol_mebutate.sdf  We are skipping it. The reason is the exception:  Bad Conformer Id
+Failed to read molecule  ligand_sdf_files/Neocarzinostatin.sdf  We are skipping it. The reason is the exception:  Bad Conformer Id
+Failed to read molecule  ligand_sdf_files/Kombiglyze_XR_Komboglyze_FDC.sdf  We are skipping it. The reason is the exception:  Bad Conformer Id

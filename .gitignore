@@ -1,4 +1,3 @@
 *.sdf
-*.csv
 DiffDock/*.npy
 *.pt
