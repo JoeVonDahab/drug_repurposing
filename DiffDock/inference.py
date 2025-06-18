@@ -8,6 +8,8 @@ import os
 from functools import partial
 import warnings
 from typing import Mapping, Optional
+import re
+from pathlib import Path
 
 import yaml
 
@@ -41,6 +43,29 @@ if os.name != 'nt':  # The line does not work on Windows
     resource.setrlimit(resource.RLIMIT_NOFILE, (64000, rlimit[1]))
 
 RDLogger.DisableLog('rdApp.*')
+
+def make_safe_name(raw_name, idx):
+    """
+    1. Fallback to `complex_{idx}` if raw_name is None / NaN / empty.
+    2. Cast to str so ints become '123', etc.
+    3. Replace anything that's not [A-Z a-z 0-9 . _ -] with '_'.
+    4. Collapse consecutive '_' and trim.
+    """
+    # 1. default
+    if raw_name is None or (isinstance(raw_name, float) and np.isnan(raw_name)) \
+       or str(raw_name).strip() == "":
+        raw_name = f"complex_{idx}"
+
+    # 2. cast to str
+    safe = str(raw_name)
+
+    # 3. keep only filename-safe chars
+    safe = re.sub(r"[^A-Za-z0-9._-]+", "_", safe)
+
+    # 4. collapse repeats & strip edge underscores
+    safe = re.sub(r"_+", "_", safe).strip("_")
+
+    return safe or f"complex_{idx}"
 
 warnings.filterwarnings("ignore", category=UserWarning,
                         message="The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`")
@@ -164,10 +189,30 @@ def main(args):
         protein_sequence_list = [args.protein_sequence]
         ligand_description_list = [args.ligand_description]
 
-    complex_name_list = [name if name is not None else f"complex_{i}" for i, name in enumerate(complex_name_list)]
+    safe_names = []
+    seen = set()
+    for i, raw in enumerate(complex_name_list):
+        candidate = make_safe_name(raw, i)
+
+        # If the same name appears twice, append a counter to keep it unique
+        if candidate in seen:
+            suffix = 1
+            while f"{candidate}_{suffix}" in seen:
+                suffix += 1
+            candidate = f"{candidate}_{suffix}"
+        seen.add(candidate)
+        safe_names.append(candidate)
+
+    complex_name_list = safe_names
+
+    # Pre-create the output dirs
     for name in complex_name_list:
-        write_dir = f'{args.out_dir}/{name}'
-        os.makedirs(write_dir, exist_ok=True)
+        Path(args.out_dir, name).mkdir(parents=True, exist_ok=True)
+
+        complex_name_list = [name if name is not None else f"complex_{i}" for i, name in enumerate(complex_name_list)]
+        for name in complex_name_list:
+            write_dir = f'{args.out_dir}/{name}'
+            os.makedirs(write_dir, exist_ok=True)
 
     # preprocessing of complexes into geometric graphs
     test_dataset = InferenceDataset(out_dir=args.out_dir, complex_names=complex_name_list, protein_files=protein_path_list,
@@ -299,7 +344,7 @@ def main(args):
                         visualization_list[batch_idx].write(os.path.join(write_dir, f'rank{rank+1}_reverseprocess.pdb'))
 
         except Exception as e:
-            logger.warning("Failed on", orig_complex_graph["name"], e)
+            logger.warning("Failed on %s : %s", orig_complex_graph["name"], e)
             failures += 1
 
     result_msg = f"""

@@ -4,7 +4,7 @@ import torch, copy
 from scipy.spatial.transform import Rotation as R
 from torch_geometric.utils import to_networkx
 from torch_geometric.data import Data
-
+import logging
 from utils.geometry import rigid_transform_Kabsch_independent_torch, axis_angle_to_matrix
 
 """
@@ -58,10 +58,9 @@ def modify_conformer_torsion_angles(pos, edge_index, mask_rotate, torsion_update
 
         # check if need to reverse the edge, v should be connected to the part that gets rotated
         if mask_rotate[idx_edge, u] or (not mask_rotate[idx_edge, v]):
-            print("mask rotate exception")
-        #assert not mask_rotate[idx_edge, u]
-        #assert mask_rotate[idx_edge, v]
-
+            logging.getLogger(__name__).debug(
+                f"(single)  Skipping invalid torsion [edge={idx_edge}]")
+            continue
         rot_vec = pos[u] - pos[v]  # convention: positive rotation if pointing inwards
         rot_vec = rot_vec * torsion_updates[idx_edge] / np.linalg.norm(rot_vec) # idx_edge!
         rot_mat = R.from_rotvec(rot_vec).as_matrix()
@@ -72,22 +71,63 @@ def modify_conformer_torsion_angles(pos, edge_index, mask_rotate, torsion_update
     return pos
 
 
-def modify_conformer_torsion_angles_batch(pos, edge_index, mask_rotate, torsion_updates):
-    pos = pos + 0
-    for idx_edge, e in enumerate(edge_index):
-        u, v = e[0], e[1]
+def modify_conformer_torsion_angles_batch(
+        pos: torch.Tensor,
+        edge_index: torch.Tensor,
+        mask_rotate: torch.Tensor,
+        torsion_updates: torch.Tensor
+) -> torch.Tensor:
+    """
+    Apply batched torsion updates.
 
-        # check if need to reverse the edge, v should be connected to the part that gets rotated
-        assert not mask_rotate[idx_edge, u]
-        assert mask_rotate[idx_edge, v]
+    Parameters
+    ----------
+    pos : (B, N, 3)   atom coordinates
+    edge_index : (E, 2)  rotatable bond indices
+    mask_rotate : (E, N) boolean mask, True = atom moves when that edge rotates
+    torsion_updates : (B, E) rotation magnitudes (radians)
 
-        rot_vec = pos[:, u] - pos[:, v]  # convention: positive rotation if pointing inwards
-        rot_mat = axis_angle_to_matrix(
-            rot_vec / torch.linalg.norm(rot_vec, dim=-1, keepdims=True) * torsion_updates[:, idx_edge:idx_edge + 1])
+    Returns
+    -------
+    pos : (B, N, 3) updated coordinates
+    """
+    logger = logging.getLogger(__name__)
+    invalid_edges = 0
 
-        pos[:, mask_rotate[idx_edge]] = torch.bmm(pos[:, mask_rotate[idx_edge]] - pos[:, v:v + 1], torch.transpose(rot_mat, 1, 2)) + pos[:, v:v + 1]
+    # work on a clone so caller’s tensor stays untouched
+    pos = pos.clone()
+
+    for idx_edge, (u, v) in enumerate(edge_index):
+        # ------------------------------------------------------------------
+        # Skip inconsistent masks (edge atom u should be rigid, v should move)
+        # ------------------------------------------------------------------
+        if mask_rotate[idx_edge, u] or not mask_rotate[idx_edge, v]:
+            invalid_edges += 1
+            logger.debug(f"(batch)   Skipping invalid torsion  edge={idx_edge}")
+            continue
+
+        # rotation axis / angle (vectorised over batch)
+        rot_vec = pos[:, u] - pos[:, v]         # (B, 3)
+        norm = torch.linalg.norm(rot_vec, dim=-1, keepdims=True).clamp_min(1e-8)
+        rot_vec = rot_vec / norm * torsion_updates[:, idx_edge:idx_edge + 1]  # (B, 3)
+        rot_mat = axis_angle_to_matrix(rot_vec)                               # (B, 3, 3)
+
+        # atoms that move for this torsion
+        edge_idx_mask = mask_rotate[idx_edge]        # (N,) bool
+        # (B, M, 3) ← (B, M, 3) @ (B, 3, 3)^T + (B, 1, 3)
+        pos[:, edge_idx_mask] = (
+            torch.bmm(
+                pos[:, edge_idx_mask] - pos[:, v : v + 1],
+                rot_mat.transpose(1, 2),
+            )
+            + pos[:, v : v + 1]
+        )
+
+    if invalid_edges:
+        logger.debug(f"(batch)   {invalid_edges} / {edge_index.size(0)} torsions skipped")
 
     return pos
+
 
 
 def perturb_batch(data, torsion_updates, split=False, return_updates=False):
