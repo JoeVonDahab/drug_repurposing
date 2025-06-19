@@ -2,3 +2,4 @@
 DiffDock/*.npy
 *.pt
 *.pdb
+*.pdbqt
