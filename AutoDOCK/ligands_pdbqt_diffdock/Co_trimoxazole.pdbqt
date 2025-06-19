@@ -1,0 +1,82 @@
+REMARK  Name = Co-trimoxazole
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_7  and  S_8
+REMARK    2  A    between atoms: S_8  and  C_11
+REMARK    3  A    between atoms: O_19  and  C_20
+REMARK    4  A    between atoms: C_22  and  C_30
+REMARK    5  A    between atoms: C_24  and  O_28
+REMARK    6  A    between atoms: C_25  and  O_26
+REMARK    7  A    between atoms: C_30  and  C_31
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  S   UNL     1      46.833  81.952  41.763  0.00  0.00    +0.094 S 
+ATOM      2  O   UNL     1      46.169  83.273  41.663  0.00  0.00    -0.148 OA
+ATOM      3  O   UNL     1      46.716  81.284  40.401  0.00  0.00    -0.148 OA
+ENDROOT
+BRANCH   1  10
+ATOM      4  C   UNL     1      44.724  76.256  41.879  0.00  0.00    +0.075 C 
+ATOM      5  C   UNL     1      44.714  77.748  42.085  0.00  0.00    +0.156 A 
+ATOM      6  C   UNL     1      45.768  78.529  42.518  0.00  0.00    +0.077 A 
+ATOM      7  C   UNL     1      45.322  79.844  42.566  0.00  0.00    +0.213 A 
+ATOM      8  N   UNL     1      44.044  79.792  42.167  0.00  0.00    -0.059 NA
+ATOM      9  O   UNL     1      43.700  78.566  41.890  0.00  0.00    -0.356 OA
+ATOM     10  N   UNL     1      46.127  80.942  42.967  0.00  0.00    -0.074 NA
+ENDBRANCH   1  10
+BRANCH   1  11
+ATOM     11  C   UNL     1      48.554  82.098  42.080  0.00  0.00    +0.127 A 
+ATOM     12  C   UNL     1      49.423  82.004  41.014  0.00  0.00    +0.022 A 
+ATOM     13  C   UNL     1      50.779  82.110  41.228  0.00  0.00    +0.019 A 
+ATOM     14  C   UNL     1      51.297  82.309  42.490  0.00  0.00    +0.089 A 
+ATOM     15  C   UNL     1      50.404  82.398  43.531  0.00  0.00    +0.019 A 
+ATOM     16  C   UNL     1      49.044  82.296  43.352  0.00  0.00    +0.022 A 
+ATOM     17  N   UNL     1      52.696  82.419  42.720  0.00  0.00    -0.128 NA
+ENDBRANCH   1  11
+TORSDOF 2
+REMARK  Name = Co-trimoxazole
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_7  and  S_8
+REMARK    2  A    between atoms: S_8  and  C_11
+REMARK    3  A    between atoms: O_19  and  C_20
+REMARK    4  A    between atoms: C_22  and  C_30
+REMARK    5  A    between atoms: C_24  and  O_28
+REMARK    6  A    between atoms: C_25  and  O_26
+REMARK    7  A    between atoms: C_30  and  C_31
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      49.130  82.684  42.493  0.00  0.00    +0.175 A 
+ATOM      2  C   UNL     1      47.944  81.979  42.482  0.00  0.00    +0.036 A 
+ATOM      3  C   UNL     1      47.907  80.673  42.037  0.00  0.00    -0.011 A 
+ATOM      4  C   UNL     1      49.102  80.128  41.613  0.00  0.00    +0.036 A 
+ATOM      5  C   UNL     1      50.293  80.832  41.621  0.00  0.00    +0.175 A 
+ATOM      6  C   UNL     1      50.324  82.139  42.068  0.00  0.00    +0.206 A 
+ENDROOT
+BRANCH   1   8
+ATOM      7  C   UNL     1      48.184  84.612  43.710  0.00  0.00    +0.253 C 
+ATOM      8  O   UNL     1      49.193  84.014  42.941  0.00  0.00    -0.468 OA
+ENDBRANCH   1   8
+BRANCH   6   9
+ATOM      9  O   UNL     1      51.519  82.843  42.076  0.00  0.00    -0.465 OA
+ATOM     10  C   UNL     1      52.504  82.492  43.031  0.00  0.00    +0.253 C 
+ENDBRANCH   6   9
+BRANCH   5  11
+ATOM     11  O   UNL     1      51.498  80.282  41.193  0.00  0.00    -0.468 OA
+ATOM     12  C   UNL     1      51.491  78.905  40.860  0.00  0.00    +0.253 C 
+ENDBRANCH   5  11
+BRANCH   3  13
+ATOM     13  C   UNL     1      46.662  79.882  42.010  0.00  0.00    +0.057 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1      45.960  80.041  40.708  0.00  0.00    +0.036 A 
+ATOM     15  C   UNL     1      46.022  81.189  39.946  0.00  0.00    +0.101 A 
+ATOM     16  N   UNL     1      45.353  81.265  38.763  0.00  0.00    -0.210 NA
+ATOM     17  C   UNL     1      44.615  80.247  38.285  0.00  0.00    +0.258 A 
+ATOM     18  N   UNL     1      44.561  79.132  39.035  0.00  0.00    -0.193 NA
+ATOM     19  C   UNL     1      45.202  79.000  40.214  0.00  0.00    +0.170 A 
+ATOM     20  N   UNL     1      45.114  77.791  40.978  0.00  0.00    -0.107 NA
+ATOM     21  N   UNL     1      43.922  80.353  37.039  0.00  0.00    -0.086 NA
+ENDBRANCH  13  14
+ENDBRANCH   3  13
+TORSDOF 5

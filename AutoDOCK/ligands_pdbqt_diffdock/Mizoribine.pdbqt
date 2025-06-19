@@ -1,0 +1,35 @@
+REMARK  Name = Mizoribine
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  C_16
+REMARK    2  A    between atoms: N_5  and  C1*_6
+REMARK    3  A    between atoms: C4*_9  and  C5*_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      46.285  79.376  41.480  0.00  0.00    +0.183 A 
+ATOM      2  N   UNL     1      46.661  80.508  40.858  0.00  0.00    -0.216 NA
+ATOM      3  C   UNL     1      45.768  80.752  39.860  0.00  0.00    +0.195 A 
+ATOM      4  C   UNL     1      44.854  79.725  39.916  0.00  0.00    +0.286 A 
+ATOM      5  N   UNL     1      45.171  78.880  40.910  0.00  0.00    -0.252 N 
+ATOM      6  O   UNL     1      43.767  79.588  39.066  0.00  0.00    -0.265 OA
+ENDROOT
+BRANCH   5   7
+ATOM      7  C1* UNL     1      44.519  77.686  41.338  0.00  0.00    +0.242 C 
+ATOM      8  C2* UNL     1      45.207  76.421  40.841  0.00  0.00    +0.234 C 
+ATOM      9  C3* UNL     1      44.496  75.394  41.703  0.00  0.00    +0.216 C 
+ATOM     10  C4* UNL     1      44.121  76.205  42.914  0.00  0.00    +0.183 C 
+ATOM     11  O4* UNL     1      44.595  77.490  42.715  0.00  0.00    -0.330 OA
+ATOM     12  O3* UNL     1      43.314  75.044  41.048  0.00  0.00    -0.218 OA
+ATOM     13  O2* UNL     1      45.022  76.215  39.498  0.00  0.00    -0.216 OA
+BRANCH  10  14
+ATOM     14  C5* UNL     1      44.744  75.545  44.128  0.00  0.00    +0.214 C 
+ATOM     15  O5* UNL     1      46.082  75.893  44.265  0.00  0.00    -0.218 OA
+ENDBRANCH  10  14
+ENDBRANCH   5   7
+BRANCH   3  16
+ATOM     16  C   UNL     1      45.805  81.881  38.940  0.00  0.00    +0.307 C 
+ATOM     17  O   UNL     1      44.869  81.995  38.115  0.00  0.00    -0.265 OA
+ATOM     18  N   UNL     1      46.834  82.851  38.925  0.00  0.00    -0.082 NA
+ENDBRANCH   3  16
+TORSDOF 3

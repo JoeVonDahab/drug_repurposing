@@ -1,0 +1,27 @@
+REMARK  Name = Irsogladine
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      49.388  82.495  43.953  0.00  0.00    +0.012 A 
+ATOM      2  C   UNL     1      49.368  81.248  43.359  0.00  0.00    +0.012 A 
+ATOM      3  C   UNL     1      48.528  81.014  42.266  0.00  0.00    +0.061 A 
+ATOM      4  C   UNL     1      47.714  82.004  41.764  0.00  0.00    +0.047 A 
+ATOM      5  C   UNL     1      47.754  83.236  42.375  0.00  0.00    +0.015 A 
+ATOM      6  C   UNL     1      48.574  83.507  43.462  0.00  0.00    +0.058 A 
+ATOM      7 CL   UNL     1      48.576  85.099  44.193  0.00  0.00    -0.082 Cl
+ATOM      8 CL   UNL     1      48.483  79.441  41.493  0.00  0.00    -0.082 Cl
+ENDROOT
+BRANCH   4   9
+ATOM      9  C   UNL     1      46.850  81.723  40.623  0.00  0.00    +0.169 A 
+ATOM     10  N   UNL     1      45.965  80.713  40.608  0.00  0.00    -0.192 NA
+ATOM     11  C   UNL     1      45.163  80.448  39.553  0.00  0.00    +0.260 A 
+ATOM     12  N   UNL     1      45.286  81.261  38.475  0.00  0.00    -0.176 NA
+ATOM     13  C   UNL     1      46.156  82.287  38.436  0.00  0.00    +0.260 A 
+ATOM     14  N   UNL     1      46.920  82.488  39.523  0.00  0.00    -0.192 NA
+ATOM     15  N   UNL     1      46.236  83.099  37.281  0.00  0.00    -0.086 NA
+ATOM     16  N   UNL     1      44.230  79.392  39.526  0.00  0.00    -0.086 NA
+ENDBRANCH   4   9
+TORSDOF 1

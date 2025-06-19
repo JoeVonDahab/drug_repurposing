@@ -1,0 +1,35 @@
+REMARK  Name = Arginine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_1  and  CB_2
+REMARK    2  A    between atoms: CG_1  and  CD_8
+REMARK    3  A    between atoms: CB_2  and  CA_3
+REMARK    4  A    between atoms: CA_3  and  C_4
+REMARK    5  A    between atoms: CD_8  and  NE_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  ARG A   1      47.215  81.438  41.654  0.00  0.00    +0.028 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  ARG A   1      47.017  80.414  40.588  0.00  0.00    +0.033 C 
+BRANCH   2   3
+ATOM      3  CA  ARG A   1      45.663  80.462  39.949  0.00  0.00    +0.194 C 
+ATOM      4  N   ARG A   1      45.326  79.249  39.265  0.00  0.00    -0.121 NA
+BRANCH   3   5
+ATOM      5  C   ARG A   1      45.664  81.583  38.972  0.00  0.00    +0.382 C 
+ATOM      6  O   ARG A   1      46.475  82.536  39.083  0.00  0.00    -0.244 OA
+ATOM      7  OXT ARG A   1      44.774  81.626  37.899  0.00  0.00    -0.244 OA
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  CD  ARG A   1      48.605  81.199  42.256  0.00  0.00    +0.129 C 
+BRANCH   8   9
+ATOM      9  NE  ARG A   1      49.580  82.066  41.623  0.00  0.00    -0.234 NA
+ATOM     10  CZ  ARG A   1      50.755  82.225  42.116  0.00  0.00    +0.284 C 
+ATOM     11  NH1 ARG A   1      51.696  83.077  41.483  0.00  0.00    -0.104 NA
+ATOM     12  NH2 ARG A   1      51.060  81.515  43.309  0.00  0.00    -0.104 NA
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 5

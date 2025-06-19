@@ -1,0 +1,93 @@
+REMARK  Name = Temocapril_hydrochloride
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  O_3
+REMARK    2  A    between atoms: O_3  and  C_4
+REMARK    3  A    between atoms: C_4  and  C_6
+REMARK    4  A    between atoms: C_6  and  C_7
+REMARK    5  A    between atoms: C_6  and  N_15
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  C_9
+REMARK    8  A    between atoms: N_15  and  C_16
+REMARK    9  A    between atoms: C_19  and  C_28
+REMARK   10  A    between atoms: N_21  and  C_24
+REMARK   11  A    between atoms: C_24  and  C_25
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      45.935  78.755  41.141  0.00  0.00    +0.160 C 
+ATOM      2  C   UNL     1      46.775  79.307  42.262  0.00  0.00    +0.085 C 
+ATOM      3  S   UNL     1      48.399  79.743  41.528  0.00  0.00    -0.132 S 
+ATOM      4  C   UNL     1      48.403  81.467  40.951  0.00  0.00    +0.096 C 
+ATOM      5  C   UNL     1      46.997  81.811  40.510  0.00  0.00    +0.110 C 
+ATOM      6  N   UNL     1      46.593  80.800  39.566  0.00  0.00    -0.267 N 
+ATOM      7  C   UNL     1      46.303  79.448  39.837  0.00  0.00    +0.243 C 
+ATOM      8  O   UNL     1      46.362  78.690  38.817  0.00  0.00    -0.273 OA
+ENDROOT
+BRANCH   4   9
+ATOM      9  C   UNL     1      48.876  82.375  42.020  0.00  0.00    +0.019 A 
+ATOM     10  C   UNL     1      48.377  82.633  43.261  0.00  0.00    +0.004 A 
+ATOM     11  C   UNL     1      49.039  83.529  44.026  0.00  0.00    +0.007 A 
+ATOM     12  C   UNL     1      50.159  84.100  43.482  0.00  0.00    +0.035 A 
+ATOM     13  S   UNL     1      50.245  83.373  41.939  0.00  0.00    -0.090 S 
+ENDBRANCH   4   9
+BRANCH   1  14
+ATOM     14  N   UNL     1      46.151  77.375  40.973  0.00  0.00    -0.200 NA
+BRANCH  14  15
+ATOM     15  C   UNL     1      45.845  76.486  42.043  0.00  0.00    +0.172 C 
+BRANCH  15  16
+ATOM     16  C   UNL     1      46.109  75.106  41.572  0.00  0.00    +0.333 C 
+ATOM     17  O   UNL     1      45.890  74.129  42.289  0.00  0.00    -0.249 OA
+BRANCH  16  18
+ATOM     18  O   UNL     1      46.611  74.915  40.302  0.00  0.00    -0.448 OA
+BRANCH  18  20
+ATOM     19  C   UNL     1      47.924  72.886  40.557  0.00  0.00    +0.051 C 
+ATOM     20  C   UNL     1      46.897  73.641  39.758  0.00  0.00    +0.209 C 
+ENDBRANCH  18  20
+ENDBRANCH  16  18
+ENDBRANCH  15  16
+BRANCH  15  21
+ATOM     21  C   UNL     1      44.447  76.662  42.498  0.00  0.00    +0.033 C 
+BRANCH  21  22
+ATOM     22  C   UNL     1      43.974  75.865  43.658  0.00  0.00    +0.028 C 
+BRANCH  22  23
+ATOM     23  C   UNL     1      44.626  76.112  44.936  0.00  0.00    -0.022 A 
+ATOM     24  C   UNL     1      45.695  75.416  45.400  0.00  0.00    -0.004 A 
+ATOM     25  C   UNL     1      46.282  75.709  46.636  0.00  0.00    -0.000 A 
+ATOM     26  C   UNL     1      45.783  76.713  47.404  0.00  0.00    -0.000 A 
+ATOM     27  C   UNL     1      44.707  77.435  46.967  0.00  0.00    -0.000 A 
+ATOM     28  C   UNL     1      44.128  77.143  45.745  0.00  0.00    -0.004 A 
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  15  21
+ENDBRANCH  14  15
+ENDBRANCH   1  14
+BRANCH   6  29
+ATOM     29  C   UNL     1      46.482  81.255  38.203  0.00  0.00    +0.209 C 
+BRANCH  29  30
+ATOM     30  C   UNL     1      45.155  81.757  37.858  0.00  0.00    +0.385 C 
+ATOM     31  O   UNL     1      44.926  82.182  36.705  0.00  0.00    -0.244 OA
+ATOM     32  O   UNL     1      44.133  81.775  38.785  0.00  0.00    -0.244 OA
+ENDBRANCH  29  30
+ENDBRANCH   6  29
+TORSDOF 11
+REMARK  Name = Temocapril_hydrochloride
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  O_3
+REMARK    2  A    between atoms: O_3  and  C_4
+REMARK    3  A    between atoms: C_4  and  C_6
+REMARK    4  A    between atoms: C_6  and  C_7
+REMARK    5  A    between atoms: C_6  and  N_15
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  C_9
+REMARK    8  A    between atoms: N_15  and  C_16
+REMARK    9  A    between atoms: C_19  and  C_28
+REMARK   10  A    between atoms: N_21  and  C_24
+REMARK   11  A    between atoms: C_24  and  C_25
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1 CL   UNL     1      46.691  78.979  41.800  0.00  0.00    +0.000 Cl
+ENDROOT
+TORSDOF 0

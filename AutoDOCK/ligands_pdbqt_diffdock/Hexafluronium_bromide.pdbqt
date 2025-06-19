@@ -1,0 +1,109 @@
+REMARK  Name = Hexafluronium_bromide
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  C_4
+REMARK    2  A    between atoms: N_2  and  C_26
+REMARK    3  A    between atoms: C_4  and  C_5
+REMARK    4  A    between atoms: C_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  C_9
+REMARK    8  A    between atoms: C_9  and  N_10
+REMARK    9  A    between atoms: N_10  and  C_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      46.172  80.445  40.694  0.00  0.00    -0.002 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      47.276  80.778  41.649  0.00  0.00    -0.022 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1      47.432  82.183  42.054  0.00  0.00    -0.072 C 
+BRANCH   3   5
+ATOM      4  C   UNL     1      46.589  84.166  41.223  0.00  0.00    -0.095 C 
+ATOM      5  N   UNL     1      47.719  83.208  41.149  0.00  0.00    +0.393 N 
+ATOM      6  C   UNL     1      47.860  82.919  39.763  0.00  0.00    -0.095 C 
+BRANCH   5   7
+ATOM      7  C   UNL     1      48.891  84.024  41.592  0.00  0.00    -0.008 C 
+ATOM      8  C   UNL     1      50.155  83.313  41.432  0.00  0.00    -0.037 A 
+ATOM      9  C   UNL     1      50.855  82.798  40.384  0.00  0.00    -0.006 A 
+ATOM     10  C   UNL     1      52.075  82.128  40.555  0.00  0.00    -0.000 A 
+ATOM     11  C   UNL     1      52.603  81.972  41.800  0.00  0.00    -0.000 A 
+ATOM     12  C   UNL     1      51.913  82.485  42.866  0.00  0.00    -0.000 A 
+ATOM     13  C   UNL     1      50.710  83.146  42.692  0.00  0.00    -0.006 A 
+ATOM     14  C   UNL     1      49.858  83.795  43.688  0.00  0.00    -0.006 A 
+ATOM     15  C   UNL     1      50.003  83.933  45.057  0.00  0.00    -0.000 A 
+ATOM     16  C   UNL     1      49.092  84.632  45.822  0.00  0.00    -0.000 A 
+ATOM     17  C   UNL     1      48.029  85.190  45.175  0.00  0.00    -0.000 A 
+ATOM     18  C   UNL     1      47.878  85.053  43.789  0.00  0.00    -0.006 A 
+ATOM     19  C   UNL     1      48.784  84.358  43.038  0.00  0.00    -0.037 A 
+ENDBRANCH   5   7
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  20
+ATOM     20  C   UNL     1      46.132  78.946  40.383  0.00  0.00    -0.002 C 
+BRANCH  20  21
+ATOM     21  C   UNL     1      45.884  78.106  41.611  0.00  0.00    -0.022 C 
+BRANCH  21  22
+ATOM     22  C   UNL     1      45.857  76.659  41.404  0.00  0.00    -0.072 C 
+BRANCH  22  23
+ATOM     23  N   UNL     1      44.977  75.981  40.562  0.00  0.00    +0.393 N 
+ATOM     24  C   UNL     1      45.576  75.826  39.230  0.00  0.00    -0.095 C 
+ATOM     25  C   UNL     1      45.007  74.562  41.059  0.00  0.00    -0.095 C 
+BRANCH  23  26
+ATOM     26  C   UNL     1      43.618  76.295  40.437  0.00  0.00    -0.008 C 
+ATOM     27  C   UNL     1      43.016  77.003  41.568  0.00  0.00    -0.037 A 
+ATOM     28  C   UNL     1      43.048  76.772  42.938  0.00  0.00    -0.006 A 
+ATOM     29  C   UNL     1      42.410  77.655  43.774  0.00  0.00    -0.000 A 
+ATOM     30  C   UNL     1      41.737  78.765  43.318  0.00  0.00    -0.000 A 
+ATOM     31  C   UNL     1      41.704  78.993  41.962  0.00  0.00    -0.000 A 
+ATOM     32  C   UNL     1      42.353  78.093  41.094  0.00  0.00    -0.006 A 
+ATOM     33  C   UNL     1      42.404  78.051  39.635  0.00  0.00    -0.006 A 
+ATOM     34  C   UNL     1      41.790  78.929  38.738  0.00  0.00    -0.000 A 
+ATOM     35  C   UNL     1      41.868  78.677  37.388  0.00  0.00    -0.000 A 
+ATOM     36  C   UNL     1      42.551  77.564  36.960  0.00  0.00    -0.000 A 
+ATOM     37  C   UNL     1      43.145  76.724  37.867  0.00  0.00    -0.006 A 
+ATOM     38  C   UNL     1      43.099  76.930  39.236  0.00  0.00    -0.037 A 
+ENDBRANCH  23  26
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH   1  20
+TORSDOF 9
+REMARK  Name = Hexafluronium_bromide
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  C_4
+REMARK    2  A    between atoms: N_2  and  C_26
+REMARK    3  A    between atoms: C_4  and  C_5
+REMARK    4  A    between atoms: C_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  C_9
+REMARK    8  A    between atoms: C_9  and  N_10
+REMARK    9  A    between atoms: N_10  and  C_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1 BR   UNL     1      46.334  80.117  41.303  0.00  0.00    +0.000 Br
+ENDROOT
+TORSDOF 0
+REMARK  Name = Hexafluronium_bromide
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  C_4
+REMARK    2  A    between atoms: N_2  and  C_26
+REMARK    3  A    between atoms: C_4  and  C_5
+REMARK    4  A    between atoms: C_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  C_9
+REMARK    8  A    between atoms: C_9  and  N_10
+REMARK    9  A    between atoms: N_10  and  C_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1 BR   UNL     1      46.334  80.117  41.303  0.00  0.00    +0.000 Br
+ENDROOT
+TORSDOF 0

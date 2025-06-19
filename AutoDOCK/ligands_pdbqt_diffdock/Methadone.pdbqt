@@ -1,0 +1,52 @@
+REMARK  Name = Methadone
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3
+REMARK    2  A    between atoms: C_3  and  C_5
+REMARK    3  A    between atoms: C_5  and  C_6
+REMARK    4  A    between atoms: C_5  and  C_12
+REMARK    5  A    between atoms: C_5  and  C_18
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_7  and  N_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      48.041  81.641  41.850  0.00  0.00    +0.090 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      47.422  81.946  40.535  0.00  0.00    -0.012 A 
+ATOM      3  C   UNL     1      46.132  81.629  40.285  0.00  0.00    -0.004 A 
+ATOM      4  C   UNL     1      45.540  81.908  39.044  0.00  0.00    -0.000 A 
+ATOM      5  C   UNL     1      46.325  82.515  38.099  0.00  0.00    -0.000 A 
+ATOM      6  C   UNL     1      47.648  82.858  38.307  0.00  0.00    -0.000 A 
+ATOM      7  C   UNL     1      48.164  82.555  39.548  0.00  0.00    -0.004 A 
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C   UNL     1      49.492  81.970  41.789  0.00  0.00    -0.012 A 
+ATOM      9  C   UNL     1      50.398  81.093  41.265  0.00  0.00    -0.004 A 
+ATOM     10  C   UNL     1      51.765  81.414  41.223  0.00  0.00    -0.000 A 
+ATOM     11  C   UNL     1      52.185  82.629  41.719  0.00  0.00    -0.000 A 
+ATOM     12  C   UNL     1      51.263  83.516  42.251  0.00  0.00    -0.000 A 
+ATOM     13  C   UNL     1      49.938  83.182  42.281  0.00  0.00    -0.004 A 
+ENDBRANCH   1   8
+BRANCH   1  14
+ATOM     14  C   UNL     1      47.421  82.688  42.767  0.00  0.00    +0.157 C 
+ATOM     15  O   UNL     1      46.967  82.381  43.855  0.00  0.00    -0.295 OA
+BRANCH  14  17
+ATOM     16  C   UNL     1      46.743  84.946  43.448  0.00  0.00    +0.008 C 
+ATOM     17  C   UNL     1      47.359  84.111  42.361  0.00  0.00    +0.065 C 
+ENDBRANCH  14  17
+ENDBRANCH   1  14
+BRANCH   1  18
+ATOM     18  C   UNL     1      47.688  80.325  42.402  0.00  0.00    +0.031 C 
+BRANCH  18  19
+ATOM     19  C   UNL     1      46.405  79.695  42.008  0.00  0.00    +0.059 C 
+ATOM     20  C   UNL     1      45.852  78.796  43.120  0.00  0.00    +0.017 C 
+BRANCH  19  21
+ATOM     21  N   UNL     1      46.574  78.744  40.889  0.00  0.00    -0.272 NA
+ATOM     22  C   UNL     1      47.297  77.571  41.238  0.00  0.00    +0.090 C 
+ATOM     23  C   UNL     1      45.337  78.472  40.236  0.00  0.00    +0.090 C 
+ENDBRANCH  19  21
+ENDBRANCH  18  19
+ENDBRANCH   1  18
+TORSDOF 7

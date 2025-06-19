@@ -1,0 +1,127 @@
+REMARK  Name = Benzylpenicilloyl_Polylysine
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  C_30
+REMARK    2  A    between atoms: C_5  and  C_7
+REMARK    3  A    between atoms: C_7  and  C_8
+REMARK    4  A    between atoms: C_7  and  N_20
+REMARK    5  A    between atoms: N_10  and  C_11
+REMARK    6  A    between atoms: C_11  and  C_12
+REMARK    7  A    between atoms: C_12  and  C_13
+REMARK    8  A    between atoms: C_13  and  C_14
+REMARK    9  A    between atoms: C_14  and  C_15
+REMARK   10  A    between atoms: C_15  and  C_16
+REMARK   11  A    between atoms: C_21  and  C_23
+REMARK   12  A    between atoms: C_23  and  C_24
+REMARK   13  A    between atoms: CG_34  and  CD_35
+REMARK   14  A    between atoms: CG_34  and  CB_38
+REMARK   15  A    between atoms: CD_35  and  CE_36
+REMARK   16  A    between atoms: CB_38  and  CA_39
+REMARK   17  A    between atoms: CA_39  and  C_40
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNK A   0      44.950  78.551  40.637  0.00  0.00    +0.199 C 
+ENDROOT
+BRANCH   1   6
+ATOM      2  C   UNK A   1      49.030  81.864  40.358  0.00  0.00    +0.013 C 
+ATOM      3  C   UNK A   1      47.802  81.354  41.035  0.00  0.00    +0.066 C 
+ATOM      4  C   UNK A   1      46.508  81.881  40.490  0.00  0.00    +0.186 C 
+ATOM      5  N   UNK A   1      45.429  81.001  40.620  0.00  0.00    -0.196 NA
+ATOM      6  C   UNK A   0      45.747  79.706  41.055  0.00  0.00    +0.149 C 
+ATOM      7  S   UNK A   1      47.547  79.564  40.676  0.00  0.00    -0.121 S 
+ATOM      8  C   UNK A   1      47.835  81.514  42.527  0.00  0.00    +0.013 C 
+BRANCH   4   9
+ATOM      9  C   UNK A   1      46.732  82.285  39.071  0.00  0.00    +0.381 C 
+ATOM     10  O   UNK A   1      46.429  81.520  38.142  0.00  0.00    -0.244 OA
+ATOM     11  O   UNK A   1      47.281  83.513  38.703  0.00  0.00    -0.244 OA
+ENDBRANCH   4   9
+ENDBRANCH   1   6
+BRANCH   1  12
+ATOM     12  C   UNK A   1      44.231  77.821  41.708  0.00  0.00    +0.264 C 
+ATOM     13  O   UNK A   1      42.978  77.762  41.668  0.00  0.00    -0.271 OA
+ATOM     14  N   UNK A   1      44.905  77.181  42.781  0.00  0.00    -0.204 NA
+BRANCH  14  15
+ATOM     15  C   UNK A   1      44.611  77.380  44.169  0.00  0.00    +0.115 C 
+BRANCH  15  16
+ATOM     16  C   UNK A   1      44.515  76.059  44.874  0.00  0.00    +0.023 C 
+BRANCH  16  17
+ATOM     17  C   UNK A   1      45.637  76.023  45.910  0.00  0.00    +0.004 C 
+BRANCH  17  18
+ATOM     18  C   UNK A   1      45.215  75.154  47.089  0.00  0.00    +0.031 C 
+BRANCH  18  19
+ATOM     19  C   UNK A   1      46.328  75.272  48.130  0.00  0.00    +0.194 C 
+ATOM     20  N   UNK A   1      46.551  76.699  48.360  0.00  0.00    -0.121 NA
+BRANCH  19  21
+ATOM     21  C   UNK A   1      45.922  74.629  49.407  0.00  0.00    +0.382 C 
+ATOM     22  O   UNK A   1      45.672  73.404  49.398  0.00  0.00    -0.244 OA
+ATOM     23  O   UNK A   1      45.817  75.349  50.597  0.00  0.00    -0.244 OA
+ENDBRANCH  19  21
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH   1  12
+BRANCH   1  24
+ATOM     24  N   UNK A   0      43.992  79.032  39.630  0.00  0.00    -0.195 NA
+ATOM     25  C   UNK A   0      43.195  78.074  38.960  0.00  0.00    +0.246 C 
+ATOM     26  O   UNK A   0      43.382  76.831  39.154  0.00  0.00    -0.273 OA
+BRANCH  25  27
+ATOM     27  C   UNK A   0      42.115  78.451  38.013  0.00  0.00    +0.113 C 
+BRANCH  27  28
+ATOM     28  C   UNK A   0      41.174  77.321  37.822  0.00  0.00    -0.013 A 
+ATOM     29  C   UNK A   0      41.333  76.145  38.545  0.00  0.00    -0.004 A 
+ATOM     30  C   UNK A   0      40.483  75.085  38.392  0.00  0.00    -0.000 A 
+ATOM     31  C   UNK A   0      39.427  75.146  37.506  0.00  0.00    -0.000 A 
+ATOM     32  C   UNK A   0      39.270  76.326  36.781  0.00  0.00    -0.000 A 
+ATOM     33  C   UNK A   0      40.117  77.380  36.935  0.00  0.00    -0.004 A 
+ENDBRANCH  27  28
+ENDBRANCH  25  27
+ENDBRANCH   1  24
+TORSDOF 12
+REMARK  Name = Benzylpenicilloyl_Polylysine
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  C_30
+REMARK    2  A    between atoms: C_5  and  C_7
+REMARK    3  A    between atoms: C_7  and  C_8
+REMARK    4  A    between atoms: C_7  and  N_20
+REMARK    5  A    between atoms: N_10  and  C_11
+REMARK    6  A    between atoms: C_11  and  C_12
+REMARK    7  A    between atoms: C_12  and  C_13
+REMARK    8  A    between atoms: C_13  and  C_14
+REMARK    9  A    between atoms: C_14  and  C_15
+REMARK   10  A    between atoms: C_15  and  C_16
+REMARK   11  A    between atoms: C_21  and  C_23
+REMARK   12  A    between atoms: C_23  and  C_24
+REMARK   13  A    between atoms: CG_34  and  CD_35
+REMARK   14  A    between atoms: CG_34  and  CB_38
+REMARK   15  A    between atoms: CD_35  and  CE_36
+REMARK   16  A    between atoms: CB_38  and  CA_39
+REMARK   17  A    between atoms: CA_39  and  C_40
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CB  LYS A   1      45.069  77.828  41.308  0.00  0.00    +0.031 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CA  LYS A   1      45.455  78.201  39.901  0.00  0.00    +0.194 C 
+ATOM      3  N   LYS A   1      44.830  77.317  38.947  0.00  0.00    -0.121 NA
+BRANCH   2   4
+ATOM      4  C   LYS A   1      45.080  79.621  39.676  0.00  0.00    +0.382 C 
+ATOM      5  O   LYS A   1      44.211  80.193  40.367  0.00  0.00    -0.244 OA
+ATOM      6  OXT LYS A   1      45.729  80.306  38.666  0.00  0.00    -0.244 OA
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  CG  LYS A   1      45.641  76.463  41.692  0.00  0.00    +0.004 C 
+BRANCH   7   8
+ATOM      8  CD  LYS A   1      45.586  76.266  43.190  0.00  0.00    +0.021 C 
+BRANCH   8   9
+ATOM      9  CE  LYS A   1      44.371  75.523  43.633  0.00  0.00    +0.109 C 
+ATOM     10  NZ  LYS A   1      44.645  74.340  44.387  0.00  0.00    -0.131 NA
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 5

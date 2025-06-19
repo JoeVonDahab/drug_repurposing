@@ -1,0 +1,30 @@
+REMARK  Name = Triamterene
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      48.102  81.836  41.522  0.00  0.00    +0.116 A 
+ATOM      2  N   UNL     1      47.537  82.326  40.380  0.00  0.00    -0.236 NA
+ATOM      3  C   UNL     1      46.551  81.665  39.751  0.00  0.00    +0.152 A 
+ATOM      4  C   UNL     1      45.972  82.148  38.597  0.00  0.00    +0.193 A 
+ATOM      5  N   UNL     1      44.985  81.417  38.030  0.00  0.00    -0.191 NA
+ATOM      6  C   UNL     1      44.564  80.260  38.547  0.00  0.00    +0.259 A 
+ATOM      7  N   UNL     1      45.123  79.788  39.665  0.00  0.00    -0.190 NA
+ATOM      8  C   UNL     1      46.114  80.474  40.278  0.00  0.00    +0.187 A 
+ATOM      9  N   UNL     1      46.682  79.990  41.417  0.00  0.00    -0.205 NA
+ATOM     10  C   UNL     1      47.666  80.636  42.058  0.00  0.00    +0.189 A 
+ATOM     11  N   UNL     1      48.269  80.148  43.246  0.00  0.00    -0.106 NA
+ATOM     12  N   UNL     1      43.528  79.492  37.951  0.00  0.00    -0.086 NA
+ATOM     13  N   UNL     1      46.410  83.385  38.030  0.00  0.00    -0.105 NA
+ENDROOT
+BRANCH   1  17
+ATOM     14  C   UNL     1      51.283  83.912  43.486  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      50.008  84.429  43.487  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1      48.985  83.758  42.853  0.00  0.00    +0.002 A 
+ATOM     17  C   UNL     1      49.170  82.559  42.197  0.00  0.00    +0.021 A 
+ATOM     18  C   UNL     1      50.452  82.051  42.202  0.00  0.00    +0.002 A 
+ATOM     19  C   UNL     1      51.496  82.716  42.837  0.00  0.00    +0.000 A 
+ENDBRANCH   1  17
+TORSDOF 1

@@ -1,0 +1,44 @@
+REMARK  Name = Connexyn
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_8
+REMARK    2  A    between atoms: C_8  and  C_9
+REMARK    3  A    between atoms: C_9  and  N_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      50.538  83.540  43.955  0.00  0.00    +0.002 A 
+ATOM      2  C   UNL     1      50.850  82.822  42.818  0.00  0.00    +0.011 A 
+ATOM      3  C   UNL     1      49.945  82.638  41.794  0.00  0.00    +0.055 A 
+ATOM      4  C   UNL     1      48.675  83.169  41.859  0.00  0.00    +0.008 A 
+ATOM      5  C   UNL     1      48.367  83.885  42.996  0.00  0.00    +0.055 A 
+ATOM      6  C   UNL     1      49.271  84.076  44.032  0.00  0.00    +0.011 A 
+ATOM      7 CL   UNL     1      46.763  84.607  43.178  0.00  0.00    -0.083 Cl
+ATOM      8 CL   UNL     1      50.373  81.728  40.378  0.00  0.00    -0.083 Cl
+ENDROOT
+BRANCH   4   9
+ATOM      9  C   UNL     1      47.663  83.015  40.813  0.00  0.00    +0.115 C 
+BRANCH   9  10
+ATOM     10  C   UNL     1      47.020  81.706  40.769  0.00  0.00    +0.253 C 
+ATOM     11  O   UNL     1      47.341  80.820  41.580  0.00  0.00    -0.273 OA
+BRANCH  10  12
+ATOM     12  N   UNL     1      46.031  81.439  39.804  0.00  0.00    -0.140 NA
+ATOM     13  C   UNL     1      45.113  80.539  39.950  0.00  0.00    +0.280 C 
+ATOM     14  N   UNL     1      44.140  80.336  38.908  0.00  0.00    -0.106 NA
+ATOM     15  N   UNL     1      44.984  79.712  41.089  0.00  0.00    -0.106 NA
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   4   9
+TORSDOF 3
+REMARK  Name = Connexyn
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_8
+REMARK    2  A    between atoms: C_8  and  C_9
+REMARK    3  A    between atoms: C_9  and  N_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1 CL   UNL     1      46.959  81.918  41.279  0.00  0.00    +0.000 Cl
+ENDROOT
+TORSDOF 0

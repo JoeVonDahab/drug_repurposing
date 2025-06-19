@@ -1,0 +1,80 @@
+REMARK  Name = Dihydroergotoxine
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  N_24
+REMARK    2  A    between atoms: C_6  and  C_17
+REMARK    3  A    between atoms: C_17  and  C_18
+REMARK    4  A    between atoms: C_25  and  C_27
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      41.640  79.809  37.739  0.00  0.00    +0.063 C 
+ATOM      2  C   UNL     1      42.460  78.720  38.443  0.00  0.00    +0.243 C 
+ATOM      3  C   UNL     1      41.766  78.270  39.644  0.00  0.00    +0.274 C 
+ATOM      4  O   UNL     1      41.660  78.854  40.737  0.00  0.00    -0.270 OA
+ATOM      5  N   UNL     1      41.215  76.999  39.326  0.00  0.00    -0.225 N 
+ATOM      6  C   UNL     1      40.522  76.033  40.116  0.00  0.00    +0.160 C 
+ATOM      7  C   UNL     1      40.026  74.907  39.323  0.00  0.00    +0.244 C 
+ATOM      8  O   UNL     1      38.979  74.267  39.670  0.00  0.00    -0.273 OA
+ATOM      9  N   UNL     1      40.722  74.522  38.152  0.00  0.00    -0.273 N 
+ATOM     10  C   UNL     1      40.582  73.396  37.264  0.00  0.00    +0.094 C 
+ATOM     11  C   UNL     1      40.771  74.039  35.911  0.00  0.00    +0.023 C 
+ATOM     12  C   UNL     1      41.853  75.068  36.162  0.00  0.00    +0.029 C 
+ATOM     13  C   UNL     1      41.821  75.342  37.631  0.00  0.00    +0.149 C 
+ATOM     14  C   UNL     1      41.484  76.781  37.911  0.00  0.00    +0.307 C 
+ATOM     15  O   UNL     1      42.502  77.651  37.556  0.00  0.00    -0.294 OA
+ATOM     16  O   UNL     1      40.357  77.114  37.163  0.00  0.00    -0.172 OA
+ENDROOT
+BRANCH   2  17
+ATOM     17  N   UNL     1      43.783  79.206  38.657  0.00  0.00    -0.173 NA
+ATOM     18  C   UNL     1      44.096  80.359  39.425  0.00  0.00    +0.245 C 
+ATOM     19  O   UNL     1      43.157  80.988  39.944  0.00  0.00    -0.273 OA
+BRANCH  18  20
+ATOM     20  C   UNL     1      45.514  80.780  39.588  0.00  0.00    +0.095 C 
+ATOM     21  C   UNL     1      46.336  79.696  40.258  0.00  0.00    +0.016 C 
+ATOM     22  C   UNL     1      47.666  80.249  40.638  0.00  0.00    +0.038 C 
+ATOM     23  C   UNL     1      47.911  81.544  39.882  0.00  0.00    +0.066 C 
+ATOM     24  C   UNL     1      49.285  82.084  40.158  0.00  0.00    +0.044 C 
+ATOM     25  C   UNL     1      49.426  82.317  41.604  0.00  0.00    -0.001 A 
+ATOM     26  C   UNL     1      50.144  83.184  42.409  0.00  0.00    +0.095 A 
+ATOM     27  N   UNL     1      49.855  82.881  43.688  0.00  0.00    -0.244 NA
+ATOM     28  C   UNL     1      48.988  81.865  43.760  0.00  0.00    +0.081 A 
+ATOM     29  C   UNL     1      48.364  81.150  44.774  0.00  0.00    +0.019 A 
+ATOM     30  C   UNL     1      47.508  80.126  44.429  0.00  0.00    +0.001 A 
+ATOM     31  C   UNL     1      47.250  79.786  43.094  0.00  0.00    -0.004 A 
+ATOM     32  C   UNL     1      47.874  80.502  42.070  0.00  0.00    -0.020 A 
+ATOM     33  C   UNL     1      48.724  81.519  42.467  0.00  0.00    +0.011 A 
+ATOM     34  N   UNL     1      46.956  82.566  40.247  0.00  0.00    -0.272 NA
+ATOM     35  C   UNL     1      45.624  82.023  40.431  0.00  0.00    +0.081 C 
+ATOM     36  C   UNL     1      46.858  83.571  39.206  0.00  0.00    +0.090 C 
+ENDBRANCH  18  20
+ENDBRANCH   2  17
+BRANCH   6  37
+ATOM     37  C   UNL     1      41.488  75.540  41.192  0.00  0.00    +0.056 C 
+BRANCH  37  38
+ATOM     38  C   UNL     1      40.730  74.538  41.993  0.00  0.00    -0.020 A 
+ATOM     39  C   UNL     1      40.702  73.195  41.695  0.00  0.00    -0.004 A 
+ATOM     40  C   UNL     1      39.974  72.319  42.486  0.00  0.00    -0.000 A 
+ATOM     41  C   UNL     1      39.254  72.758  43.597  0.00  0.00    -0.000 A 
+ATOM     42  C   UNL     1      39.289  74.104  43.885  0.00  0.00    -0.000 A 
+ATOM     43  C   UNL     1      40.014  74.963  43.094  0.00  0.00    -0.004 A 
+ENDBRANCH  37  38
+ENDBRANCH   6  37
+TORSDOF 4
+REMARK  Name = Dihydroergotoxine
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  N_24
+REMARK    2  A    between atoms: C_6  and  C_17
+REMARK    3  A    between atoms: C_17  and  C_18
+REMARK    4  A    between atoms: C_25  and  C_27
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      44.659  78.996  40.565  0.00  0.00    +0.213 C 
+ATOM      2  S   UNL     1      43.659  77.862  39.641  0.00  0.00    +0.123 S 
+ATOM      3  O   UNL     1      44.209  76.459  39.724  0.00  0.00    -0.144 OA
+ATOM      4  O   UNL     1      43.671  78.251  38.182  0.00  0.00    -0.144 OA
+ATOM      5  O   UNL     1      42.106  77.840  40.253  0.00  0.00    -0.047 OA
+ENDROOT
+TORSDOF 0

@@ -1,0 +1,26 @@
+parameter_file boron-silicon-atom_par.dat
+npts 124 76 130
+gridfld myreceptor_targeted.maps.fld
+spacing 0.375
+receptor_types HD C A N NA OA F P SA S Cl Br I Mg Ca Mn Fe Zn
+ligand_types HD C A N NA OA F P SA S Cl Br I Si
+receptor myreceptor_targeted.pdbqt
+gridcenter 48.386 80.665 40.855
+smooth 0.500
+map myreceptor_targeted.HD.map
+map myreceptor_targeted.C.map
+map myreceptor_targeted.A.map
+map myreceptor_targeted.N.map
+map myreceptor_targeted.NA.map
+map myreceptor_targeted.OA.map
+map myreceptor_targeted.F.map
+map myreceptor_targeted.P.map
+map myreceptor_targeted.SA.map
+map myreceptor_targeted.S.map
+map myreceptor_targeted.Cl.map
+map myreceptor_targeted.Br.map
+map myreceptor_targeted.I.map
+map myreceptor_targeted.Si.map
+elecmap myreceptor_targeted.e.map
+dsolvmap myreceptor_targeted.d.map
+dielectric -42.000

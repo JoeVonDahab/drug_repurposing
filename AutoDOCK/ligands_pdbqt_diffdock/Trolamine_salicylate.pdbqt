@@ -1,0 +1,64 @@
+REMARK  Name = Trolamine_salicylate
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_5  and  C_7
+REMARK    2  A    between atoms: C_11  and  C_12
+REMARK    3  A    between atoms: C_11  and  N_14
+REMARK    4  A    between atoms: N_14  and  C_15
+REMARK    5  A    between atoms: N_14  and  C_18
+REMARK    6  A    between atoms: C_15  and  C_16
+REMARK    7  A    between atoms: C_18  and  C_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      44.830  80.262  39.196  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      44.577  79.007  39.727  0.00  0.00    +0.003 A 
+ATOM      3  C   UNL     1      45.460  78.502  40.655  0.00  0.00    +0.042 A 
+ATOM      4  C   UNL     1      46.576  79.202  41.066  0.00  0.00    +0.202 A 
+ATOM      5  C   UNL     1      46.803  80.451  40.519  0.00  0.00    +0.119 A 
+ATOM      6  C   UNL     1      45.931  80.995  39.577  0.00  0.00    +0.010 A 
+ATOM      7  O   UNL     1      47.467  78.700  41.999  0.00  0.00    -0.286 OA
+ENDROOT
+BRANCH   5   8
+ATOM      8  C   UNL     1      47.973  81.191  40.947  0.00  0.00    +0.391 C 
+ATOM      9  O   UNL     1      48.401  81.052  42.096  0.00  0.00    -0.240 OA
+ATOM     10  O   UNL     1      48.606  82.047  40.072  0.00  0.00    -0.240 OA
+ENDBRANCH   5   8
+TORSDOF 1
+REMARK  Name = Trolamine_salicylate
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_5  and  C_7
+REMARK    2  A    between atoms: C_11  and  C_12
+REMARK    3  A    between atoms: C_11  and  N_14
+REMARK    4  A    between atoms: N_14  and  C_15
+REMARK    5  A    between atoms: N_14  and  C_18
+REMARK    6  A    between atoms: C_15  and  C_16
+REMARK    7  A    between atoms: C_18  and  C_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1      46.548  80.009  40.611  0.00  0.00    -0.266 NA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      47.169  81.093  41.341  0.00  0.00    +0.108 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1      48.211  80.618  42.279  0.00  0.00    +0.199 C 
+ATOM      4  O   UNL     1      48.996  81.556  42.904  0.00  0.00    -0.219 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   UNL     1      45.769  79.149  41.454  0.00  0.00    +0.108 C 
+BRANCH   5   6
+ATOM      6  C   UNL     1      45.977  77.727  40.959  0.00  0.00    +0.199 C 
+ATOM      7  O   UNL     1      44.863  77.241  40.249  0.00  0.00    -0.219 OA
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   1   8
+ATOM      8  C   UNL     1      45.855  80.493  39.459  0.00  0.00    +0.108 C 
+BRANCH   8   9
+ATOM      9  C   UNL     1      45.889  81.915  39.101  0.00  0.00    +0.199 C 
+ATOM     10  O   UNL     1      45.124  82.346  38.049  0.00  0.00    -0.219 OA
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 6

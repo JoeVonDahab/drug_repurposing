@@ -1,0 +1,41 @@
+REMARK  Name = Ciprofloxacin_XR
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_4
+REMARK    2  A    between atoms: C_6  and  C_22
+REMARK    3  A    between atoms: C_12  and  N_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1      45.465  79.028  40.667  0.00  0.00    -0.328 N 
+ATOM      2  C   UNL     1      46.216  80.138  40.661  0.00  0.00    +0.086 A 
+ATOM      3  C   UNL     1      46.040  81.153  39.726  0.00  0.00    +0.136 A 
+ATOM      4  C   UNL     1      45.060  81.021  38.765  0.00  0.00    +0.205 A 
+ATOM      5  O   UNL     1      44.856  81.911  37.890  0.00  0.00    -0.286 OA
+ATOM      6  C   UNL     1      44.289  79.891  38.762  0.00  0.00    +0.057 A 
+ATOM      7  C   UNL     1      43.282  79.681  37.829  0.00  0.00    +0.036 A 
+ATOM      8  C   UNL     1      42.537  78.521  37.877  0.00  0.00    +0.154 A 
+ATOM      9  C   UNL     1      42.741  77.538  38.820  0.00  0.00    +0.077 A 
+ATOM     10  C   UNL     1      43.741  77.746  39.747  0.00  0.00    +0.034 A 
+ATOM     11  C   UNL     1      44.504  78.912  39.714  0.00  0.00    +0.064 A 
+ATOM     12  F   UNL     1      41.553  78.323  36.960  0.00  0.00    -0.203 F 
+ENDROOT
+BRANCH   9  13
+ATOM     13  N   UNL     1      41.981  76.342  38.879  0.00  0.00    -0.303 N 
+ATOM     14  C   UNL     1      41.048  75.954  37.828  0.00  0.00    +0.110 C 
+ATOM     15  C   UNL     1      39.661  75.865  38.404  0.00  0.00    +0.110 C 
+ATOM     16  N   UNL     1      39.642  75.583  39.802  0.00  0.00    -0.214 NA
+ATOM     17  C   UNL     1      40.750  74.777  40.258  0.00  0.00    +0.110 C 
+ATOM     18  C   UNL     1      42.083  75.411  40.005  0.00  0.00    +0.110 C 
+ENDBRANCH   9  13
+BRANCH   1  21
+ATOM     19  C   UNL     1      46.732  76.957  41.445  0.00  0.00    +0.024 C 
+ATOM     20  C   UNL     1      46.807  78.017  42.574  0.00  0.00    +0.024 C 
+ATOM     21  C   UNL     1      45.655  77.966  41.652  0.00  0.00    +0.086 C 
+ENDBRANCH   1  21
+BRANCH   3  22
+ATOM     22  C   UNL     1      46.867  82.350  39.740  0.00  0.00    +0.392 C 
+ATOM     23  O   UNL     1      47.641  82.601  40.697  0.00  0.00    -0.240 OA
+ATOM     24  O   UNL     1      46.823  83.251  38.690  0.00  0.00    -0.240 OA
+ENDBRANCH   3  22
+TORSDOF 3

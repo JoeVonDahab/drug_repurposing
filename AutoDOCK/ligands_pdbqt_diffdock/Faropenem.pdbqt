@@ -1,0 +1,36 @@
+REMARK  Name = Faropenem
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3
+REMARK    2  A    between atoms: C_8  and  C_16
+REMARK    3  A    between atoms: C_9  and  C_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      48.888  81.831  41.679  0.00  0.00    +0.136 C 
+ATOM      2  C   UNL     1      47.425  81.684  41.916  0.00  0.00    +0.143 C 
+ATOM      3  N   UNL     1      47.276  81.866  40.485  0.00  0.00    -0.244 N 
+ATOM      4  C   UNL     1      48.413  82.697  40.566  0.00  0.00    +0.235 C 
+ATOM      5  O   UNL     1      48.864  83.722  39.980  0.00  0.00    -0.274 OA
+ATOM      6  C   UNL     1      46.199  81.175  39.931  0.00  0.00    +0.139 C 
+ATOM      7  C   UNL     1      45.761  80.137  40.569  0.00  0.00    +0.052 C 
+ATOM      8  S   UNL     1      46.811  79.990  42.062  0.00  0.00    -0.094 S 
+ENDROOT
+BRANCH   7   9
+ATOM      9  C   UNL     1      44.688  79.134  40.382  0.00  0.00    +0.145 C 
+ATOM     10  C   UNL     1      44.950  77.932  41.338  0.00  0.00    +0.037 C 
+ATOM     11  C   UNL     1      43.928  76.952  40.797  0.00  0.00    +0.035 C 
+ATOM     12  C   UNL     1      43.703  77.494  39.389  0.00  0.00    +0.143 C 
+ATOM     13  O   UNL     1      44.691  78.453  39.195  0.00  0.00    -0.351 OA
+ENDBRANCH   7   9
+BRANCH   1  15
+ATOM     14  C   UNL     1      48.902  83.839  43.090  0.00  0.00    +0.036 C 
+ATOM     15  C   UNL     1      49.658  82.569  42.748  0.00  0.00    +0.163 C 
+ATOM     16  O   UNL     1      50.962  82.816  42.369  0.00  0.00    -0.223 OA
+ENDBRANCH   1  15
+BRANCH   6  17
+ATOM     17  C   UNL     1      45.530  81.615  38.677  0.00  0.00    +0.401 C 
+ATOM     18  O   UNL     1      44.591  81.025  38.121  0.00  0.00    -0.239 OA
+ATOM     19  O   UNL     1      45.971  82.773  38.057  0.00  0.00    -0.239 OA
+ENDBRANCH   6  17
+TORSDOF 3

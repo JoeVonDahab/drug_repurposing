@@ -1,0 +1,37 @@
+REMARK  Name = Nabumetone
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_4
+REMARK    2  A    between atoms: C_4  and  C_5
+REMARK    3  A    between atoms: C_5  and  C_6
+REMARK    4  A    between atoms: C_13  and  O_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      47.466  81.639  40.850  0.00  0.00    -0.022 A 
+ATOM      2  C   UNL     1      46.986  80.412  41.278  0.00  0.00    -0.004 A 
+ATOM      3  C   UNL     1      45.927  79.817  40.623  0.00  0.00    -0.000 A 
+ATOM      4  C   UNL     1      45.337  80.432  39.538  0.00  0.00    +0.003 A 
+ATOM      5  C   UNL     1      45.829  81.675  39.110  0.00  0.00    -0.000 A 
+ATOM      6  C   UNL     1      46.885  82.269  39.764  0.00  0.00    -0.004 A 
+ATOM      7  C   UNL     1      44.291  79.829  38.902  0.00  0.00    +0.037 A 
+ATOM      8  C   UNL     1      43.760  78.591  39.286  0.00  0.00    +0.139 A 
+ATOM      9  C   UNL     1      44.355  77.986  40.368  0.00  0.00    +0.037 A 
+ATOM     10  C   UNL     1      45.418  78.591  41.021  0.00  0.00    +0.003 A 
+ENDROOT
+BRANCH   8  11
+ATOM     11  O   UNL     1      42.698  78.067  38.570  0.00  0.00    -0.471 OA
+ATOM     12  C   UNL     1      42.153  78.657  37.441  0.00  0.00    +0.252 C 
+ENDBRANCH   8  11
+BRANCH   1  13
+ATOM     13  C   UNL     1      48.588  82.238  41.552  0.00  0.00    +0.034 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1      48.224  83.274  42.575  0.00  0.00    +0.069 C 
+BRANCH  14  16
+ATOM     15  C   UNL     1      49.410  85.171  43.914  0.00  0.00    +0.072 C 
+ATOM     16  C   UNL     1      49.468  83.882  43.182  0.00  0.00    +0.151 C 
+ATOM     17  O   UNL     1      50.567  83.337  43.097  0.00  0.00    -0.296 OA
+ENDBRANCH  14  16
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+TORSDOF 4

@@ -1,0 +1,24 @@
+REMARK  Name = Phenmetrazine
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      46.195  82.300  38.587  0.00  0.00    +0.022 C 
+ATOM      2  C   UNL     1      46.679  82.010  39.971  0.00  0.00    +0.104 C 
+ATOM      3  C   UNL     1      46.791  80.524  40.242  0.00  0.00    +0.153 C 
+ATOM      4  O   UNL     1      47.064  80.322  41.584  0.00  0.00    -0.349 OA
+ATOM      5  C   UNL     1      47.729  81.333  42.200  0.00  0.00    +0.161 C 
+ATOM      6  C   UNL     1      48.648  82.132  41.332  0.00  0.00    +0.121 C 
+ATOM      7  N   UNL     1      48.056  82.513  40.066  0.00  0.00    -0.214 NA
+ENDROOT
+BRANCH   3   8
+ATOM      8  C   UNL     1      45.558  79.798  39.856  0.00  0.00    +0.006 A 
+ATOM      9  C   UNL     1      44.628  80.324  38.979  0.00  0.00    -0.002 A 
+ATOM     10  C   UNL     1      43.484  79.644  38.624  0.00  0.00    -0.000 A 
+ATOM     11  C   UNL     1      43.242  78.397  39.152  0.00  0.00    -0.000 A 
+ATOM     12  C   UNL     1      44.172  77.861  40.035  0.00  0.00    -0.000 A 
+ATOM     13  C   UNL     1      45.317  78.550  40.385  0.00  0.00    -0.002 A 
+ENDBRANCH   3   8
+TORSDOF 1

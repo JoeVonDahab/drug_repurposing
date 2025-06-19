@@ -1,0 +1,37 @@
+REMARK  Name = Trifluridine
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4*_3  and  C5*_18
+REMARK    2  A    between atoms: C1*_5  and  N_6
+REMARK    3  A    between atoms: C_8  and  C_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1      44.800  79.194  39.902  0.00  0.00    -0.256 N 
+ATOM      2  C   UNL     1      45.817  79.910  40.440  0.00  0.00    +0.091 A 
+ATOM      3  C   UNL     1      46.231  81.098  39.908  0.00  0.00    +0.146 A 
+ATOM      4  C   UNL     1      45.588  81.576  38.787  0.00  0.00    +0.288 A 
+ATOM      5  O   UNL     1      45.935  82.649  38.277  0.00  0.00    -0.265 OA
+ATOM      6  N   UNL     1      44.574  80.864  38.249  0.00  0.00    -0.153 NA
+ATOM      7  C   UNL     1      44.195  79.687  38.811  0.00  0.00    +0.355 A 
+ATOM      8  O   UNL     1      43.259  79.036  38.309  0.00  0.00    -0.244 OA
+ENDROOT
+BRANCH   1  13
+ATOM      9  C2* UNL     1      45.316  76.799  40.130  0.00  0.00    +0.089 C 
+ATOM     10  C3* UNL     1      45.169  75.889  41.355  0.00  0.00    +0.186 C 
+ATOM     11  C4* UNL     1      44.338  76.709  42.285  0.00  0.00    +0.180 C 
+ATOM     12  O4* UNL     1      44.689  78.026  41.913  0.00  0.00    -0.332 OA
+ATOM     13  C1* UNL     1      44.445  77.965  40.535  0.00  0.00    +0.211 C 
+ATOM     14  O3* UNL     1      44.511  74.725  40.933  0.00  0.00    -0.220 OA
+BRANCH  11  15
+ATOM     15  C5* UNL     1      44.658  76.475  43.744  0.00  0.00    +0.214 C 
+ATOM     16  O5* UNL     1      45.886  77.073  43.996  0.00  0.00    -0.218 OA
+ENDBRANCH  11  15
+ENDBRANCH   1  13
+BRANCH   3  17
+ATOM     17  C   UNL     1      47.365  81.858  40.540  0.00  0.00    +0.424 C 
+ATOM     18  F   UNL     1      48.461  81.845  39.708  0.00  0.00    -0.166 F 
+ATOM     19  F   UNL     1      47.737  81.229  41.713  0.00  0.00    -0.166 F 
+ATOM     20  F   UNL     1      46.971  83.131  40.846  0.00  0.00    -0.166 F 
+ENDBRANCH   3  17
+TORSDOF 3

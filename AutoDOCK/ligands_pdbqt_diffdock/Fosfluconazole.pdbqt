@@ -1,0 +1,55 @@
+REMARK  Name = Fosfluconazole
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  C_9
+REMARK    2  A    between atoms: C_9  and  C_10
+REMARK    3  A    between atoms: C_9  and  C_16
+REMARK    4  A    between atoms: C_9  and  O_22
+REMARK    5  A    between atoms: C_10  and  N_11
+REMARK    6  A    between atoms: C_16  and  N_17
+REMARK    7  A    between atoms: O_22  and  P_23
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      48.313  81.045  41.758  0.00  0.00    +0.169 C 
+ENDROOT
+BRANCH   1   4
+ATOM      2  C   UNL     1      47.448  84.734  41.661  0.00  0.00    +0.030 A 
+ATOM      3  C   UNL     1      47.554  83.377  41.316  0.00  0.00    +0.003 A 
+ATOM      4  C   UNL     1      48.013  82.441  42.173  0.00  0.00    +0.034 A 
+ATOM      5  C   UNL     1      48.392  82.876  43.448  0.00  0.00    +0.141 A 
+ATOM      6  C   UNL     1      48.303  84.174  43.808  0.00  0.00    +0.059 A 
+ATOM      7  C   UNL     1      47.831  85.108  42.920  0.00  0.00    +0.142 A 
+ATOM      8  F   UNL     1      47.734  86.419  43.264  0.00  0.00    -0.204 F 
+ATOM      9  F   UNL     1      48.812  81.889  44.297  0.00  0.00    -0.204 F 
+ENDBRANCH   1   4
+BRANCH   1  10
+ATOM     10  C   UNL     1      47.190  80.173  42.410  0.00  0.00    +0.163 C 
+BRANCH  10  11
+ATOM     11  N   UNL     1      46.521  79.408  41.398  0.00  0.00    -0.227 N 
+ATOM     12  C   UNL     1      45.334  79.430  40.807  0.00  0.00    +0.197 A 
+ATOM     13  N   UNL     1      45.242  78.414  39.903  0.00  0.00    -0.201 NA
+ATOM     14  C   UNL     1      46.405  77.774  39.958  0.00  0.00    +0.221 A 
+ATOM     15  N   UNL     1      47.184  78.353  40.846  0.00  0.00    -0.145 NA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+BRANCH   1  16
+ATOM     16  C   UNL     1      48.179  80.962  40.295  0.00  0.00    +0.163 C 
+BRANCH  16  17
+ATOM     17  N   UNL     1      46.946  81.489  39.754  0.00  0.00    -0.227 N 
+ATOM     18  C   UNL     1      46.710  82.588  39.026  0.00  0.00    +0.197 A 
+ATOM     19  N   UNL     1      45.380  82.675  38.749  0.00  0.00    -0.201 NA
+ATOM     20  C   UNL     1      44.788  81.622  39.310  0.00  0.00    +0.221 A 
+ATOM     21  N   UNL     1      45.733  80.914  39.911  0.00  0.00    -0.145 NA
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+BRANCH   1  22
+ATOM     22  O   UNL     1      49.448  80.668  42.411  0.00  0.00    -0.267 OA
+BRANCH  22  23
+ATOM     23  P   UNL     1      50.899  81.338  42.106  0.00  0.00    +0.533 P 
+ATOM     24  O   UNL     1      51.257  81.676  40.706  0.00  0.00    -0.222 OA
+ATOM     25  O   UNL     1      51.235  82.756  43.027  0.00  0.00    -0.115 OA
+ATOM     26  O   UNL     1      52.144  80.261  42.651  0.00  0.00    -0.115 OA
+ENDBRANCH  22  23
+ENDBRANCH   1  22
+TORSDOF 7

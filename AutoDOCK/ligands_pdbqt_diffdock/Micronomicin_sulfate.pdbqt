@@ -1,0 +1,81 @@
+REMARK  Name = Micronomicin_sulfate
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_5  and  O_11
+REMARK    2  A    between atoms: C_7  and  N_8
+REMARK    3  A    between atoms: O_11  and  C_12
+REMARK    4  A    between atoms: C_16  and  O_19
+REMARK    5  A    between atoms: O_19  and  C_20
+REMARK    6  A    between atoms: C_24  and  C_26
+REMARK    7  A    between atoms: C_26  and  N_27
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      46.783  81.292  40.291  0.00  0.00    +0.168 C 
+ATOM      2  C   UNL     1      46.290  82.200  39.192  0.00  0.00    +0.123 C 
+ATOM      3  C   UNL     1      45.464  81.502  38.164  0.00  0.00    +0.043 C 
+ATOM      4  C   UNL     1      44.432  80.616  38.791  0.00  0.00    +0.123 C 
+ATOM      5  C   UNL     1      45.187  79.590  39.639  0.00  0.00    +0.168 C 
+ATOM      6  C   UNL     1      45.696  80.406  40.840  0.00  0.00    +0.209 C 
+ATOM      7  O   UNL     1      44.670  81.117  41.423  0.00  0.00    -0.218 OA
+ATOM      8  N   UNL     1      43.563  80.026  37.829  0.00  0.00    -0.130 NA
+ATOM      9  N   UNL     1      45.541  83.312  39.720  0.00  0.00    -0.130 NA
+ENDROOT
+BRANCH   1  10
+ATOM     10  O   UNL     1      47.316  82.085  41.305  0.00  0.00    -0.327 OA
+BRANCH  10  15
+ATOM     11  C   UNL     1      52.156  83.457  43.069  0.00  0.00    +0.037 C 
+ATOM     12  C   UNL     1      51.214  82.330  42.654  0.00  0.00    +0.171 C 
+ATOM     13  C   UNL     1      50.772  82.591  41.230  0.00  0.00    +0.176 C 
+ATOM     14  O   UNL     1      49.436  82.998  41.184  0.00  0.00    -0.326 OA
+ATOM     15  C   UNL     1      48.676  81.853  41.510  0.00  0.00    +0.268 C 
+ATOM     16  C   UNL     1      48.977  81.387  42.909  0.00  0.00    +0.226 C 
+ATOM     17  C   UNL     1      49.982  82.312  43.532  0.00  0.00    +0.138 C 
+ATOM     18  O   UNL     1      49.560  80.104  42.856  0.00  0.00    -0.216 OA
+ATOM     19  O   UNL     1      51.882  81.115  42.675  0.00  0.00    -0.222 OA
+BRANCH  17  20
+ATOM     20  N   UNL     1      50.352  81.912  44.873  0.00  0.00    -0.213 NA
+ATOM     21  C   UNL     1      50.731  80.539  44.965  0.00  0.00    +0.108 C 
+ENDBRANCH  17  20
+ENDBRANCH  10  15
+ENDBRANCH   1  10
+BRANCH   5  22
+ATOM     22  O   UNL     1      44.287  78.636  39.995  0.00  0.00    -0.328 OA
+BRANCH  22  23
+ATOM     23  C   UNL     1      44.631  77.332  39.716  0.00  0.00    +0.253 C 
+ATOM     24  C   UNL     1      43.628  76.613  38.845  0.00  0.00    +0.148 C 
+ATOM     25  C   UNL     1      42.219  76.814  39.320  0.00  0.00    +0.027 C 
+ATOM     26  C   UNL     1      42.170  77.221  40.736  0.00  0.00    +0.033 C 
+ATOM     27  C   UNL     1      43.380  77.062  41.550  0.00  0.00    +0.135 C 
+ATOM     28  O   UNL     1      44.550  76.645  40.935  0.00  0.00    -0.330 OA
+ATOM     29  N   UNL     1      43.775  76.866  37.455  0.00  0.00    -0.128 NA
+BRANCH  27  30
+ATOM     30  C   UNL     1      43.138  76.369  42.860  0.00  0.00    +0.118 C 
+BRANCH  30  31
+ATOM     31  N   UNL     1      44.310  75.945  43.510  0.00  0.00    -0.214 NA
+ATOM     32  C   UNL     1      44.644  76.514  44.764  0.00  0.00    +0.108 C 
+ENDBRANCH  30  31
+ENDBRANCH  27  30
+ENDBRANCH  22  23
+ENDBRANCH   5  22
+TORSDOF 7
+REMARK  Name = Micronomicin_sulfate
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_5  and  O_11
+REMARK    2  A    between atoms: C_7  and  N_8
+REMARK    3  A    between atoms: O_11  and  C_12
+REMARK    4  A    between atoms: C_16  and  O_19
+REMARK    5  A    between atoms: O_19  and  C_20
+REMARK    6  A    between atoms: C_24  and  C_26
+REMARK    7  A    between atoms: C_26  and  N_27
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1      47.150  80.211  42.275  0.00  0.00    -0.020 OA
+ATOM      2  S   UNL     1      46.187  79.958  40.923  0.00  0.00    +0.267 S 
+ATOM      3  O   UNL     1      46.914  79.018  40.019  0.00  0.00    -0.113 OA
+ATOM      4  O   UNL     1      45.901  81.222  40.182  0.00  0.00    -0.113 OA
+ATOM      5  O   UNL     1      44.726  79.307  41.446  0.00  0.00    -0.020 OA
+ENDROOT
+TORSDOF 0

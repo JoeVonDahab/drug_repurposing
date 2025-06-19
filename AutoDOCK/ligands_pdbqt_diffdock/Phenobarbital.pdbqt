@@ -1,0 +1,31 @@
+REMARK  Name = Phenobarbital
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3
+REMARK    2  A    between atoms: C_3  and  C_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      47.698  81.434  41.310  0.00  0.00    +0.160 C 
+ATOM      2  C   UNL     1      46.200  81.386  41.208  0.00  0.00    +0.260 C 
+ATOM      3  O   UNL     1      45.571  80.820  42.139  0.00  0.00    -0.272 OA
+ATOM      4  N   UNL     1      45.496  81.943  40.124  0.00  0.00    -0.125 NA
+ATOM      5  C   UNL     1      46.184  82.333  38.970  0.00  0.00    +0.352 C 
+ATOM      6  O   UNL     1      45.521  82.827  38.020  0.00  0.00    -0.248 OA
+ATOM      7  N   UNL     1      47.598  82.172  38.876  0.00  0.00    -0.125 NA
+ATOM      8  C   UNL     1      48.310  81.610  39.970  0.00  0.00    +0.260 C 
+ATOM      9  O   UNL     1      49.496  81.260  39.761  0.00  0.00    -0.272 OA
+ENDROOT
+BRANCH   1  10
+ATOM     10  C   UNL     1      48.030  82.621  42.152  0.00  0.00    -0.006 A 
+ATOM     11  C   UNL     1      47.075  83.396  42.778  0.00  0.00    -0.003 A 
+ATOM     12  C   UNL     1      47.384  84.496  43.557  0.00  0.00    -0.000 A 
+ATOM     13  C   UNL     1      48.701  84.857  43.732  0.00  0.00    -0.000 A 
+ATOM     14  C   UNL     1      49.696  84.102  43.117  0.00  0.00    -0.000 A 
+ATOM     15  C   UNL     1      49.348  83.011  42.348  0.00  0.00    -0.003 A 
+ENDBRANCH   1  10
+BRANCH   1  17
+ATOM     16  C   UNL     1      47.881  78.928  41.143  0.00  0.00    +0.001 C 
+ATOM     17  C   UNL     1      48.102  80.155  41.971  0.00  0.00    +0.022 C 
+ENDBRANCH   1  17
+TORSDOF 2

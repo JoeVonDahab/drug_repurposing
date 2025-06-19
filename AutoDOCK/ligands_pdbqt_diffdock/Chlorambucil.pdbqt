@@ -1,0 +1,54 @@
+REMARK  Name = Chlorambucil
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_13
+REMARK    2  A    between atoms: C_6  and  C_7
+REMARK    3  A    between atoms: C_7  and  C_8
+REMARK    4  A    between atoms: C_8  and  C_9
+REMARK    5  A    between atoms: C_9  and  C_10
+REMARK    6  A    between atoms: N_13  and  C_14
+REMARK    7  A    between atoms: N_13  and  C_17
+REMARK    8  A    between atoms: C_14  and  C_15
+REMARK    9  A    between atoms: C_17  and  C_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      45.779  81.092  39.373  0.00  0.00    -0.003 A 
+ATOM      2  C   UNL     1      46.651  81.949  40.060  0.00  0.00    +0.014 A 
+ATOM      3  C   UNL     1      47.358  81.541  41.165  0.00  0.00    +0.048 A 
+ATOM      4  C   UNL     1      47.154  80.233  41.558  0.00  0.00    +0.014 A 
+ATOM      5  C   UNL     1      46.290  79.383  40.879  0.00  0.00    -0.003 A 
+ATOM      6  C   UNL     1      45.585  79.797  39.772  0.00  0.00    -0.022 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C   UNL     1      44.679  78.889  39.066  0.00  0.00    +0.027 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1      43.263  79.378  38.969  0.00  0.00    +0.016 C 
+BRANCH   8   9
+ATOM      9  C   UNL     1      42.577  78.563  37.880  0.00  0.00    +0.114 C 
+BRANCH   9  10
+ATOM     10  C   UNL     1      41.953  77.361  38.487  0.00  0.00    +0.365 C 
+ATOM     11  O   UNL     1      41.143  76.659  37.824  0.00  0.00    -0.246 OA
+ATOM     12  O   UNL     1      42.227  76.964  39.784  0.00  0.00    -0.246 OA
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+BRANCH   3  13
+ATOM     13  N   UNL     1      48.248  82.421  41.820  0.00  0.00    -0.305 N 
+BRANCH  13  14
+ATOM     14  C   UNL     1      47.749  83.329  42.837  0.00  0.00    +0.108 C 
+BRANCH  14  15
+ATOM     15  C   UNL     1      47.672  84.751  42.352  0.00  0.00    +0.116 C 
+ATOM     16 CL   UNL     1      47.467  85.843  43.736  0.00  0.00    -0.112 Cl
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+BRANCH  13  17
+ATOM     17  C   UNL     1      49.654  82.405  41.505  0.00  0.00    +0.108 C 
+BRANCH  17  18
+ATOM     18  C   UNL     1      50.465  81.607  42.497  0.00  0.00    +0.116 C 
+ATOM     19 CL   UNL     1      52.172  82.047  42.465  0.00  0.00    -0.112 Cl
+ENDBRANCH  17  18
+ENDBRANCH  13  17
+ENDBRANCH   3  13
+TORSDOF 9

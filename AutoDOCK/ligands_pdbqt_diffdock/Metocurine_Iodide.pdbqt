@@ -1,0 +1,94 @@
+REMARK  Name = Metocurine_Iodide
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_7  and  O_46
+REMARK    2  A    between atoms: C_27  and  O_30
+REMARK    3  A    between atoms: C_38  and  O_42
+REMARK    4  A    between atoms: C_39  and  O_40
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      40.179  74.618  41.111  0.00  0.00    -0.095 C 
+ATOM      2  N   UNL     1      41.373  74.470  40.321  0.00  0.00    +0.391 N 
+ATOM      3  C   UNL     1      40.965  74.406  38.895  0.00  0.00    -0.068 C 
+ATOM      4  C   UNL     1      40.401  75.778  38.584  0.00  0.00    +0.004 C 
+ATOM      5  C   UNL     1      41.603  76.680  38.675  0.00  0.00    -0.027 A 
+ATOM      6  C   UNL     1      41.571  77.688  37.732  0.00  0.00    +0.035 A 
+ATOM      7  C   UNL     1      42.644  78.521  37.737  0.00  0.00    +0.173 A 
+ATOM      8  C   UNL     1      43.721  78.400  38.614  0.00  0.00    +0.179 A 
+ATOM      9  C   UNL     1      43.740  77.363  39.563  0.00  0.00    +0.034 A 
+ATOM     10  C   UNL     1      42.655  76.502  39.587  0.00  0.00    -0.041 A 
+ATOM     11  C   UNL     1      42.404  75.399  40.570  0.00  0.00    -0.027 C 
+ATOM     12  C   UNL     1      42.234  75.948  42.008  0.00  0.00    +0.010 C 
+ATOM     13  C   UNL     1      43.559  76.480  42.554  0.00  0.00    -0.024 A 
+ATOM     14  C   UNL     1      44.612  75.637  42.794  0.00  0.00    -0.001 A 
+ATOM     15  C   UNL     1      45.855  76.139  43.174  0.00  0.00    +0.037 A 
+ATOM     16  C   UNL     1      46.148  77.524  43.345  0.00  0.00    +0.145 A 
+ATOM     17  C   UNL     1      45.042  78.288  43.096  0.00  0.00    +0.037 A 
+ATOM     18  C   UNL     1      43.756  77.818  42.706  0.00  0.00    -0.001 A 
+ATOM     19  O   UNL     1      47.417  77.913  43.709  0.00  0.00    -0.451 OA
+ATOM     20  C   UNL     1      48.708  78.075  43.282  0.00  0.00    +0.176 A 
+ATOM     21  C   UNL     1      49.281  79.226  42.748  0.00  0.00    -0.007 A 
+ATOM     22  C   UNL     1      48.748  80.605  42.562  0.00  0.00    -0.024 C 
+ATOM     23  C   UNL     1      47.331  80.885  42.550  0.00  0.00    +0.011 C 
+ATOM     24  C   UNL     1      46.576  80.960  41.266  0.00  0.00    -0.021 A 
+ATOM     25  C   UNL     1      46.039  80.001  40.453  0.00  0.00    +0.036 A 
+ATOM     26  C   UNL     1      45.318  80.316  39.329  0.00  0.00    +0.179 A 
+ATOM     27  C   UNL     1      45.137  81.647  38.998  0.00  0.00    +0.173 A 
+ATOM     28  C   UNL     1      45.644  82.688  39.752  0.00  0.00    +0.040 A 
+ATOM     29  C   UNL     1      46.340  82.296  40.854  0.00  0.00    -0.001 A 
+ATOM     30  O   UNL     1      44.696  79.394  38.432  0.00  0.00    -0.447 OA
+ATOM     31  N   UNL     1      49.581  81.471  43.405  0.00  0.00    +0.391 N 
+ATOM     32  C   UNL     1      50.897  81.583  42.805  0.00  0.00    -0.068 C 
+ATOM     33  C   UNL     1      51.212  80.492  41.851  0.00  0.00    +0.004 C 
+ATOM     34  C   UNL     1      50.638  79.188  42.372  0.00  0.00    -0.024 A 
+ATOM     35  C   UNL     1      51.479  78.125  42.471  0.00  0.00    +0.036 A 
+ATOM     36  C   UNL     1      50.944  76.995  42.990  0.00  0.00    +0.175 A 
+ATOM     37  C   UNL     1      49.616  76.981  43.376  0.00  0.00    +0.206 A 
+ATOM     38  C   UNL     1      49.104  82.809  43.517  0.00  0.00    -0.095 C 
+ATOM     39  C   UNL     1      49.696  80.924  44.742  0.00  0.00    -0.095 C 
+ATOM     40  C   UNL     1      41.890  73.080  40.496  0.00  0.00    -0.095 C 
+ENDROOT
+BRANCH  27  41
+ATOM     41  O   UNL     1      44.408  82.037  37.841  0.00  0.00    -0.468 OA
+ATOM     42  C   UNL     1      44.209  83.361  37.484  0.00  0.00    +0.253 C 
+ENDBRANCH  27  41
+BRANCH  37  43
+ATOM     43  O   UNL     1      49.222  75.724  43.895  0.00  0.00    -0.465 OA
+ATOM     44  C   UNL     1      49.063  74.628  42.986  0.00  0.00    +0.253 C 
+ENDBRANCH  37  43
+BRANCH  36  45
+ATOM     45  O   UNL     1      51.757  75.888  43.112  0.00  0.00    -0.468 OA
+ATOM     46  C   UNL     1      53.097  75.844  42.726  0.00  0.00    +0.253 C 
+ENDBRANCH  36  45
+BRANCH   7  47
+ATOM     47  O   UNL     1      42.590  79.550  36.758  0.00  0.00    -0.468 OA
+ATOM     48  C   UNL     1      41.529  79.697  35.874  0.00  0.00    +0.253 C 
+ENDBRANCH   7  47
+TORSDOF 4
+REMARK  Name = Metocurine_Iodide
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_7  and  O_46
+REMARK    2  A    between atoms: C_27  and  O_30
+REMARK    3  A    between atoms: C_38  and  O_42
+REMARK    4  A    between atoms: C_39  and  O_40
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  I   UNL     1      45.872  78.320  41.182  0.00  0.00    +0.000 I 
+ENDROOT
+TORSDOF 0
+REMARK  Name = Metocurine_Iodide
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_7  and  O_46
+REMARK    2  A    between atoms: C_27  and  O_30
+REMARK    3  A    between atoms: C_38  and  O_42
+REMARK    4  A    between atoms: C_39  and  O_40
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  I   UNL     1      45.872  78.320  41.182  0.00  0.00    +0.000 I 
+ENDROOT
+TORSDOF 0

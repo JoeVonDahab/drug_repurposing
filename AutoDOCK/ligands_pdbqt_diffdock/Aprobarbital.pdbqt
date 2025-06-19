@@ -1,0 +1,32 @@
+REMARK  Name = Aprobarbital
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_4
+REMARK    2  A    between atoms: C_4  and  C_13
+REMARK    3  A    between atoms: C_13  and  C_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      47.837  82.063  41.349  0.00  0.00    +0.145 C 
+ATOM      2  C   UNL     1      47.965  82.994  40.164  0.00  0.00    +0.257 C 
+ATOM      3  O   UNL     1      48.800  83.918  40.257  0.00  0.00    -0.272 OA
+ATOM      4  N   UNL     1      47.208  82.874  38.986  0.00  0.00    -0.125 NA
+ATOM      5  C   UNL     1      46.114  82.006  38.967  0.00  0.00    +0.352 C 
+ATOM      6  O   UNL     1      45.456  81.931  37.875  0.00  0.00    -0.248 OA
+ATOM      7  N   UNL     1      45.776  81.264  40.106  0.00  0.00    -0.125 NA
+ATOM      8  C   UNL     1      46.534  81.366  41.327  0.00  0.00    +0.257 C 
+ATOM      9  O   UNL     1      46.039  80.836  42.370  0.00  0.00    -0.272 OA
+ENDROOT
+BRANCH   1  11
+ATOM     10  C   UNL     1      49.121  80.388  40.004  0.00  0.00    +0.001 C 
+ATOM     11  C   UNL     1      49.023  81.114  41.337  0.00  0.00    +0.017 C 
+ATOM     12  C   UNL     1      48.992  80.084  42.419  0.00  0.00    +0.001 C 
+ENDBRANCH   1  11
+BRANCH   1  13
+ATOM     13  C   UNL     1      47.851  82.993  42.536  0.00  0.00    +0.044 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1      46.961  84.138  42.493  0.00  0.00    -0.025 C 
+ATOM     15  C   UNL     1      47.127  85.127  43.359  0.00  0.00    -0.005 C 
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+TORSDOF 3

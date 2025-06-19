@@ -1,0 +1,22 @@
+REMARK  Name = Acipimox
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_5  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      44.303  77.221  41.038  0.00  0.00    +0.055 C 
+ATOM      2  C   UNL     1      44.776  78.499  40.454  0.00  0.00    +0.099 A 
+ATOM      3  C   UNL     1      45.831  79.188  41.026  0.00  0.00    +0.115 A 
+ATOM      4  N   UNL     1      46.293  80.356  40.526  0.00  0.00    -0.234 NA
+ATOM      5  CA  UNL     1      45.710  80.878  39.427  0.00  0.00    +0.182 A 
+ATOM      6  C   UNL     1      44.658  80.196  38.852  0.00  0.00    +0.147 A 
+ATOM      7  N   UNL     1      44.202  79.025  39.362  0.00  0.00    -0.129 N 
+ATOM      8  O   UNL     1      43.149  78.402  38.736  0.00  0.00    -0.163 OA
+ENDROOT
+BRANCH   5   9
+ATOM      9  C   UNL     1      46.202  82.136  38.881  0.00  0.00    +0.407 C 
+ATOM     10  O   UNL     1      45.748  82.637  37.827  0.00  0.00    -0.239 OA
+ATOM     11  OXT UNL     1      47.212  82.822  39.537  0.00  0.00    -0.239 OA
+ENDBRANCH   5   9
+TORSDOF 1

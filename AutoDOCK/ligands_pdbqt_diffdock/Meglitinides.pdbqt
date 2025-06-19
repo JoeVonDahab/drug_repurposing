@@ -1,0 +1,45 @@
+REMARK  Name = Meglitinides
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  N_3
+REMARK    2  A    between atoms: C_7  and  C_8
+REMARK    3  A    between atoms: C_8  and  N_9
+REMARK    4  A    between atoms: C_10  and  C_12
+REMARK    5  A    between atoms: C_17  and  O_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1      47.647  80.549  40.833  0.00  0.00    -0.200 NA
+ATOM      2  C   UNL     1      47.803  81.327  41.998  0.00  0.00    +0.271 C 
+ATOM      3  O   UNL     1      46.798  81.221  42.805  0.00  0.00    -0.268 OA
+ENDROOT
+BRANCH   2   4
+ATOM      4  C   UNL     1      48.903  82.167  42.340  0.00  0.00    +0.129 A 
+ATOM      5  C   UNL     1      50.200  82.001  41.960  0.00  0.00    +0.213 A 
+ATOM      6  C   UNL     1      51.226  82.876  42.332  0.00  0.00    +0.098 A 
+ATOM      7  C   UNL     1      50.924  83.957  43.118  0.00  0.00    +0.029 A 
+ATOM      8  C   UNL     1      49.632  84.172  43.531  0.00  0.00    +0.093 A 
+ATOM      9  C   UNL     1      48.652  83.289  43.144  0.00  0.00    +0.157 A 
+ATOM     10 CL   UNL     1      49.227  85.550  44.537  0.00  0.00    -0.079 Cl
+ATOM     11 CL   UNL     1      52.877  82.591  41.799  0.00  0.00    -0.079 Cl
+ATOM     12  O   UNL     1      50.547  80.927  41.169  0.00  0.00    -0.285 OA
+BRANCH   9  13
+ATOM     13  O   UNL     1      47.355  83.513  43.561  0.00  0.00    -0.470 OA
+ATOM     14  C   UNL     1      46.541  84.345  42.732  0.00  0.00    +0.253 C 
+ENDBRANCH   9  13
+ENDBRANCH   2   4
+BRANCH   1  15
+ATOM     15  C   UNL     1      46.983  79.249  40.781  0.00  0.00    +0.131 C 
+BRANCH  15  20
+ATOM     16  N   UNL     1      44.754  78.615  39.972  0.00  0.00    -0.272 NA
+ATOM     17  C   UNL     1      43.876  79.165  38.958  0.00  0.00    +0.072 C 
+ATOM     18  C   UNL     1      44.263  80.645  38.952  0.00  0.00    +0.019 C 
+ATOM     19  C   UNL     1      45.740  80.657  39.222  0.00  0.00    +0.019 C 
+ATOM     20  C   UNL     1      46.017  79.237  39.657  0.00  0.00    +0.079 C 
+BRANCH  16  22
+ATOM     21  C   UNL     1      44.256  77.684  42.115  0.00  0.00    +0.019 C 
+ATOM     22  C   UNL     1      44.240  78.929  41.254  0.00  0.00    +0.072 C 
+ENDBRANCH  16  22
+ENDBRANCH  15  20
+ENDBRANCH   1  15
+TORSDOF 5

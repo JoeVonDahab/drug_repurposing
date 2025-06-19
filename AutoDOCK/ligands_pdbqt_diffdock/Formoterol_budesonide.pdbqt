@@ -1,0 +1,120 @@
+REMARK  Name = Formoterol/budesonide
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3
+REMARK    2  A    between atoms: C_3  and  C_4
+REMARK    3  A    between atoms: C_23  and  C_25
+REMARK    4  A    between atoms: C_25  and  C_27
+REMARK    5  A    between atoms: C_33  and  C_34
+REMARK    6  A    between atoms: C_33  and  N_43
+REMARK    7  A    between atoms: C_34  and  C_35
+REMARK    8  A    between atoms: C_38  and  O_41
+REMARK    9  A    between atoms: N_43  and  C_44
+REMARK   10  A    between atoms: C_44  and  C_45
+REMARK   11  A    between atoms: C_45  and  C_46
+REMARK   12  A    between atoms: C_48  and  N_53
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      45.235  77.887  42.470  0.00  0.00    +0.235 C 
+ATOM      2  O   UNL     1      44.978  77.041  41.394  0.00  0.00    -0.330 OA
+ATOM      3  C   UNL     1      46.100  77.196  40.573  0.00  0.00    +0.149 C 
+ATOM      4  C   UNL     1      46.037  78.561  39.935  0.00  0.00    +0.033 C 
+ATOM      5  C   UNL     1      47.297  79.226  40.275  0.00  0.00    +0.005 C 
+ATOM      6  C   UNL     1      47.298  80.410  41.154  0.00  0.00    +0.004 C 
+ATOM      7  C   UNL     1      46.223  81.427  40.873  0.00  0.00    +0.004 C 
+ATOM      8  C   UNL     1      46.270  82.449  42.011  0.00  0.00    +0.022 C 
+ATOM      9  C   UNL     1      47.650  82.584  42.542  0.00  0.00    -0.038 C 
+ATOM     10  C   UNL     1      47.834  82.843  43.830  0.00  0.00    +0.034 C 
+ATOM     11  C   UNL     1      49.172  82.975  44.357  0.00  0.00    +0.195 C 
+ATOM     12  O   UNL     1      49.412  83.222  45.576  0.00  0.00    -0.287 OA
+ATOM     13  C   UNL     1      50.302  82.826  43.478  0.00  0.00    +0.038 C 
+ATOM     14  C   UNL     1      50.095  82.571  42.215  0.00  0.00    -0.020 C 
+ATOM     15  C   UNL     1      48.760  82.418  41.583  0.00  0.00    +0.036 C 
+ATOM     16  C   UNL     1      48.683  81.045  41.001  0.00  0.00    +0.038 C 
+ATOM     17  C   UNL     1      49.671  80.104  41.607  0.00  0.00    +0.153 C 
+ATOM     18  C   UNL     1      49.222  78.712  41.831  0.00  0.00    +0.036 C 
+ATOM     19  C   UNL     1      48.212  78.166  40.892  0.00  0.00    +0.034 C 
+ATOM     20  C   UNL     1      47.209  77.264  41.555  0.00  0.00    +0.173 C 
+ATOM     21  O   UNL     1      46.597  77.927  42.642  0.00  0.00    -0.326 OA
+ATOM     22  C   UNL     1      48.908  77.418  39.780  0.00  0.00    +0.003 C 
+ATOM     23  O   UNL     1      50.912  80.161  40.926  0.00  0.00    -0.223 OA
+ATOM     24  C   UNL     1      48.650  83.505  40.528  0.00  0.00    +0.009 C 
+ENDROOT
+BRANCH  20  25
+ATOM     25  C   UNL     1      47.725  75.987  42.052  0.00  0.00    +0.210 C 
+ATOM     26  O   UNL     1      46.872  75.077  42.170  0.00  0.00    -0.291 OA
+BRANCH  25  27
+ATOM     27  C   UNL     1      49.081  75.601  42.430  0.00  0.00    +0.248 C 
+ATOM     28  O   UNL     1      49.622  74.812  41.366  0.00  0.00    -0.212 OA
+ENDBRANCH  25  27
+ENDBRANCH  20  25
+BRANCH   1  29
+ATOM     29  C   UNL     1      44.410  77.612  43.675  0.00  0.00    +0.061 C 
+BRANCH  29  31
+ATOM     30  C   UNL     1      43.670  76.090  45.527  0.00  0.00    +0.000 C 
+ATOM     31  C   UNL     1      44.503  76.262  44.278  0.00  0.00    +0.005 C 
+ENDBRANCH  29  31
+ENDBRANCH   1  29
+TORSDOF 4
+REMARK  Name = Formoterol/budesonide
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3
+REMARK    2  A    between atoms: C_3  and  C_4
+REMARK    3  A    between atoms: C_23  and  C_25
+REMARK    4  A    between atoms: C_25  and  C_27
+REMARK    5  A    between atoms: C_33  and  C_34
+REMARK    6  A    between atoms: C_33  and  N_43
+REMARK    7  A    between atoms: C_34  and  C_35
+REMARK    8  A    between atoms: C_38  and  O_41
+REMARK    9  A    between atoms: N_43  and  C_44
+REMARK   10  A    between atoms: C_44  and  C_45
+REMARK   11  A    between atoms: C_45  and  C_46
+REMARK   12  A    between atoms: C_48  and  N_53
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      47.488  80.499  40.284  0.00  0.00    +0.126 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      47.711  81.006  41.670  0.00  0.00    +0.192 C 
+ATOM      3  O   UNL     1      47.620  80.011  42.638  0.00  0.00    -0.217 OA
+BRANCH   2   4
+ATOM      4  C   UNL     1      49.003  81.746  41.803  0.00  0.00    +0.011 A 
+ATOM      5  C   UNL     1      49.142  82.563  42.901  0.00  0.00    +0.018 A 
+ATOM      6  C   UNL     1      50.311  83.296  43.121  0.00  0.00    +0.112 A 
+ATOM      7  C   UNL     1      51.328  83.174  42.197  0.00  0.00    +0.211 A 
+ATOM      8  C   UNL     1      51.175  82.345  41.092  0.00  0.00    +0.043 A 
+ATOM      9  C   UNL     1      50.008  81.623  40.885  0.00  0.00    +0.002 A 
+ATOM     10  O   UNL     1      52.504  83.885  42.380  0.00  0.00    -0.285 OA
+BRANCH   6  11
+ATOM     11  N   UNL     1      50.470  84.144  44.243  0.00  0.00    -0.168 NA
+ATOM     12  C   UNL     1      51.753  84.690  44.497  0.00  0.00    +0.325 C 
+ATOM     13  O   UNL     1      51.885  85.582  45.397  0.00  0.00    -0.263 OA
+ENDBRANCH   6  11
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1  14
+ATOM     14  N   UNL     1      46.555  79.462  40.248  0.00  0.00    -0.216 NA
+BRANCH  14  16
+ATOM     15  C   UNL     1      45.517  80.383  38.207  0.00  0.00    +0.019 C 
+ATOM     16  C   UNL     1      45.516  79.397  39.328  0.00  0.00    +0.077 C 
+BRANCH  16  17
+ATOM     17  C   UNL     1      44.203  79.520  40.123  0.00  0.00    +0.044 C 
+BRANCH  17  18
+ATOM     18  C   UNL     1      43.117  78.722  39.555  0.00  0.00    -0.021 A 
+ATOM     19  C   UNL     1      42.510  77.680  40.243  0.00  0.00    -0.001 A 
+ATOM     20  C   UNL     1      41.483  76.954  39.674  0.00  0.00    +0.037 A 
+ATOM     21  C   UNL     1      41.009  77.224  38.401  0.00  0.00    +0.139 A 
+ATOM     22  C   UNL     1      41.612  78.259  37.718  0.00  0.00    +0.037 A 
+ATOM     23  C   UNL     1      42.645  78.992  38.286  0.00  0.00    -0.001 A 
+BRANCH  21  24
+ATOM     24  O   UNL     1      39.975  76.481  37.846  0.00  0.00    -0.471 OA
+ATOM     25  C   UNL     1      39.365  75.475  38.631  0.00  0.00    +0.252 C 
+ENDBRANCH  21  24
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  14  16
+ENDBRANCH   1  14
+TORSDOF 8

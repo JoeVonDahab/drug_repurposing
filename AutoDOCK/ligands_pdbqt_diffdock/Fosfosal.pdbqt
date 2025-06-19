@@ -1,0 +1,31 @@
+REMARK  Name = Fosfosal
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  O_10
+REMARK    2  A    between atoms: C_5  and  C_7
+REMARK    3  A    between atoms: O_10  and  P_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      45.056  78.439  40.304  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      45.954  78.453  41.337  0.00  0.00    +0.003 A 
+ATOM      3  C   UNL     1      46.730  79.566  41.575  0.00  0.00    +0.038 A 
+ATOM      4  C   UNL     1      46.617  80.679  40.783  0.00  0.00    +0.155 A 
+ATOM      5  C   UNL     1      45.713  80.684  39.732  0.00  0.00    +0.114 A 
+ATOM      6  C   UNL     1      44.957  79.562  39.523  0.00  0.00    +0.010 A 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C   UNL     1      45.588  81.862  38.887  0.00  0.00    +0.391 C 
+ATOM      8  O   UNL     1      46.299  82.871  39.119  0.00  0.00    -0.240 OA
+ATOM      9  O   UNL     1      44.678  81.826  37.847  0.00  0.00    -0.240 OA
+ENDBRANCH   5   7
+BRANCH   4  10
+ATOM     10  O   UNL     1      47.365  81.811  40.977  0.00  0.00    -0.400 OA
+BRANCH  10  11
+ATOM     11  P   UNL     1      49.028  81.831  41.330  0.00  0.00    +0.589 P 
+ATOM     12  O   UNL     1      49.788  82.836  40.500  0.00  0.00    -0.211 OA
+ATOM     13  O   UNL     1      49.195  82.291  42.960  0.00  0.00    -0.104 OA
+ATOM     14  O   UNL     1      49.730  80.302  41.170  0.00  0.00    -0.104 OA
+ENDBRANCH  10  11
+ENDBRANCH   4  10
+TORSDOF 3

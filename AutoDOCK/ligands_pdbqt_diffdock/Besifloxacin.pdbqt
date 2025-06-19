@@ -1,0 +1,44 @@
+REMARK  Name = Besifloxacin
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_4  and  C_9
+REMARK    2  A    between atoms: N_16  and  C_24
+REMARK    3  A    between atoms: C_18  and  C_21
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      42.489  77.878  39.056  0.00  0.00    +0.088 A 
+ATOM      2  C   UNL     1      42.317  78.853  38.102  0.00  0.00    +0.154 A 
+ATOM      3  C   UNL     1      43.172  79.929  38.018  0.00  0.00    +0.036 A 
+ATOM      4  C   UNL     1      44.230  80.061  38.892  0.00  0.00    +0.058 A 
+ATOM      5  C   UNL     1      44.432  79.084  39.873  0.00  0.00    +0.075 A 
+ATOM      6  C   UNL     1      43.559  78.026  39.927  0.00  0.00    +0.089 A 
+ATOM      7 CL   UNL     1      43.756  76.814  41.177  0.00  0.00    -0.079 Cl
+ATOM      8  N   UNL     1      45.479  79.224  40.744  0.00  0.00    -0.327 N 
+ATOM      9  C   UNL     1      46.315  80.287  40.676  0.00  0.00    +0.086 A 
+ATOM     10  C   UNL     1      46.110  81.245  39.709  0.00  0.00    +0.136 A 
+ATOM     11  C   UNL     1      45.074  81.148  38.809  0.00  0.00    +0.205 A 
+ATOM     12  O   UNL     1      44.884  82.027  37.918  0.00  0.00    -0.286 OA
+ATOM     13  F   UNL     1      41.261  78.693  37.252  0.00  0.00    -0.203 F 
+ENDROOT
+BRANCH   1  17
+ATOM     14  C   UNL     1      39.597  74.465  40.025  0.00  0.00    +0.003 C 
+ATOM     15  C   UNL     1      40.780  75.083  40.705  0.00  0.00    +0.021 C 
+ATOM     16  C   UNL     1      40.902  76.568  40.417  0.00  0.00    +0.091 C 
+ATOM     17  N   UNL     1      41.654  76.760  39.192  0.00  0.00    -0.304 N 
+ATOM     18  C   UNL     1      41.599  75.836  38.050  0.00  0.00    +0.110 C 
+ATOM     19  C   UNL     1      40.126  75.541  37.828  0.00  0.00    +0.111 C 
+ATOM     20  C   UNL     1      39.793  74.269  38.550  0.00  0.00    +0.021 C 
+ATOM     21  N   UNL     1      39.899  75.440  36.414  0.00  0.00    -0.131 NA
+ENDBRANCH   1  17
+BRANCH  10  22
+ATOM     22  C   UNL     1      47.030  82.372  39.668  0.00  0.00    +0.392 C 
+ATOM     23  O   UNL     1      47.882  82.555  40.568  0.00  0.00    -0.240 OA
+ATOM     24  O   UNL     1      47.009  83.304  38.624  0.00  0.00    -0.240 OA
+ENDBRANCH  10  22
+BRANCH   8  25
+ATOM     25  C   UNL     1      45.727  78.187  41.747  0.00  0.00    +0.086 C 
+ATOM     26  C   UNL     1      46.778  77.195  41.634  0.00  0.00    +0.024 C 
+ATOM     27  C   UNL     1      47.055  78.350  42.521  0.00  0.00    +0.024 C 
+ENDBRANCH   8  25
+TORSDOF 3

@@ -1,0 +1,43 @@
+REMARK  Name = Cimetidine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  C_7
+REMARK    2  A    between atoms: C_7  and  S_8
+REMARK    3  A    between atoms: S_8  and  C_9
+REMARK    4  A    between atoms: C_9  and  C_10
+REMARK    5  A    between atoms: C_10  and  N_11
+REMARK    6  A    between atoms: N_15  and  C_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      45.396  77.535  41.711  0.00  0.00    +0.084 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  S   UNL     1      45.907  78.740  40.481  0.00  0.00    -0.132 S 
+BRANCH   2   3
+ATOM      3  C   UNL     1      45.964  80.433  41.069  0.00  0.00    +0.104 C 
+BRANCH   3   6
+ATOM      4  C   UNL     1      44.659  80.884  38.103  0.00  0.00    +0.053 C 
+ATOM      5  C   UNL     1      45.752  81.643  38.783  0.00  0.00    +0.075 A 
+ATOM      6  C   UNL     1      46.292  81.416  40.017  0.00  0.00    +0.085 A 
+ATOM      7  N   UNL     1      47.273  82.348  40.176  0.00  0.00    -0.226 NA
+ATOM      8  C   UNL     1      47.363  83.139  39.100  0.00  0.00    +0.198 A 
+ATOM      9  N   UNL     1      46.427  82.704  38.245  0.00  0.00    -0.227 NA
+ENDBRANCH   3   6
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  C   UNL     1      44.453  76.541  41.020  0.00  0.00    +0.140 C 
+BRANCH  10  11
+ATOM     11  N   UNL     1      43.589  77.369  40.167  0.00  0.00    -0.235 NA
+ATOM     12  C   UNL     1      42.551  76.723  39.374  0.00  0.00    +0.253 C 
+ATOM     13  N   UNL     1      42.221  75.602  39.592  0.00  0.00    -0.234 NA
+ATOM     14  C   UNL     1      41.947  74.318  39.860  0.00  0.00    +0.155 C 
+ATOM     15  N   UNL     1      41.946  77.508  38.310  0.00  0.00    -0.135 NA
+BRANCH  15  16
+ATOM     16  C   UNL     1      40.947  76.948  37.514  0.00  0.00    +0.208 C 
+ATOM     17  N   UNL     1      40.132  76.483  36.840  0.00  0.00    -0.169 NA
+ENDBRANCH  15  16
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 6

@@ -1,0 +1,44 @@
+REMARK  Name = Dapiprazole
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_7  and  N_8
+REMARK    2  A    between atoms: N_11  and  C_14
+REMARK    3  A    between atoms: C_14  and  C_15
+REMARK    4  A    between atoms: C_15  and  C_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1      43.690  79.121  39.097  0.00  0.00    -0.305 N 
+ATOM      2  C   UNL     1      44.564  79.725  38.137  0.00  0.00    +0.108 C 
+ATOM      3  C   UNL     1      44.959  81.083  38.711  0.00  0.00    +0.094 C 
+ATOM      4  N   UNL     1      45.865  80.830  39.766  0.00  0.00    -0.269 NA
+ATOM      5  C   UNL     1      45.533  79.746  40.599  0.00  0.00    +0.094 C 
+ATOM      6  C   UNL     1      44.024  79.496  40.483  0.00  0.00    +0.108 C 
+ENDROOT
+BRANCH   1  13
+ATOM      7  C   UNL     1      43.624  76.624  40.378  0.00  0.00    +0.032 C 
+ATOM      8  C   UNL     1      42.538  77.028  39.491  0.00  0.00    -0.009 A 
+ATOM      9  C   UNL     1      41.435  76.241  39.225  0.00  0.00    -0.003 A 
+ATOM     10  C   UNL     1      40.419  76.631  38.388  0.00  0.00    -0.000 A 
+ATOM     11  C   UNL     1      40.494  77.859  37.785  0.00  0.00    +0.001 A 
+ATOM     12  C   UNL     1      41.580  78.658  38.034  0.00  0.00    +0.014 A 
+ATOM     13  C   UNL     1      42.619  78.267  38.885  0.00  0.00    +0.044 A 
+ENDBRANCH   1  13
+BRANCH   4  14
+ATOM     14  C   UNL     1      46.503  81.947  40.349  0.00  0.00    +0.080 C 
+BRANCH  14  15
+ATOM     15  C   UNL     1      47.541  81.647  41.370  0.00  0.00    +0.083 C 
+BRANCH  15  16
+ATOM     16  C   UNL     1      47.985  82.876  42.108  0.00  0.00    +0.144 A 
+ATOM     17  N   UNL     1      47.235  83.699  42.860  0.00  0.00    -0.134 NA
+ATOM     18  N   UNL     1      47.987  84.657  43.336  0.00  0.00    -0.134 NA
+ATOM     19  C   UNL     1      49.255  84.494  42.912  0.00  0.00    +0.143 A 
+ATOM     20  N   UNL     1      49.230  83.385  42.153  0.00  0.00    -0.302 N 
+ATOM     21  C   UNL     1      50.469  82.915  41.526  0.00  0.00    +0.108 C 
+ATOM     22  C   UNL     1      51.522  82.996  42.634  0.00  0.00    +0.025 C 
+ATOM     23  C   UNL     1      51.739  84.397  43.106  0.00  0.00    +0.010 C 
+ATOM     24  C   UNL     1      50.516  85.252  43.124  0.00  0.00    +0.066 C 
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH   4  14
+TORSDOF 4

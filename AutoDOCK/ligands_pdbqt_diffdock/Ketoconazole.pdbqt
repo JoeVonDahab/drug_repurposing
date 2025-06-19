@@ -1,0 +1,65 @@
+REMARK  Name = Ketoconazole
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_7  and  C_10
+REMARK    2  A    between atoms: C_13  and  O_16
+REMARK    3  A    between atoms: O_16  and  C_17
+REMARK    4  A    between atoms: C_17  and  C_18
+REMARK    5  A    between atoms: C_21  and  C_23
+REMARK    6  A    between atoms: C_21  and  C_29
+REMARK    7  A    between atoms: C_23  and  N_24
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      46.566  81.786  40.138  0.00  0.00    +0.191 C 
+ATOM      2  C   UNL     1      47.276  82.391  38.918  0.00  0.00    +0.178 C 
+ATOM      3  O   UNL     1      48.261  83.145  39.485  0.00  0.00    -0.327 OA
+ATOM      4  C   UNL     1      48.581  82.561  40.715  0.00  0.00    +0.230 C 
+ATOM      5  O   UNL     1      47.484  81.836  41.148  0.00  0.00    -0.325 OA
+ENDROOT
+BRANCH   4   6
+ATOM      6  C   UNL     1      49.090  83.463  41.748  0.00  0.00    +0.041 A 
+ATOM      7  C   UNL     1      48.208  83.976  42.721  0.00  0.00    +0.059 A 
+ATOM      8  C   UNL     1      48.634  84.737  43.773  0.00  0.00    +0.023 A 
+ATOM      9  C   UNL     1      49.955  85.062  43.967  0.00  0.00    +0.058 A 
+ATOM     10  C   UNL     1      50.843  84.577  43.039  0.00  0.00    +0.011 A 
+ATOM     11  C   UNL     1      50.406  83.796  41.962  0.00  0.00    +0.002 A 
+ATOM     12 CL   UNL     1      50.481  86.042  45.324  0.00  0.00    -0.082 Cl
+ATOM     13 CL   UNL     1      46.505  83.611  42.513  0.00  0.00    -0.082 Cl
+ENDBRANCH   4   6
+BRANCH   1  14
+ATOM     14  C   UNL     1      46.120  80.377  39.807  0.00  0.00    +0.237 C 
+BRANCH  14  15
+ATOM     15  O   UNL     1      44.922  80.105  40.431  0.00  0.00    -0.473 OA
+BRANCH  15  19
+ATOM     16  C   UNL     1      42.099  77.325  38.987  0.00  0.00    +0.048 A 
+ATOM     17  C   UNL     1      42.418  78.486  38.326  0.00  0.00    +0.018 A 
+ATOM     18  C   UNL     1      43.330  79.396  38.785  0.00  0.00    +0.038 A 
+ATOM     19  C   UNL     1      44.002  79.181  39.986  0.00  0.00    +0.139 A 
+ATOM     20  C   UNL     1      43.704  78.030  40.666  0.00  0.00    +0.038 A 
+ATOM     21  C   UNL     1      42.764  77.111  40.177  0.00  0.00    +0.018 A 
+BRANCH  16  28
+ATOM     22  C   UNL     1      37.554  73.585  36.123  0.00  0.00    +0.095 C 
+ATOM     23  C   UNL     1      38.201  73.626  37.464  0.00  0.00    +0.226 C 
+ATOM     24  O   UNL     1      37.705  72.873  38.361  0.00  0.00    -0.275 OA
+ATOM     25  N   UNL     1      39.310  74.459  37.725  0.00  0.00    -0.276 N 
+ATOM     26  C   UNL     1      40.138  74.217  38.887  0.00  0.00    +0.115 C 
+ATOM     27  C   UNL     1      40.397  75.602  39.494  0.00  0.00    +0.112 C 
+ATOM     28  N   UNL     1      41.146  76.367  38.533  0.00  0.00    -0.304 N 
+ATOM     29  C   UNL     1      40.934  76.180  37.130  0.00  0.00    +0.112 C 
+ATOM     30  C   UNL     1      39.591  75.550  36.807  0.00  0.00    +0.115 C 
+ENDBRANCH  16  28
+ENDBRANCH  15  19
+ENDBRANCH  14  15
+ENDBRANCH   1  14
+BRANCH   4  31
+ATOM     31  C   UNL     1      49.610  81.492  40.286  0.00  0.00    +0.168 C 
+BRANCH  31  32
+ATOM     32  N   UNL     1      50.056  80.660  41.361  0.00  0.00    -0.302 N 
+ATOM     33  C   UNL     1      49.497  80.253  42.464  0.00  0.00    +0.098 A 
+ATOM     34  C   UNL     1      50.396  79.456  43.188  0.00  0.00    +0.119 A 
+ATOM     35  N   UNL     1      51.517  79.395  42.483  0.00  0.00    -0.222 NA
+ATOM     36  C   UNL     1      51.325  80.112  41.386  0.00  0.00    +0.179 A 
+ENDBRANCH  31  32
+ENDBRANCH   4  31
+TORSDOF 7

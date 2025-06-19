@@ -1,0 +1,37 @@
+REMARK  Name = Lanoconazole
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_14
+REMARK    2  A    between atoms: C_5  and  C_6
+REMARK    3  A    between atoms: C_5  and  N_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      48.687  80.519  42.399  0.00  0.00    +0.078 C 
+ATOM      2  C   UNL     1      48.206  81.928  42.640  0.00  0.00    +0.087 C 
+ATOM      3  S   UNL     1      47.156  82.341  41.202  0.00  0.00    -0.101 S 
+ATOM      4  C   UNL     1      46.465  80.764  40.767  0.00  0.00    +0.077 C 
+ATOM      5  C   UNL     1      45.633  80.513  39.810  0.00  0.00    +0.146 C 
+ATOM      6  S   UNL     1      47.164  79.621  41.931  0.00  0.00    -0.104 S 
+ENDROOT
+BRANCH   2   7
+ATOM      7  C   UNL     1      49.309  82.881  42.813  0.00  0.00    -0.001 A 
+ATOM      8  C   UNL     1      50.628  82.530  42.626  0.00  0.00    -0.003 A 
+ATOM      9  C   UNL     1      51.627  83.477  42.805  0.00  0.00    -0.000 A 
+ATOM     10  C   UNL     1      51.360  84.778  43.167  0.00  0.00    +0.001 A 
+ATOM     11  C   UNL     1      50.012  85.100  43.348  0.00  0.00    +0.011 A 
+ATOM     12  C   UNL     1      49.018  84.175  43.174  0.00  0.00    +0.055 A 
+ATOM     13 CL   UNL     1      47.355  84.653  43.418  0.00  0.00    -0.083 Cl
+ENDBRANCH   2   7
+BRANCH   5  14
+ATOM     14  N   UNL     1      44.884  79.279  39.780  0.00  0.00    -0.277 N 
+ATOM     15  C   UNL     1      44.955  78.274  40.677  0.00  0.00    +0.103 A 
+ATOM     16  C   UNL     1      44.078  77.264  40.297  0.00  0.00    +0.120 A 
+ATOM     17  N   UNL     1      43.486  77.674  39.170  0.00  0.00    -0.222 NA
+ATOM     18  C   UNL     1      43.977  78.888  38.867  0.00  0.00    +0.183 A 
+ENDBRANCH   5  14
+BRANCH   5  19
+ATOM     19  C   UNL     1      45.451  81.473  38.759  0.00  0.00    +0.119 C 
+ATOM     20  N   UNL     1      45.301  82.263  37.919  0.00  0.00    -0.189 NA
+ENDBRANCH   5  19
+TORSDOF 3

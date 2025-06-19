@@ -1,0 +1,39 @@
+REMARK  Name = Alphaprodine
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3
+REMARK    2  A    between atoms: C_3  and  O_5
+REMARK    3  A    between atoms: O_5  and  C_6
+REMARK    4  A    between atoms: C_6  and  C_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      47.245  81.803  41.258  0.00  0.00    +0.157 C 
+ATOM      2  C   UNL     1      45.778  81.692  41.523  0.00  0.00    +0.062 C 
+ATOM      3  C   UNL     1      45.275  80.589  40.578  0.00  0.00    +0.076 C 
+ATOM      4  N   UNL     1      45.304  81.119  39.258  0.00  0.00    -0.271 NA
+ATOM      5  C   UNL     1      46.149  82.237  39.032  0.00  0.00    +0.076 C 
+ATOM      6  C   UNL     1      47.411  82.293  39.832  0.00  0.00    +0.057 C 
+ATOM      7  C   UNL     1      48.554  81.557  39.148  0.00  0.00    +0.005 C 
+ATOM      8  C   UNL     1      45.278  80.151  38.210  0.00  0.00    +0.090 C 
+ENDROOT
+BRANCH   1   9
+ATOM      9  C   UNL     1      47.933  82.716  42.202  0.00  0.00    +0.014 A 
+ATOM     10  C   UNL     1      49.105  82.405  42.828  0.00  0.00    -0.001 A 
+ATOM     11  C   UNL     1      49.707  83.311  43.710  0.00  0.00    -0.000 A 
+ATOM     12  C   UNL     1      49.134  84.531  43.965  0.00  0.00    -0.000 A 
+ATOM     13  C   UNL     1      47.949  84.852  43.335  0.00  0.00    -0.000 A 
+ATOM     14  C   UNL     1      47.356  83.940  42.456  0.00  0.00    -0.001 A 
+ENDBRANCH   1   9
+BRANCH   1  15
+ATOM     15  O   UNL     1      47.832  80.534  41.439  0.00  0.00    -0.451 OA
+BRANCH  15  16
+ATOM     16  C   UNL     1      49.172  80.372  41.146  0.00  0.00    +0.317 C 
+ATOM     17  O   UNL     1      49.885  81.212  40.538  0.00  0.00    -0.250 OA
+BRANCH  16  19
+ATOM     18  C   UNL     1      50.919  78.693  40.653  0.00  0.00    +0.012 C 
+ATOM     19  C   UNL     1      49.828  79.096  41.589  0.00  0.00    +0.110 C 
+ENDBRANCH  16  19
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 4

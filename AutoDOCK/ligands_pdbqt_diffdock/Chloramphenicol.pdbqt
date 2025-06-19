@@ -1,0 +1,46 @@
+REMARK  Name = Chloramphenicol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_18
+REMARK    2  A    between atoms: C_6  and  C_7
+REMARK    3  A    between atoms: C_7  and  C_8
+REMARK    4  A    between atoms: C_8  and  C_9
+REMARK    5  A    between atoms: C_8  and  N_11
+REMARK    6  A    between atoms: C_12  and  C_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNK A   1      45.913  81.624  38.859  0.00  0.00    +0.197 C 
+ATOM      2  O   UNK A   1      45.371  82.676  38.140  0.00  0.00    -0.216 OA
+ENDROOT
+BRANCH   1   8
+ATOM      3  C   UNK A   1      46.737  81.846  41.223  0.00  0.00    -0.000 A 
+ATOM      4  C   UNK A   1      47.679  82.252  42.121  0.00  0.00    +0.024 A 
+ATOM      5  C   UNK A   1      48.841  82.880  41.738  0.00  0.00    +0.143 A 
+ATOM      6  C   UNK A   1      49.019  83.086  40.383  0.00  0.00    +0.024 A 
+ATOM      7  C   UNK A   1      48.075  82.679  39.486  0.00  0.00    -0.000 A 
+ATOM      8  C   UNK A   1      46.906  82.048  39.860  0.00  0.00    +0.010 A 
+BRANCH   5   9
+ATOM      9  N   UNK A   1      49.815  83.298  42.681  0.00  0.00    +0.058 N 
+ATOM     10  O   UNK A   1      51.012  83.085  42.422  0.00  0.00    -0.126 OA
+ATOM     11  O   UNK A   1      49.408  83.912  43.822  0.00  0.00    -0.126 OA
+ENDBRANCH   5   9
+ENDBRANCH   1   8
+BRANCH   1  12
+ATOM     12  C   UNK A   1      44.831  80.734  39.445  0.00  0.00    +0.163 C 
+BRANCH  12  13
+ATOM     13  N   UNK A   1      45.459  79.434  39.672  0.00  0.00    -0.199 NA
+ATOM     14  C   UNK A   0      45.274  78.686  40.854  0.00  0.00    +0.272 C 
+ATOM     15  O   UNK A   0      44.612  79.222  41.781  0.00  0.00    -0.271 OA
+BRANCH  14  16
+ATOM     16  C   UNK A   0      45.835  77.302  41.024  0.00  0.00    +0.236 C 
+ATOM     17 CL   UNK A   0      44.547  76.102  41.066  0.00  0.00    -0.087 Cl
+ATOM     18 CL   UNK A   0      46.703  77.327  42.598  0.00  0.00    -0.087 Cl
+ENDBRANCH  14  16
+ENDBRANCH  12  13
+BRANCH  12  19
+ATOM     19  C   UNK A   1      43.650  80.614  38.511  0.00  0.00    +0.207 C 
+ATOM     20  O   UNK A   1      43.608  79.416  37.834  0.00  0.00    -0.218 OA
+ENDBRANCH  12  19
+ENDBRANCH   1  12
+TORSDOF 6

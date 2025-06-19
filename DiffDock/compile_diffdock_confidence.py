@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
 Collect best confidence per drug, check if its best pose lies inside the
-docking box, produce a CSV, and copy the top-100 in-pocket SDFs.
+docking box, produce a CSV, and copy all in-pocket SDFs.
 
 Outputs
 -------
-best_confidence_per_drug.csv   (drug,confidence,within_pocket)
-top_100_sdf/                   (only compounds whose pose is in pocket)
+best_confidence_per_drug.csv      (drug,confidence,within_pocket)
+in_pocket_sdfs/                   (all compounds whose pose is in the pocket)
 """
 from pathlib import Path
 import csv, re, shutil
@@ -14,8 +14,7 @@ import csv, re, shutil
 # ----------------------------------------------------------------------
 RESULT_DIRS = ["results_gpu0", "results_gpu1"]
 OUTPUT_CSV  = "best_confidence_per_drug.csv"
-TOP_DIR     = Path("top_100_sdf")
-TOP_N       = 100
+OUTPUT_SDF_DIR = Path("in_pocket_sdfs")
 # pocket boundaries (min, max) — edit if you change the box
 BOX_MIN = (36.8440, 71.9041, 33.2743)
 BOX_MAX = (52.2194, 87.1073, 47.0206)
@@ -92,16 +91,23 @@ def main():
 
     print(f"✅  CSV written: {OUTPUT_CSV}")
 
-    # prepare top-N in-pocket SDFs
-    TOP_DIR.mkdir(exist_ok=True)
+    # --- MODIFIED SECTION ---
+    # Prepare directory for all in-pocket SDFs
+    OUTPUT_SDF_DIR.mkdir(exist_ok=True)
     # clear old content
-    for f in TOP_DIR.glob("*"):
+    for f in OUTPUT_SDF_DIR.glob("*"):
         f.unlink()
-    in_pocket = [r for r in rows if r[2]]
-    for rank, (drug, conf, _, path) in enumerate(in_pocket[:TOP_N], 1):
-        dst = TOP_DIR / f"{rank:03d}_{drug}.sdf"
+    
+    # Filter for only the rows where the molecule is inside the pocket
+    in_pocket_rows = [r for r in rows if r[2]]
+    
+    # Iterate through all in-pocket molecules and copy their SDFs
+    for rank, (drug, conf, _, path) in enumerate(in_pocket_rows, 1):
+        # The filename includes its rank by confidence score
+        dst = OUTPUT_SDF_DIR / f"{rank:04d}_{drug}.sdf"
         shutil.copy2(path, dst)
-    print(f"✅  Copied {min(TOP_N, len(in_pocket))} in-pocket SDFs → {TOP_DIR}/")
+        
+    print(f"✅  Copied {len(in_pocket_rows)} in-pocket SDFs → {OUTPUT_SDF_DIR}/")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,46 @@
+REMARK  Name = Sumatriptan
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  S_3
+REMARK    2  A    between atoms: S_3  and  C_6
+REMARK    3  A    between atoms: C_6  and  C_7
+REMARK    4  A    between atoms: C_15  and  C_16
+REMARK    5  A    between atoms: C_16  and  C_17
+REMARK    6  A    between atoms: C_17  and  N_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      47.901  81.800  41.766  0.00  0.00    +0.003 A 
+ATOM      2  C   UNL     1      46.940  80.873  41.383  0.00  0.00    -0.001 A 
+ATOM      3  C   UNL     1      46.182  81.080  40.253  0.00  0.00    +0.015 A 
+ATOM      4  C   UNL     1      46.335  82.196  39.457  0.00  0.00    +0.081 A 
+ATOM      5  C   UNL     1      47.297  83.101  39.861  0.00  0.00    +0.019 A 
+ATOM      6  C   UNL     1      48.062  82.916  40.979  0.00  0.00    -0.001 A 
+ATOM      7  N   UNL     1      45.468  82.124  38.427  0.00  0.00    -0.244 NA
+ATOM      8  C   UNL     1      44.777  80.979  38.570  0.00  0.00    +0.095 A 
+ATOM      9  C   UNL     1      45.193  80.304  39.693  0.00  0.00    -0.000 A 
+ENDROOT
+BRANCH   1  10
+ATOM     10  C   UNL     1      48.695  81.536  42.991  0.00  0.00    +0.197 C 
+BRANCH  10  11
+ATOM     11  S   UNL     1      50.239  82.412  42.978  0.00  0.00    +0.062 S 
+ATOM     12  O   UNL     1      51.016  82.123  44.250  0.00  0.00    -0.156 OA
+ATOM     13  O   UNL     1      51.126  81.980  41.845  0.00  0.00    -0.156 OA
+BRANCH  11  15
+ATOM     14  C   UNL     1      48.776  84.398  43.727  0.00  0.00    +0.136 C 
+ATOM     15  N   UNL     1      49.943  84.108  42.961  0.00  0.00    -0.080 NA
+ENDBRANCH  11  15
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+BRANCH   9  16
+ATOM     16  C   UNL     1      44.705  79.013  40.245  0.00  0.00    +0.045 C 
+BRANCH  16  17
+ATOM     17  C   UNL     1      43.631  78.522  39.260  0.00  0.00    +0.077 C 
+BRANCH  17  18
+ATOM     18  N   UNL     1      43.219  77.182  39.535  0.00  0.00    -0.270 NA
+ATOM     19  C   UNL     1      43.439  76.918  40.942  0.00  0.00    +0.090 C 
+ATOM     20  C   UNL     1      41.816  77.046  39.243  0.00  0.00    +0.090 C 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   9  16
+TORSDOF 6

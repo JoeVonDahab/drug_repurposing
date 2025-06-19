@@ -1,0 +1,34 @@
+REMARK  Name = Entecavir
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_10
+REMARK    2  A    between atoms: C_6  and  C_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1      47.856  81.732  40.563  0.00  0.00    -0.292 N 
+ATOM      2  C   UNL     1      47.693  82.830  39.814  0.00  0.00    +0.180 A 
+ATOM      3  N   UNL     1      46.595  82.732  39.045  0.00  0.00    -0.217 NA
+ATOM      4  C   UNL     1      46.039  81.557  39.298  0.00  0.00    +0.175 A 
+ATOM      5  C   UNL     1      46.827  80.928  40.249  0.00  0.00    +0.171 A 
+ATOM      6  N   UNL     1      46.425  79.714  40.637  0.00  0.00    -0.192 NA
+ATOM      7  C   UNL     1      45.348  79.068  40.193  0.00  0.00    +0.261 A 
+ATOM      8  N   UNL     1      44.590  79.700  39.263  0.00  0.00    -0.171 NA
+ATOM      9  C   UNL     1      44.916  80.923  38.813  0.00  0.00    +0.302 A 
+ATOM     10  O   UNL     1      44.215  81.512  37.951  0.00  0.00    -0.263 OA
+ATOM     11  N   UNL     1      45.001  77.769  40.670  0.00  0.00    -0.086 NA
+ENDROOT
+BRANCH   1  14
+ATOM     12  C   UNL     1      49.098  83.874  42.318  0.00  0.00    -0.007 C 
+ATOM     13  C   UNL     1      49.340  82.571  42.336  0.00  0.00    -0.019 C 
+ATOM     14  C   UNL     1      48.886  81.458  41.486  0.00  0.00    +0.110 C 
+ATOM     15  C   UNL     1      48.447  80.456  42.567  0.00  0.00    +0.060 C 
+ATOM     16  C   UNL     1      49.438  80.670  43.696  0.00  0.00    +0.160 C 
+ATOM     17  C   UNL     1      50.213  81.910  43.343  0.00  0.00    +0.083 C 
+ATOM     18  O   UNL     1      48.694  80.937  44.851  0.00  0.00    -0.223 OA
+BRANCH  17  19
+ATOM     19  C   UNL     1      51.592  81.589  42.810  0.00  0.00    +0.189 C 
+ATOM     20  O   UNL     1      52.000  82.708  42.050  0.00  0.00    -0.220 OA
+ENDBRANCH  17  19
+ENDBRANCH   1  14
+TORSDOF 2

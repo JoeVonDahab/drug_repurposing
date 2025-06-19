@@ -1,0 +1,31 @@
+REMARK  Name = FADROZOLE
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  C_10
+REMARK    2  A    between atoms: C_13  and  C_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      45.990  78.751  41.022  0.00  0.00    +0.009 C 
+ATOM      2  C   UNL     1      47.159  79.585  41.430  0.00  0.00    +0.028 C 
+ATOM      3  C   UNL     1      46.736  81.030  41.493  0.00  0.00    +0.109 C 
+ATOM      4  N   UNL     1      46.277  81.394  40.171  0.00  0.00    -0.310 N 
+ATOM      5  C   UNL     1      46.590  82.335  39.269  0.00  0.00    +0.179 A 
+ATOM      6  N   UNL     1      45.788  82.149  38.205  0.00  0.00    -0.223 NA
+ATOM      7  C   UNL     1      44.977  81.101  38.436  0.00  0.00    +0.113 A 
+ATOM      8  C   UNL     1      45.293  80.636  39.672  0.00  0.00    +0.058 A 
+ATOM      9  C   UNL     1      44.795  79.509  40.547  0.00  0.00    +0.046 C 
+ENDROOT
+BRANCH   3  10
+ATOM     10  C   UNL     1      47.766  81.920  42.024  0.00  0.00    -0.002 A 
+ATOM     11  C   UNL     1      49.120  81.731  41.855  0.00  0.00    -0.002 A 
+ATOM     12  C   UNL     1      50.026  82.620  42.390  0.00  0.00    +0.010 A 
+ATOM     13  C   UNL     1      49.629  83.732  43.115  0.00  0.00    +0.068 A 
+ATOM     14  C   UNL     1      48.275  83.927  43.287  0.00  0.00    +0.010 A 
+ATOM     15  C   UNL     1      47.370  83.024  42.743  0.00  0.00    -0.002 A 
+BRANCH  13  16
+ATOM     16  C   UNL     1      50.603  84.653  43.668  0.00  0.00    +0.100 C 
+ATOM     17  N   UNL     1      51.375  85.403  44.098  0.00  0.00    -0.191 NA
+ENDBRANCH  13  16
+ENDBRANCH   3  10
+TORSDOF 2

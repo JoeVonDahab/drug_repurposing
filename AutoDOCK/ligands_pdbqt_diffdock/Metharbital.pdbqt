@@ -1,0 +1,28 @@
+REMARK  Name = Metharbital
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3
+REMARK    2  A    between atoms: C_3  and  C_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      47.850  82.102  41.142  0.00  0.00    +0.140 C 
+ATOM      2  C   UNL     1      47.731  83.254  40.209  0.00  0.00    +0.257 C 
+ATOM      3  O   UNL     1      48.199  84.398  40.509  0.00  0.00    -0.272 OA
+ATOM      4  N   UNL     1      47.077  83.035  38.971  0.00  0.00    -0.127 NA
+ATOM      5  C   UNL     1      46.159  81.962  38.858  0.00  0.00    +0.336 C 
+ATOM      6  O   UNL     1      45.557  81.737  37.768  0.00  0.00    -0.250 OA
+ATOM      7  N   UNL     1      45.870  81.094  39.945  0.00  0.00    -0.210 N 
+ATOM      8  C   UNL     1      46.554  81.358  41.162  0.00  0.00    +0.240 C 
+ATOM      9  O   UNL     1      46.029  80.945  42.224  0.00  0.00    -0.274 OA
+ATOM     10  C   UNL     1      44.925  79.990  39.830  0.00  0.00    +0.124 C 
+ENDROOT
+BRANCH   1  12
+ATOM     11  C   UNL     1      47.194  83.718  42.889  0.00  0.00    +0.001 C 
+ATOM     12  C   UNL     1      48.110  82.581  42.539  0.00  0.00    +0.017 C 
+ENDBRANCH   1  12
+BRANCH   1  13
+ATOM     13  C   UNL     1      48.978  81.241  40.650  0.00  0.00    +0.017 C 
+ATOM     14  C   UNL     1      50.129  81.350  41.618  0.00  0.00    +0.001 C 
+ENDBRANCH   1  13
+TORSDOF 2

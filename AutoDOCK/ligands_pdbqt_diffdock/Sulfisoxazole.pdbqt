@@ -1,0 +1,35 @@
+REMARK  Name = Sulfisoxazole
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_8
+REMARK    2  A    between atoms: N_8  and  S_9
+REMARK    3  A    between atoms: S_9  and  C_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  S   UNL     1      47.859  81.850  41.516  0.00  0.00    +0.096 S 
+ATOM      2  O   UNL     1      47.010  81.063  42.479  0.00  0.00    -0.148 OA
+ATOM      3  O   UNL     1      48.719  80.873  40.766  0.00  0.00    -0.148 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  C   UNL     1      48.832  83.030  42.353  0.00  0.00    +0.127 A 
+ATOM      5  C   UNL     1      48.229  83.990  43.129  0.00  0.00    +0.022 A 
+ATOM      6  C   UNL     1      48.970  84.951  43.814  0.00  0.00    +0.019 A 
+ATOM      7  C   UNL     1      50.342  84.940  43.713  0.00  0.00    +0.089 A 
+ATOM      8  C   UNL     1      50.953  83.969  42.929  0.00  0.00    +0.019 A 
+ATOM      9  C   UNL     1      50.203  83.023  42.255  0.00  0.00    +0.022 A 
+ATOM     10  N   UNL     1      51.098  85.918  44.410  0.00  0.00    -0.128 NA
+ENDBRANCH   1   4
+BRANCH   1  11
+ATOM     11  N   UNL     1      46.816  82.632  40.384  0.00  0.00    -0.057 NA
+BRANCH  11  14
+ATOM     12  C   UNL     1      45.624  79.874  41.198  0.00  0.00    +0.037 C 
+ATOM     13  C   UNL     1      45.435  80.601  39.925  0.00  0.00    +0.050 A 
+ATOM     14  C   UNL     1      45.971  81.822  39.582  0.00  0.00    +0.263 A 
+ATOM     15  O   UNL     1      45.552  82.091  38.376  0.00  0.00    -0.336 OA
+ATOM     16  N   UNL     1      44.797  81.169  37.899  0.00  0.00    -0.080 NA
+ATOM     17  C   UNL     1      44.691  80.207  38.835  0.00  0.00    +0.098 A 
+ATOM     18  C   UNL     1      43.937  78.948  38.764  0.00  0.00    +0.055 C 
+ENDBRANCH  11  14
+ENDBRANCH   1  11
+TORSDOF 3

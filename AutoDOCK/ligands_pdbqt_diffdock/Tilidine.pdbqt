@@ -1,0 +1,43 @@
+REMARK  Name = Tilidine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  O_3
+REMARK    2  A    between atoms: O_3  and  C_4
+REMARK    3  A    between atoms: C_4  and  C_6
+REMARK    4  A    between atoms: C_6  and  C_15
+REMARK    5  A    between atoms: C_11  and  N_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      47.474  81.904  41.093  0.00  0.00    +0.126 C 
+ATOM      2  C   UNL     1      46.698  82.784  40.126  0.00  0.00    +0.021 C 
+ATOM      3  C   UNL     1      47.611  83.130  38.936  0.00  0.00    +0.027 C 
+ATOM      4  C   UNL     1      47.703  81.818  38.231  0.00  0.00    -0.029 C 
+ATOM      5  C   UNL     1      48.153  80.810  38.954  0.00  0.00    -0.014 C 
+ATOM      6  C   UNL     1      48.517  81.125  40.399  0.00  0.00    +0.093 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C   UNL     1      47.944  82.836  42.135  0.00  0.00    -0.011 A 
+ATOM      8  C   UNL     1      47.177  83.558  42.999  0.00  0.00    -0.004 A 
+ATOM      9  C   UNL     1      47.724  84.411  43.966  0.00  0.00    -0.000 A 
+ATOM     10  C   UNL     1      49.082  84.542  44.068  0.00  0.00    -0.000 A 
+ATOM     11  C   UNL     1      49.886  83.832  43.216  0.00  0.00    -0.000 A 
+ATOM     12  C   UNL     1      49.327  82.999  42.274  0.00  0.00    -0.004 A 
+ENDBRANCH   1   7
+BRANCH   6  13
+ATOM     13  N   UNL     1      48.844  79.872  41.038  0.00  0.00    -0.267 NA
+ATOM     14  C   UNL     1      49.315  79.938  42.375  0.00  0.00    +0.090 C 
+ATOM     15  C   UNL     1      49.675  79.018  40.261  0.00  0.00    +0.090 C 
+ENDBRANCH   6  13
+BRANCH   1  16
+ATOM     16  C   UNL     1      46.431  80.942  41.604  0.00  0.00    +0.321 C 
+ATOM     17  O   UNL     1      46.105  81.042  42.815  0.00  0.00    -0.250 OA
+BRANCH  16  18
+ATOM     18  O   UNL     1      45.814  79.976  40.872  0.00  0.00    -0.448 OA
+BRANCH  18  20
+ATOM     19  C   UNL     1      44.199  78.242  40.330  0.00  0.00    +0.051 C 
+ATOM     20  C   UNL     1      44.913  79.018  41.384  0.00  0.00    +0.209 C 
+ENDBRANCH  18  20
+ENDBRANCH  16  18
+ENDBRANCH   1  16
+TORSDOF 5

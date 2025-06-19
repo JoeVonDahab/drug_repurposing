@@ -1,0 +1,36 @@
+REMARK  Name = Leflunomide
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  C_7
+REMARK    2  A    between atoms: N_9  and  C_10
+REMARK    3  A    between atoms: C_13  and  C_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      48.472  82.460  41.233  0.00  0.00    +0.074 A 
+ATOM      2  C   UNL     1      49.768  82.817  40.958  0.00  0.00    +0.017 A 
+ATOM      3  C   UNL     1      50.537  83.510  41.900  0.00  0.00    +0.005 A 
+ATOM      4  C   UNL     1      49.957  83.821  43.108  0.00  0.00    +0.072 A 
+ATOM      5  C   UNL     1      48.667  83.479  43.414  0.00  0.00    +0.005 A 
+ATOM      6  C   UNL     1      47.927  82.788  42.449  0.00  0.00    +0.017 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C   UNL     1      50.779  84.556  44.105  0.00  0.00    +0.419 C 
+ATOM      8  F   UNL     1      51.082  83.693  45.140  0.00  0.00    -0.166 F 
+ATOM      9  F   UNL     1      51.952  84.932  43.502  0.00  0.00    -0.166 F 
+ATOM     10  F   UNL     1      50.106  85.657  44.599  0.00  0.00    -0.166 F 
+ENDBRANCH   4   7
+BRANCH   1  13
+ATOM     11  C   UNL     1      46.549  80.979  40.573  0.00  0.00    +0.273 C 
+ATOM     12  O   UNL     1      46.446  80.527  41.726  0.00  0.00    -0.268 OA
+ATOM     13  N   UNL     1      47.713  81.766  40.277  0.00  0.00    -0.175 NA
+BRANCH  11  16
+ATOM     14  C   UNL     1      44.544  78.561  40.324  0.00  0.00    +0.076 C 
+ATOM     15  C   UNL     1      44.674  79.707  39.392  0.00  0.00    +0.159 A 
+ATOM     16  C   UNL     1      45.561  80.752  39.527  0.00  0.00    +0.111 A 
+ATOM     17  C   UNL     1      45.318  81.568  38.434  0.00  0.00    +0.148 A 
+ATOM     18  N   UNL     1      44.332  81.011  37.705  0.00  0.00    -0.076 NA
+ATOM     19  O   UNL     1      43.967  79.918  38.285  0.00  0.00    -0.358 OA
+ENDBRANCH  11  16
+ENDBRANCH   1  13
+TORSDOF 3

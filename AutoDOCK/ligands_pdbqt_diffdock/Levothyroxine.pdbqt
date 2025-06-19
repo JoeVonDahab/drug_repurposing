@@ -1,0 +1,47 @@
+REMARK  Name = Levothyroxine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_19
+REMARK    2  A    between atoms: C_5  and  O_8
+REMARK    3  A    between atoms: O_8  and  C_9
+REMARK    4  A    between atoms: C_19  and  CA_20
+REMARK    5  A    between atoms: CA_20  and  C_21
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      47.680  82.896  42.687  0.00  0.00    +0.005 A 
+ATOM      2  C   UNL     1      48.786  82.809  41.883  0.00  0.00    -0.019 A 
+ATOM      3  C   UNL     1      48.623  82.351  40.598  0.00  0.00    +0.005 A 
+ATOM      4  C   UNL     1      47.373  81.990  40.135  0.00  0.00    +0.065 A 
+ATOM      5  C   UNL     1      46.259  82.073  40.934  0.00  0.00    +0.156 A 
+ATOM      6  C   UNL     1      46.441  82.541  42.238  0.00  0.00    +0.065 A 
+ATOM      7  I   UNL     1      44.791  82.707  43.547  0.00  0.00    -0.039 I 
+ATOM      8  I   UNL     1      47.156  81.298  38.179  0.00  0.00    -0.039 I 
+ENDROOT
+BRANCH   5   9
+ATOM      9  O   UNL     1      44.992  81.737  40.556  0.00  0.00    -0.453 OA
+BRANCH   9  10
+ATOM     10  C   UNL     1      44.467  80.486  40.485  0.00  0.00    +0.146 A 
+ATOM     11  C   UNL     1      44.872  79.513  41.367  0.00  0.00    +0.047 A 
+ATOM     12  C   UNL     1      44.339  78.218  41.305  0.00  0.00    +0.072 A 
+ATOM     13  C   UNL     1      43.386  77.939  40.327  0.00  0.00    +0.206 A 
+ATOM     14  C   UNL     1      42.973  78.904  39.438  0.00  0.00    +0.072 A 
+ATOM     15  C   UNL     1      43.526  80.171  39.534  0.00  0.00    +0.047 A 
+ATOM     16  I   UNL     1      41.534  78.463  37.969  0.00  0.00    -0.039 I 
+ATOM     17  O   UNL     1      42.830  76.670  40.227  0.00  0.00    -0.286 OA
+ATOM     18  I   UNL     1      44.934  76.706  42.636  0.00  0.00    -0.039 I 
+ENDBRANCH   9  10
+ENDBRANCH   5   9
+BRANCH   2  19
+ATOM     19  C   UNL     1      50.102  83.212  42.436  0.00  0.00    +0.057 C 
+BRANCH  19  20
+ATOM     20  CA  UNL     1      50.998  81.991  42.439  0.00  0.00    +0.199 C 
+ATOM     21  N   UNL     1      50.672  81.188  43.585  0.00  0.00    -0.120 NA
+BRANCH  20  22
+ATOM     22  C   UNL     1      52.434  82.374  42.512  0.00  0.00    +0.382 C 
+ATOM     23  O   UNL     1      53.129  82.090  43.527  0.00  0.00    -0.244 OA
+ATOM     24  OXT UNL     1      53.086  83.053  41.492  0.00  0.00    -0.244 OA
+ENDBRANCH  20  22
+ENDBRANCH  19  20
+ENDBRANCH   2  19
+TORSDOF 5

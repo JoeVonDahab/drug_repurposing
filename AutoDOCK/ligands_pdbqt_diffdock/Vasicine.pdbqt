@@ -1,0 +1,22 @@
+REMARK  Name = Vasicine
+REMARK  0 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      47.228  82.833  40.104  0.00  0.00    +0.062 C 
+ATOM      2  C   UNL     1      47.727  81.522  40.633  0.00  0.00    +0.095 C 
+ATOM      3  N   UNL     1      46.622  80.591  40.379  0.00  0.00    -0.290 N 
+ATOM      4  C   UNL     1      46.427  79.288  40.970  0.00  0.00    +0.120 C 
+ATOM      5  C   UNL     1      45.208  78.616  40.491  0.00  0.00    +0.015 A 
+ATOM      6  C   UNL     1      44.884  77.341  40.976  0.00  0.00    -0.001 A 
+ATOM      7  C   UNL     1      43.737  76.722  40.517  0.00  0.00    -0.000 A 
+ATOM      8  C   UNL     1      42.898  77.317  39.597  0.00  0.00    +0.002 A 
+ATOM      9  C   UNL     1      43.251  78.582  39.139  0.00  0.00    +0.019 A 
+ATOM     10  C   UNL     1      44.386  79.228  39.573  0.00  0.00    +0.080 A 
+ATOM     11  N   UNL     1      44.679  80.518  39.059  0.00  0.00    -0.233 NA
+ATOM     12  C   UNL     1      45.730  81.165  39.434  0.00  0.00    +0.139 C 
+ATOM     13  C   UNL     1      46.226  82.489  39.042  0.00  0.00    +0.207 C 
+ATOM     14  O   UNL     1      46.786  82.505  37.764  0.00  0.00    -0.215 OA
+ENDROOT
+TORSDOF 0

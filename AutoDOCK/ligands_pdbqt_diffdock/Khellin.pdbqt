@@ -1,0 +1,33 @@
+REMARK  Name = Khellin
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_7  and  O_18
+REMARK    2  A    between atoms: C_10  and  O_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      48.873  83.363  40.445  0.00  0.00    +0.073 C 
+ATOM      2  C   UNL     1      47.729  82.446  40.184  0.00  0.00    +0.127 A 
+ATOM      3  C   UNL     1      46.844  82.703  39.155  0.00  0.00    +0.075 A 
+ATOM      4  C   UNL     1      45.801  81.826  38.952  0.00  0.00    +0.204 A 
+ATOM      5  O   UNL     1      44.996  82.058  38.018  0.00  0.00    -0.286 OA
+ATOM      6  C   UNL     1      45.661  80.722  39.768  0.00  0.00    +0.111 A 
+ATOM      7  C   UNL     1      44.636  79.814  39.608  0.00  0.00    +0.148 A 
+ATOM      8  C   UNL     1      44.486  78.707  40.418  0.00  0.00    +0.075 A 
+ATOM      9  C   UNL     1      45.428  78.522  41.436  0.00  0.00    +0.185 A 
+ATOM     10  C   UNL     1      46.465  79.407  41.627  0.00  0.00    +0.208 A 
+ATOM     11  C   UNL     1      46.581  80.516  40.785  0.00  0.00    +0.187 A 
+ATOM     12  O   UNL     1      47.551  81.383  40.929  0.00  0.00    -0.454 OA
+ATOM     13  O   UNL     1      45.098  77.430  42.069  0.00  0.00    -0.447 OA
+ATOM     14  C   UNL     1      44.017  76.885  41.547  0.00  0.00    +0.180 A 
+ATOM     15  C   UNL     1      43.593  77.659  40.498  0.00  0.00    +0.047 A 
+ENDROOT
+BRANCH  10  16
+ATOM     16  O   UNL     1      47.397  79.250  42.614  0.00  0.00    -0.465 OA
+ATOM     17  C   UNL     1      48.754  79.008  42.288  0.00  0.00    +0.253 C 
+ENDBRANCH  10  16
+BRANCH   7  18
+ATOM     18  O   UNL     1      43.737  80.051  38.584  0.00  0.00    -0.471 OA
+ATOM     19  C   UNL     1      42.715  79.177  38.197  0.00  0.00    +0.252 C 
+ENDBRANCH   7  18
+TORSDOF 2

@@ -1,0 +1,32 @@
+REMARK  Name = L-Tryptophan
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_7  and  CB_10
+REMARK    2  A    between atoms: CB_10  and  CA_11
+REMARK    3  A    between atoms: CA_11  and  C_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CZ3 TRP A   1      45.024  78.854  40.586  0.00  0.00    +0.000 A 
+ATOM      2  CH2 TRP A   1      44.334  79.084  39.410  0.00  0.00    +0.002 A 
+ATOM      3  CZ2 TRP A   1      44.626  80.209  38.691  0.00  0.00    +0.019 A 
+ATOM      4  CE2 TRP A   1      45.581  81.113  39.102  0.00  0.00    +0.081 A 
+ATOM      5  CD2 TRP A   1      46.271  80.876  40.286  0.00  0.00    +0.015 A 
+ATOM      6  CE3 TRP A   1      45.983  79.747  41.013  0.00  0.00    +0.001 A 
+ATOM      7  CG  TRP A   1      47.172  81.902  40.499  0.00  0.00    +0.000 A 
+ATOM      8  CD1 TRP A   1      47.020  82.760  39.432  0.00  0.00    +0.095 A 
+ATOM      9  NE1 TRP A   1      46.056  82.271  38.598  0.00  0.00    -0.244 NA
+ENDROOT
+BRANCH   7  10
+ATOM     10  CB  TRP A   1      48.097  82.039  41.651  0.00  0.00    +0.059 C 
+BRANCH  10  11
+ATOM     11  CA  TRP A   1      49.455  81.418  41.321  0.00  0.00    +0.199 C 
+ATOM     12  N   TRP A   1      49.353  79.978  41.588  0.00  0.00    -0.120 NA
+BRANCH  11  13
+ATOM     13  C   TRP A   1      50.510  81.923  42.227  0.00  0.00    +0.382 C 
+ATOM     14  O   TRP A   1      51.283  81.096  42.774  0.00  0.00    -0.244 OA
+ATOM     15  OXT TRP A   1      50.703  83.272  42.513  0.00  0.00    -0.244 OA
+ENDBRANCH  11  13
+ENDBRANCH  10  11
+ENDBRANCH   7  10
+TORSDOF 3

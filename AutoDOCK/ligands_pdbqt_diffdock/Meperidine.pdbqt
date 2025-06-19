@@ -1,0 +1,38 @@
+REMARK  Name = Meperidine
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  O_3
+REMARK    2  A    between atoms: O_3  and  C_4
+REMARK    3  A    between atoms: C_4  and  C_6
+REMARK    4  A    between atoms: C_6  and  C_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      47.974  82.153  41.177  0.00  0.00    +0.111 C 
+ATOM      2  C   UNL     1      46.859  81.192  41.531  0.00  0.00    +0.032 C 
+ATOM      3  C   UNL     1      46.429  80.371  40.346  0.00  0.00    +0.073 C 
+ATOM      4  N   UNL     1      46.013  81.128  39.216  0.00  0.00    -0.271 NA
+ATOM      5  C   UNL     1      46.384  82.526  39.279  0.00  0.00    +0.073 C 
+ATOM      6  C   UNL     1      47.802  82.618  39.770  0.00  0.00    +0.032 C 
+ATOM      7  C   UNL     1      44.663  80.912  38.798  0.00  0.00    +0.090 C 
+ENDROOT
+BRANCH   1   8
+ATOM      8  C   UNL     1      47.978  83.288  42.148  0.00  0.00    -0.013 A 
+ATOM      9  C   UNL     1      49.121  83.727  42.775  0.00  0.00    -0.004 A 
+ATOM     10  C   UNL     1      49.126  84.775  43.675  0.00  0.00    -0.000 A 
+ATOM     11  C   UNL     1      47.952  85.426  43.978  0.00  0.00    -0.000 A 
+ATOM     12  C   UNL     1      46.812  84.990  43.355  0.00  0.00    -0.000 A 
+ATOM     13  C   UNL     1      46.796  83.954  42.462  0.00  0.00    -0.004 A 
+ENDBRANCH   1   8
+BRANCH   1  14
+ATOM     14  C   UNL     1      49.298  81.494  41.259  0.00  0.00    +0.320 C 
+ATOM     15  O   UNL     1      49.368  80.297  41.602  0.00  0.00    -0.250 OA
+BRANCH  14  16
+ATOM     16  O   UNL     1      50.466  82.162  40.967  0.00  0.00    -0.448 OA
+BRANCH  16  18
+ATOM     17  C   UNL     1      52.780  82.816  41.294  0.00  0.00    +0.051 C 
+ATOM     18  C   UNL     1      51.672  81.847  41.607  0.00  0.00    +0.209 C 
+ENDBRANCH  16  18
+ENDBRANCH  14  16
+ENDBRANCH   1  14
+TORSDOF 4

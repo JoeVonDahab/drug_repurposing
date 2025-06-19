@@ -1,0 +1,49 @@
+REMARK  Name = Cannabidiol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3
+REMARK    2  A    between atoms: C_3  and  C_4
+REMARK    3  A    between atoms: C_4  and  C_5
+REMARK    4  A    between atoms: C_5  and  C_6
+REMARK    5  A    between atoms: C_9  and  C_13
+REMARK    6  A    between atoms: C_18  and  C_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      45.673  79.709  40.105  0.00  0.00    -0.016 A 
+ATOM      2  C   UNL     1      45.634  80.799  39.272  0.00  0.00    +0.038 A 
+ATOM      3  C   UNL     1      46.543  81.835  39.414  0.00  0.00    +0.195 A 
+ATOM      4  C   UNL     1      47.523  81.812  40.400  0.00  0.00    +0.060 A 
+ATOM      5  C   UNL     1      47.539  80.697  41.229  0.00  0.00    +0.195 A 
+ATOM      6  C   UNL     1      46.633  79.667  41.085  0.00  0.00    +0.038 A 
+ATOM      7  O   UNL     1      48.520  80.667  42.221  0.00  0.00    -0.287 OA
+ATOM      8  O   UNL     1      46.422  82.884  38.531  0.00  0.00    -0.287 OA
+ENDROOT
+BRANCH   4   9
+ATOM      9  C   UNL     1      48.471  82.920  40.557  0.00  0.00    +0.054 C 
+ATOM     10  C   UNL     1      49.838  82.564  40.072  0.00  0.00    -0.030 C 
+ATOM     11  C   UNL     1      50.892  82.455  40.836  0.00  0.00    -0.048 C 
+ATOM     12  C   UNL     1      50.870  82.673  42.296  0.00  0.00    +0.022 C 
+ATOM     13  C   UNL     1      49.484  82.802  42.851  0.00  0.00    +0.009 C 
+ATOM     14  C   UNL     1      48.589  83.556  41.882  0.00  0.00    +0.027 C 
+ATOM     15  C   UNL     1      52.226  82.089  40.231  0.00  0.00    +0.026 C 
+BRANCH  14  16
+ATOM     16  C   UNL     1      47.342  83.956  42.556  0.00  0.00    -0.044 C 
+ATOM     17  C   UNL     1      47.091  83.635  43.819  0.00  0.00    -0.009 C 
+ATOM     18  C   UNL     1      46.258  84.726  41.853  0.00  0.00    +0.026 C 
+ENDBRANCH  14  16
+ENDBRANCH   4   9
+BRANCH   1  19
+ATOM     19  C   UNL     1      44.674  78.568  39.950  0.00  0.00    +0.027 C 
+BRANCH  19  20
+ATOM     20  C   UNL     1      43.634  78.946  38.958  0.00  0.00    +0.005 C 
+BRANCH  20  21
+ATOM     21  C   UNL     1      42.829  77.890  38.329  0.00  0.00    +0.000 C 
+BRANCH  21  23
+ATOM     22  C   UNL     1      40.580  77.652  37.242  0.00  0.00    +0.000 C 
+ATOM     23  C   UNL     1      41.352  77.894  38.501  0.00  0.00    +0.000 C 
+ENDBRANCH  21  23
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH   1  19
+TORSDOF 6

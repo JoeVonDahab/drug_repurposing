@@ -1,0 +1,84 @@
+REMARK  Name = Cefpirome_sulfate
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_2  and  N_3
+REMARK    2  A    between atoms: C_4  and  C_5
+REMARK    3  A    between atoms: C_4  and  C_11
+REMARK    4  A    between atoms: N_13  and  CA_14
+REMARK    5  A    between atoms: CA_19  and  C_33
+REMARK    6  A    between atoms: C_20  and  C_23
+REMARK    7  A    between atoms: C_23  and  N_24
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  UNL     1      45.145  78.532  40.972  0.00  0.00    +0.201 C 
+ATOM      2  C   UNL     1      46.584  78.235  41.123  0.00  0.00    +0.157 C 
+ATOM      3  N   UNL     1      46.679  79.264  42.126  0.00  0.00    -0.242 N 
+ATOM      4  C   UNL     1      45.293  79.131  42.322  0.00  0.00    +0.253 C 
+ATOM      5  O   UNL     1      44.500  79.402  43.245  0.00  0.00    -0.273 OA
+ATOM      6  CA  UNL     1      47.924  79.925  42.494  0.00  0.00    +0.130 C 
+ATOM      7  C   UNL     1      48.681  80.478  41.574  0.00  0.00    +0.009 C 
+ATOM      8  C   UNL     1      48.197  80.397  40.132  0.00  0.00    +0.084 C 
+ATOM      9  S   UNL     1      47.637  78.717  39.730  0.00  0.00    -0.114 S 
+ENDROOT
+BRANCH   1  12
+ATOM     10  C   UNL     1      43.199  77.504  39.885  0.00  0.00    +0.288 C 
+ATOM     11  O   UNL     1      43.190  78.532  39.124  0.00  0.00    -0.267 OA
+ATOM     12  N   UNL     1      44.202  77.484  40.848  0.00  0.00    -0.190 NA
+BRANCH  10  14
+ATOM     13  N   UNL     1      42.105  75.453  40.355  0.00  0.00    -0.077 NA
+ATOM     14  C   UNL     1      42.187  76.507  39.660  0.00  0.00    +0.192 C 
+BRANCH  14  15
+ATOM     15  C   UNL     1      41.177  76.713  38.555  0.00  0.00    +0.115 A 
+ATOM     16  C   UNL     1      40.191  75.792  38.299  0.00  0.00    +0.059 A 
+ATOM     17  S   UNL     1      39.371  76.522  36.989  0.00  0.00    -0.048 S 
+ATOM     18  C   UNL     1      40.319  77.932  36.849  0.00  0.00    +0.201 A 
+ATOM     19  N   UNL     1      41.209  77.773  37.807  0.00  0.00    -0.220 NA
+ATOM     20  N   UNL     1      40.236  79.057  35.945  0.00  0.00    -0.100 NA
+ENDBRANCH  14  15
+BRANCH  13  22
+ATOM     21  C   UNL     1      42.908  73.762  41.946  0.00  0.00    +0.288 C 
+ATOM     22  O   UNL     1      43.046  74.858  41.077  0.00  0.00    -0.373 OA
+ENDBRANCH  13  22
+ENDBRANCH  10  14
+ENDBRANCH   1  12
+BRANCH   6  23
+ATOM     23  C   UNL     1      48.288  79.963  43.909  0.00  0.00    +0.401 C 
+ATOM     24  O   UNL     1      49.326  80.479  44.324  0.00  0.00    -0.239 OA
+ATOM     25  OXT UNL     1      47.441  79.397  44.890  0.00  0.00    -0.239 OA
+ENDBRANCH   6  23
+BRANCH   7  26
+ATOM     26  C   UNL     1      49.946  81.178  41.831  0.00  0.00    +0.131 C 
+BRANCH  26  27
+ATOM     27  N   UNL     1      49.952  82.563  41.383  0.00  0.00    -0.326 N 
+ATOM     28  C   UNL     1      50.449  82.838  40.170  0.00  0.00    +0.076 A 
+ATOM     29  C   UNL     1      50.513  84.130  39.679  0.00  0.00    +0.018 A 
+ATOM     30  C   UNL     1      50.056  85.146  40.456  0.00  0.00    -0.002 A 
+ATOM     31  C   UNL     1      49.552  84.837  41.694  0.00  0.00    -0.010 A 
+ATOM     32  C   UNL     1      49.497  83.532  42.168  0.00  0.00    +0.033 A 
+ATOM     33  C   UNL     1      48.901  83.539  43.522  0.00  0.00    +0.044 C 
+ATOM     34  C   UNL     1      48.366  84.911  43.755  0.00  0.00    +0.011 C 
+ATOM     35  C   UNL     1      49.002  85.772  42.711  0.00  0.00    +0.028 C 
+ENDBRANCH  26  27
+ENDBRANCH   7  26
+TORSDOF 7
+REMARK  Name = Cefpirome_sulfate
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_2  and  N_3
+REMARK    2  A    between atoms: C_4  and  C_5
+REMARK    3  A    between atoms: C_4  and  C_11
+REMARK    4  A    between atoms: N_13  and  CA_14
+REMARK    5  A    between atoms: CA_19  and  C_33
+REMARK    6  A    between atoms: C_20  and  C_23
+REMARK    7  A    between atoms: C_23  and  N_24
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1      44.819  80.184  40.624  0.00  0.00    -0.020 OA
+ATOM      2  S   UNL     1      46.429  79.844  40.983  0.00  0.00    +0.267 S 
+ATOM      3  O   UNL     1      46.507  78.861  42.124  0.00  0.00    -0.113 OA
+ATOM      4  O   UNL     1      47.083  79.201  39.801  0.00  0.00    -0.113 OA
+ATOM      5  O   UNL     1      47.265  81.233  41.364  0.00  0.00    -0.020 OA
+ENDROOT
+TORSDOF 0

@@ -1,0 +1,18 @@
+REMARK  Name = Trimethadione
+REMARK  0 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      48.994  81.847  40.385  0.00  0.00    +0.053 C 
+ATOM      2  C   UNL     1      47.585  82.198  40.767  0.00  0.00    +0.206 C 
+ATOM      3  C   UNL     1      46.812  80.951  40.955  0.00  0.00    +0.270 C 
+ATOM      4  O   UNL     1      46.993  80.162  41.919  0.00  0.00    -0.271 OA
+ATOM      5  N   UNL     1      45.900  80.863  39.888  0.00  0.00    -0.191 N 
+ATOM      6  C   UNL     1      46.006  82.034  39.106  0.00  0.00    +0.411 C 
+ATOM      7  O   UNL     1      45.319  82.267  38.069  0.00  0.00    -0.226 OA
+ATOM      8  O   UNL     1      46.962  82.838  39.672  0.00  0.00    -0.433 OA
+ATOM      9  C   UNL     1      45.004  79.743  39.644  0.00  0.00    +0.126 C 
+ATOM     10  C   UNL     1      47.509  83.027  42.017  0.00  0.00    +0.053 C 
+ENDROOT
+TORSDOF 0

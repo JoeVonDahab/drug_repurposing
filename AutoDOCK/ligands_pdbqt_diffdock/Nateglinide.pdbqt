@@ -1,0 +1,49 @@
+REMARK  Name = Nateglinide
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_4
+REMARK    2  A    between atoms: C_7  and  C_10
+REMARK    3  A    between atoms: N_12  and  CA_13
+REMARK    4  A    between atoms: CA_13  and  CB_14
+REMARK    5  A    between atoms: CA_13  and  C_21
+REMARK    6  A    between atoms: CB_14  and  CG_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNK A   0      47.332  80.278  41.745  0.00  0.00    +0.241 C 
+ATOM      2  O   UNK A   0      46.943  81.037  42.699  0.00  0.00    -0.273 OA
+ATOM      3  N   PHE A   1      48.726  80.236  41.524  0.00  0.00    -0.195 NA
+ENDROOT
+BRANCH   1   7
+ATOM      4  C   UNK A   0      44.479  78.236  39.516  0.00  0.00    +0.000 C 
+ATOM      5  C   UNK A   0      44.728  77.673  40.888  0.00  0.00    +0.000 C 
+ATOM      6  C   UNK A   0      45.450  78.657  41.787  0.00  0.00    +0.009 C 
+ATOM      7  C   UNK A   0      46.357  79.506  40.941  0.00  0.00    +0.078 C 
+ATOM      8  C   UNK A   0      45.521  80.384  40.054  0.00  0.00    +0.009 C 
+ATOM      9  C   UNK A   0      44.216  79.732  39.667  0.00  0.00    +0.000 C 
+BRANCH   4  11
+ATOM     10  C   UNK A   0      42.652  78.569  37.925  0.00  0.00    +0.000 C 
+ATOM     11  C   UNK A   0      43.304  77.559  38.837  0.00  0.00    +0.000 C 
+ATOM     12  C   UNK A   0      42.292  77.191  39.898  0.00  0.00    +0.000 C 
+ENDBRANCH   4  11
+ENDBRANCH   1   7
+BRANCH   3  13
+ATOM     13  CA  PHE A   1      49.653  81.292  41.920  0.00  0.00    +0.202 C 
+BRANCH  13  14
+ATOM     14  C   PHE A   1      51.034  80.875  41.730  0.00  0.00    +0.385 C 
+ATOM     15  O   PHE A   1      51.914  81.013  42.585  0.00  0.00    -0.244 OA
+ATOM     16  OXT PHE A   1      51.392  80.280  40.505  0.00  0.00    -0.244 OA
+ENDBRANCH  13  14
+BRANCH  13  17
+ATOM     17  CB  PHE A   1      49.351  82.582  41.267  0.00  0.00    +0.060 C 
+BRANCH  17  18
+ATOM     18  CG  PHE A   1      48.999  83.618  42.255  0.00  0.00    -0.020 A 
+ATOM     19  CD1 PHE A   1      47.714  83.988  42.596  0.00  0.00    -0.004 A 
+ATOM     20  CE1 PHE A   1      47.425  84.965  43.522  0.00  0.00    -0.000 A 
+ATOM     21  CZ  PHE A   1      48.448  85.629  44.161  0.00  0.00    -0.000 A 
+ATOM     22  CE2 PHE A   1      49.749  85.296  43.855  0.00  0.00    -0.000 A 
+ATOM     23  CD2 PHE A   1      50.013  84.316  42.925  0.00  0.00    -0.004 A 
+ENDBRANCH  17  18
+ENDBRANCH  13  17
+ENDBRANCH   3  13
+TORSDOF 6

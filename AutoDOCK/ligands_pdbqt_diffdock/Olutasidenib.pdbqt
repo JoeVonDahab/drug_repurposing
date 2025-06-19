@@ -1,0 +1,45 @@
+REMARK  Name = Olutasidenib
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3
+REMARK    2  A    between atoms: C_2  and  N_15
+REMARK    3  A    between atoms: N_15  and  C_16
+REMARK    4  A    between atoms: C_19  and  C_24
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      44.079  78.945  41.161  0.00  0.00    +0.028 C 
+ATOM      2  C   UNL     1      44.324  79.575  39.826  0.00  0.00    +0.119 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C   UNL     1      45.401  80.570  39.878  0.00  0.00    +0.055 A 
+ATOM      4  C   UNL     1      46.437  80.451  40.757  0.00  0.00    +0.004 A 
+ATOM      5  C   UNL     1      47.458  81.350  40.861  0.00  0.00    +0.018 A 
+ATOM      6  C   UNL     1      47.400  82.461  40.000  0.00  0.00    +0.085 A 
+ATOM      7  C   UNL     1      48.435  83.415  40.048  0.00  0.00    +0.020 A 
+ATOM      8  C   UNL     1      49.438  83.167  40.953  0.00  0.00    +0.013 A 
+ATOM      9  C   UNL     1      49.503  82.137  41.774  0.00  0.00    +0.058 A 
+ATOM     10  C   UNL     1      48.466  81.142  41.758  0.00  0.00    +0.013 A 
+ATOM     11 CL   UNL     1      50.824  81.803  42.895  0.00  0.00    -0.082 Cl
+ATOM     12  N   UNL     1      46.374  82.640  39.083  0.00  0.00    -0.208 NA
+ATOM     13  C   UNL     1      45.441  81.650  39.094  0.00  0.00    +0.277 A 
+ATOM     14  O   UNL     1      44.503  81.836  38.210  0.00  0.00    -0.265 OA
+ENDBRANCH   2   3
+BRANCH   2  15
+ATOM     15  N   UNL     1      44.317  78.620  38.784  0.00  0.00    -0.230 NA
+BRANCH  15  16
+ATOM     16  C   UNL     1      43.060  77.886  38.532  0.00  0.00    +0.122 A 
+ATOM     17  C   UNL     1      42.158  78.375  37.565  0.00  0.00    +0.023 A 
+ATOM     18  C   UNL     1      40.932  77.748  37.392  0.00  0.00    +0.029 A 
+ATOM     19  C   UNL     1      40.639  76.610  38.209  0.00  0.00    +0.132 A 
+ATOM     20  N   UNL     1      41.526  76.190  39.087  0.00  0.00    -0.284 N 
+ATOM     21  C   UNL     1      42.727  76.870  39.213  0.00  0.00    +0.276 A 
+ATOM     22  O   UNL     1      43.521  76.359  40.129  0.00  0.00    -0.266 OA
+ATOM     23  C   UNL     1      41.276  75.050  39.915  0.00  0.00    +0.134 C 
+BRANCH  19  24
+ATOM     24  C   UNL     1      39.177  76.145  38.337  0.00  0.00    +0.118 C 
+ATOM     25  N   UNL     1      38.236  75.829  38.426  0.00  0.00    -0.189 NA
+ENDBRANCH  19  24
+ENDBRANCH  15  16
+ENDBRANCH   2  15
+TORSDOF 4

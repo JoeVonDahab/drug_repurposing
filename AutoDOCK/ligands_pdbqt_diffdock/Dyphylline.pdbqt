@@ -1,0 +1,35 @@
+REMARK  Name = Dyphylline
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_11  and  C_14
+REMARK    2  A    between atoms: C_14  and  C_15
+REMARK    3  A    between atoms: C_15  and  C_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      43.392  79.733  37.929  0.00  0.00    +0.137 C 
+ATOM      2  N   UNL     1      44.300  79.755  39.067  0.00  0.00    -0.263 N 
+ATOM      3  C   UNL     1      45.162  80.778  39.173  0.00  0.00    +0.170 A 
+ATOM      4  C   UNL     1      46.040  80.841  40.232  0.00  0.00    +0.153 A 
+ATOM      5  C   UNL     1      46.004  79.828  41.172  0.00  0.00    +0.283 A 
+ATOM      6  O   UNL     1      46.783  79.833  42.162  0.00  0.00    -0.265 OA
+ATOM      7  N   UNL     1      45.119  78.826  41.018  0.00  0.00    -0.245 N 
+ATOM      8  C   UNL     1      44.284  78.796  39.980  0.00  0.00    +0.335 A 
+ATOM      9  O   UNL     1      43.466  77.848  39.860  0.00  0.00    -0.246 OA
+ATOM     10  C   UNL     1      45.116  77.781  42.030  0.00  0.00    +0.138 C 
+ATOM     11  N   UNL     1      46.783  81.961  40.090  0.00  0.00    -0.301 N 
+ATOM     12  C   UNL     1      46.399  82.606  38.973  0.00  0.00    +0.180 A 
+ATOM     13  N   UNL     1      45.412  81.873  38.426  0.00  0.00    -0.206 NA
+ENDROOT
+BRANCH  11  14
+ATOM     14  C   UNL     1      47.810  82.332  41.040  0.00  0.00    +0.143 C 
+BRANCH  14  15
+ATOM     15  C   UNL     1      49.185  82.267  40.437  0.00  0.00    +0.207 C 
+ATOM     16  O   UNL     1      49.490  80.951  40.169  0.00  0.00    -0.218 OA
+BRANCH  15  17
+ATOM     17  C   UNL     1      50.237  82.849  41.357  0.00  0.00    +0.217 C 
+ATOM     18  O   UNL     1      50.398  81.950  42.411  0.00  0.00    -0.218 OA
+ENDBRANCH  15  17
+ENDBRANCH  14  15
+ENDBRANCH  11  14
+TORSDOF 3

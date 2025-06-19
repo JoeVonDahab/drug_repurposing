@@ -1,0 +1,122 @@
+REMARK  Name = Empagliflozin/linagliptin
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  C_4
+REMARK    2  A    between atoms: C_4  and  N_5
+REMARK    3  A    between atoms: N_20  and  C_23
+REMARK    4  A    between atoms: C_23  and  C_24
+REMARK    5  A    between atoms: O_37  and  C_38
+REMARK    6  A    between atoms: C_42  and  C_44
+REMARK    7  A    between atoms: C_46  and  C_51
+REMARK    8  A    between atoms: C_51  and  C_52
+REMARK    9  A    between atoms: C_55  and  O_58
+REMARK   10  A    between atoms: O_58  and  C_59
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1      47.167  80.360  41.794  0.00  0.00    -0.282 N 
+ATOM      2  C   UNL     1      46.178  80.394  40.864  0.00  0.00    +0.154 A 
+ATOM      3  C   UNL     1      46.296  81.533  40.108  0.00  0.00    +0.171 A 
+ATOM      4  N   UNL     1      47.362  82.194  40.581  0.00  0.00    -0.196 NA
+ATOM      5  C   UNL     1      47.898  81.473  41.620  0.00  0.00    +0.203 A 
+ATOM      6  N   UNL     1      49.044  81.970  42.278  0.00  0.00    -0.278 N 
+ATOM      7  C   UNL     1      49.062  82.332  43.667  0.00  0.00    +0.094 C 
+ATOM      8  C   UNL     1      49.402  83.828  43.718  0.00  0.00    +0.023 C 
+ATOM      9  C   UNL     1      50.763  84.016  43.106  0.00  0.00    +0.023 C 
+ATOM     10  C   UNL     1      50.784  83.577  41.678  0.00  0.00    +0.112 C 
+ATOM     11  C   UNL     1      50.265  82.153  41.497  0.00  0.00    +0.112 C 
+ATOM     12  N   UNL     1      52.120  83.703  41.147  0.00  0.00    -0.131 NA
+ATOM     13  N   UNL     1      45.396  81.809  39.114  0.00  0.00    -0.263 N 
+ATOM     14  C   UNL     1      44.377  80.987  38.851  0.00  0.00    +0.335 A 
+ATOM     15  O   UNL     1      43.549  81.278  37.912  0.00  0.00    -0.246 OA
+ATOM     16  N   UNL     1      44.232  79.865  39.577  0.00  0.00    -0.240 N 
+ATOM     17  C   UNL     1      45.113  79.561  40.569  0.00  0.00    +0.284 A 
+ATOM     18  O   UNL     1      44.995  78.516  41.254  0.00  0.00    -0.265 OA
+ATOM     19  C   UNL     1      45.556  83.010  38.353  0.00  0.00    +0.137 C 
+ENDROOT
+BRANCH   1  20
+ATOM     20  C   UNL     1      47.412  79.340  42.786  0.00  0.00    +0.185 C 
+BRANCH  20  23
+ATOM     21  C   UNL     1      50.661  76.870  41.938  0.00  0.00    +0.090 C 
+ATOM     22  C   UNL     1      49.492  77.752  42.241  0.00  0.00    -0.088 C 
+ATOM     23  C   UNL     1      48.518  78.507  42.491  0.00  0.00    -0.066 C 
+ENDBRANCH  20  23
+ENDBRANCH   1  20
+BRANCH  16  24
+ATOM     24  C   UNL     1      43.103  79.011  39.343  0.00  0.00    +0.179 C 
+BRANCH  24  25
+ATOM     25  C   UNL     1      41.966  79.121  40.256  0.00  0.00    +0.162 A 
+ATOM     26  N   UNL     1      42.067  79.624  41.499  0.00  0.00    -0.229 NA
+ATOM     27  C   UNL     1      41.067  79.669  42.371  0.00  0.00    +0.084 A 
+ATOM     28  C   UNL     1      41.240  80.202  43.655  0.00  0.00    +0.019 A 
+ATOM     29  C   UNL     1      40.194  80.237  44.550  0.00  0.00    +0.002 A 
+ATOM     30  C   UNL     1      38.960  79.730  44.138  0.00  0.00    +0.000 A 
+ATOM     31  C   UNL     1      38.776  79.205  42.883  0.00  0.00    +0.003 A 
+ATOM     32  C   UNL     1      39.830  79.174  41.999  0.00  0.00    +0.031 A 
+ATOM     33  C   UNL     1      39.698  78.656  40.719  0.00  0.00    +0.062 A 
+ATOM     34  N   UNL     1      40.736  78.641  39.902  0.00  0.00    -0.233 NA
+ATOM     35  C   UNL     1      38.344  78.124  40.353  0.00  0.00    +0.052 C 
+ENDBRANCH  24  25
+ENDBRANCH  16  24
+TORSDOF 4
+REMARK  Name = Empagliflozin/linagliptin
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  C_4
+REMARK    2  A    between atoms: C_4  and  N_5
+REMARK    3  A    between atoms: N_20  and  C_23
+REMARK    4  A    between atoms: C_23  and  C_24
+REMARK    5  A    between atoms: O_37  and  C_38
+REMARK    6  A    between atoms: C_42  and  C_44
+REMARK    7  A    between atoms: C_46  and  C_51
+REMARK    8  A    between atoms: C_51  and  C_52
+REMARK    9  A    between atoms: C_55  and  O_58
+REMARK   10  A    between atoms: O_58  and  C_59
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      44.755  78.549  38.524  0.00  0.00    +0.007 A 
+ATOM      2  C   UNL     1      46.059  78.382  38.918  0.00  0.00    -0.005 A 
+ATOM      3  C   UNL     1      46.796  79.418  39.519  0.00  0.00    -0.007 A 
+ATOM      4  C   UNL     1      46.220  80.638  39.729  0.00  0.00    +0.054 A 
+ATOM      5  C   UNL     1      44.892  80.817  39.331  0.00  0.00    +0.011 A 
+ATOM      6  C   UNL     1      44.197  79.793  38.748  0.00  0.00    -0.001 A 
+ATOM      7 CL   UNL     1      47.076  81.988  40.475  0.00  0.00    -0.083 Cl
+ENDROOT
+BRANCH   1  12
+ATOM      8  C   UNL     1      44.233  75.412  36.847  0.00  0.00    +0.270 C 
+ATOM      9  C   UNL     1      42.717  75.529  36.814  0.00  0.00    +0.241 C 
+ATOM     10  C   UNL     1      42.278  76.875  36.272  0.00  0.00    +0.220 C 
+ATOM     11  C   UNL     1      43.398  77.858  36.570  0.00  0.00    +0.216 C 
+ATOM     12  C   UNL     1      44.010  77.429  37.892  0.00  0.00    +0.173 C 
+ATOM     13  O   UNL     1      44.827  76.344  37.664  0.00  0.00    -0.324 OA
+ATOM     14  O   UNL     1      42.904  79.161  36.665  0.00  0.00    -0.217 OA
+ATOM     15  O   UNL     1      42.033  76.787  34.903  0.00  0.00    -0.217 OA
+ATOM     16  O   UNL     1      42.264  74.545  35.923  0.00  0.00    -0.215 OA
+BRANCH   8  18
+ATOM     17  C   UNL     1      44.178  74.156  38.752  0.00  0.00    +0.177 C 
+ATOM     18  O   UNL     1      44.505  74.141  37.389  0.00  0.00    -0.326 OA
+ENDBRANCH   8  18
+ENDBRANCH   1  12
+BRANCH   3  19
+ATOM     19  C   UNL     1      48.160  79.093  39.881  0.00  0.00    +0.053 C 
+BRANCH  19  20
+ATOM     20  C   UNL     1      48.405  77.815  40.566  0.00  0.00    -0.018 A 
+ATOM     21  C   UNL     1      49.478  77.607  41.402  0.00  0.00    -0.001 A 
+ATOM     22  C   UNL     1      49.663  76.390  42.058  0.00  0.00    +0.037 A 
+ATOM     23  C   UNL     1      48.804  75.322  41.925  0.00  0.00    +0.138 A 
+ATOM     24  C   UNL     1      47.709  75.549  41.066  0.00  0.00    +0.037 A 
+ATOM     25  C   UNL     1      47.525  76.743  40.420  0.00  0.00    -0.001 A 
+BRANCH  23  26
+ATOM     26  O   UNL     1      48.919  74.103  42.535  0.00  0.00    -0.476 OA
+BRANCH  26  27
+ATOM     27  C   UNL     1      47.885  73.363  43.048  0.00  0.00    +0.198 C 
+ATOM     28  C   UNL     1      47.037  72.684  41.984  0.00  0.00    +0.078 C 
+ATOM     29  C   UNL     1      46.489  71.511  42.773  0.00  0.00    +0.146 C 
+ATOM     30  O   UNL     1      47.588  71.074  43.467  0.00  0.00    -0.350 OA
+ATOM     31  C   UNL     1      48.382  72.136  43.801  0.00  0.00    +0.185 C 
+ENDBRANCH  26  27
+ENDBRANCH  23  26
+ENDBRANCH  19  20
+ENDBRANCH   3  19
+TORSDOF 6

@@ -1,0 +1,34 @@
+REMARK  Name = Trichlormethiazide
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_5  and  S_8
+REMARK    2  A    between atoms: C_16  and  C_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      46.488  79.337  41.978  0.00  0.00    +0.030 A 
+ATOM      2  C   UNL     1      46.860  80.438  41.219  0.00  0.00    +0.087 A 
+ATOM      3  C   UNL     1      46.127  80.679  40.076  0.00  0.00    +0.140 A 
+ATOM      4  C   UNL     1      45.072  79.877  39.690  0.00  0.00    +0.042 A 
+ATOM      5  C   UNL     1      44.723  78.789  40.462  0.00  0.00    +0.137 A 
+ATOM      6  C   UNL     1      45.438  78.522  41.611  0.00  0.00    +0.078 A 
+ATOM      7 CL   UNL     1      44.983  77.136  42.584  0.00  0.00    -0.081 Cl
+ATOM      8  S   UNL     1      46.601  82.079  39.112  0.00  0.00    +0.080 S 
+ATOM      9  O   UNL     1      47.010  81.562  37.748  0.00  0.00    -0.152 OA
+ATOM     10  O   UNL     1      45.481  83.052  38.977  0.00  0.00    -0.152 OA
+ATOM     11  N   UNL     1      48.011  82.781  39.816  0.00  0.00    -0.055 NA
+ATOM     12  C   UNL     1      47.889  82.692  41.242  0.00  0.00    +0.219 C 
+ATOM     13  N   UNL     1      47.956  81.276  41.615  0.00  0.00    -0.216 NA
+ENDROOT
+BRANCH   5  14
+ATOM     14  S   UNL     1      43.379  77.774  39.962  0.00  0.00    +0.094 S 
+ATOM     15  O   UNL     1      42.784  78.315  38.701  0.00  0.00    -0.150 OA
+ATOM     16  O   UNL     1      42.292  77.778  41.002  0.00  0.00    -0.150 OA
+ATOM     17  N   UNL     1      43.939  76.156  39.745  0.00  0.00    +0.039 NA
+ENDBRANCH   5  14
+BRANCH  12  18
+ATOM     18  C   UNL     1      48.919  83.501  41.971  0.00  0.00    +0.197 C 
+ATOM     19 CL   UNL     1      48.742  83.397  43.725  0.00  0.00    -0.094 Cl
+ATOM     20 CL   UNL     1      50.522  82.958  41.429  0.00  0.00    -0.094 Cl
+ENDBRANCH  12  18
+TORSDOF 2

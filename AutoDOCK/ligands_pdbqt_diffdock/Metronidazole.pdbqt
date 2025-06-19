@@ -1,0 +1,29 @@
+REMARK  Name = Metronidazole
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_5  and  N_10
+REMARK    2  A    between atoms: N_6  and  C_7
+REMARK    3  A    between atoms: C_7  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      44.122  79.661  38.327  0.00  0.00    +0.072 C 
+ATOM      2  C   UNL     1      45.087  80.703  38.745  0.00  0.00    +0.122 A 
+ATOM      3  N   UNL     1      45.178  81.927  38.198  0.00  0.00    -0.228 NA
+ATOM      4  C   UNL     1      46.166  82.579  38.842  0.00  0.00    +0.142 A 
+ATOM      5  C   UNL     1      46.692  81.714  39.816  0.00  0.00    +0.226 A 
+ATOM      6  N   UNL     1      46.000  80.573  39.722  0.00  0.00    -0.294 N 
+ENDROOT
+BRANCH   5   7
+ATOM      7  N   UNL     1      47.747  82.024  40.708  0.00  0.00    +0.076 N 
+ATOM      8  O   UNL     1      48.028  81.271  41.648  0.00  0.00    -0.125 OA
+ATOM      9  O   UNL     1      48.486  83.168  40.557  0.00  0.00    -0.125 OA
+ENDBRANCH   5   7
+BRANCH   6  10
+ATOM     10  C   UNL     1      46.189  79.392  40.520  0.00  0.00    +0.144 C 
+BRANCH  10  11
+ATOM     11  C   UNL     1      45.110  79.263  41.580  0.00  0.00    +0.207 C 
+ATOM     12  O   UNL     1      44.790  77.904  41.672  0.00  0.00    -0.218 OA
+ENDBRANCH  10  11
+ENDBRANCH   6  10
+TORSDOF 3

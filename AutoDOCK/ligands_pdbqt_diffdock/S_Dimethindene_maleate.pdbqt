@@ -1,0 +1,74 @@
+REMARK  Name = (S)-(+)-Dimethindene_maleate
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3
+REMARK    2  A    between atoms: C_2  and  C_9
+REMARK    3  A    between atoms: C_10  and  C_18
+REMARK    4  A    between atoms: C_18  and  C_19
+REMARK    5  A    between atoms: C_19  and  N_20
+REMARK    6  A    between atoms: C_23  and  C_28
+REMARK    7  A    between atoms: C_24  and  C_25
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      48.016  81.672  41.132  0.00  0.00    -0.025 C 
+ATOM      2  C   UNL     1      46.750  81.319  41.234  0.00  0.00    -0.042 C 
+ATOM      3  C   UNL     1      46.046  82.218  42.171  0.00  0.00    +0.048 C 
+ATOM      4  C   UNL     1      47.110  83.145  42.613  0.00  0.00    -0.018 A 
+ATOM      5  C   UNL     1      47.016  84.207  43.503  0.00  0.00    -0.004 A 
+ATOM      6  C   UNL     1      48.158  84.941  43.744  0.00  0.00    -0.000 A 
+ATOM      7  C   UNL     1      49.345  84.631  43.126  0.00  0.00    -0.000 A 
+ATOM      8  C   UNL     1      49.419  83.582  42.253  0.00  0.00    -0.001 A 
+ATOM      9  C   UNL     1      48.292  82.828  41.991  0.00  0.00    -0.008 A 
+ENDROOT
+BRANCH   1  11
+ATOM     10  C   UNL     1      49.968  82.043  39.690  0.00  0.00    +0.011 C 
+ATOM     11  C   UNL     1      49.005  81.008  40.299  0.00  0.00    +0.062 C 
+BRANCH  11  12
+ATOM     12  C   UNL     1      49.751  79.890  40.856  0.00  0.00    +0.063 A 
+ATOM     13  C   UNL     1      49.874  78.631  40.331  0.00  0.00    +0.015 A 
+ATOM     14  C   UNL     1      50.595  77.638  40.964  0.00  0.00    +0.003 A 
+ATOM     15  C   UNL     1      51.226  77.880  42.163  0.00  0.00    +0.021 A 
+ATOM     16  C   UNL     1      51.079  79.158  42.659  0.00  0.00    +0.098 A 
+ATOM     17  N   UNL     1      50.383  80.118  42.048  0.00  0.00    -0.248 NA
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+BRANCH   2  18
+ATOM     18  C   UNL     1      46.017  80.186  40.551  0.00  0.00    +0.039 C 
+BRANCH  18  19
+ATOM     19  C   UNL     1      45.044  80.779  39.556  0.00  0.00    +0.077 C 
+BRANCH  19  20
+ATOM     20  N   UNL     1      44.218  79.718  39.011  0.00  0.00    -0.270 NA
+ATOM     21  C   UNL     1      43.212  80.241  38.108  0.00  0.00    +0.090 C 
+ATOM     22  C   UNL     1      43.523  79.011  40.078  0.00  0.00    +0.090 C 
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH   2  18
+TORSDOF 5
+REMARK  Name = (S)-(+)-Dimethindene_maleate
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3
+REMARK    2  A    between atoms: C_2  and  C_9
+REMARK    3  A    between atoms: C_10  and  C_18
+REMARK    4  A    between atoms: C_18  and  C_19
+REMARK    5  A    between atoms: C_19  and  N_20
+REMARK    6  A    between atoms: C_23  and  C_28
+REMARK    7  A    between atoms: C_24  and  C_25
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      47.221  80.910  40.682  0.00  0.00    +0.093 C 
+ATOM      2  C   UNL     1      47.860  81.683  41.540  0.00  0.00    +0.093 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C   UNL     1      49.300  81.611  41.743  0.00  0.00    +0.388 C 
+ATOM      4  O   UNL     1      50.104  82.059  40.887  0.00  0.00    -0.241 OA
+ATOM      5  O   UNL     1      49.847  81.045  42.887  0.00  0.00    -0.241 OA
+ENDBRANCH   2   3
+BRANCH   1   6
+ATOM      6  C   UNL     1      45.805  81.083  40.420  0.00  0.00    +0.388 C 
+ATOM      7  O   UNL     1      44.975  80.672  41.263  0.00  0.00    -0.241 OA
+ATOM      8  O   UNL     1      45.330  81.686  39.271  0.00  0.00    -0.241 OA
+ENDBRANCH   1   6
+TORSDOF 2

@@ -1,0 +1,32 @@
+REMARK  Name = Methyldopa
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3
+REMARK    2  A    between atoms: C_2  and  C_12
+REMARK    3  A    between atoms: C_3  and  C_4
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      47.648  81.827  41.477  0.00  0.00    -0.017 A 
+ATOM      2  C   UNL     1      46.614  80.937  41.282  0.00  0.00    +0.041 A 
+ATOM      3  C   UNL     1      45.791  81.003  40.167  0.00  0.00    +0.234 A 
+ATOM      4  C   UNL     1      46.017  81.985  39.235  0.00  0.00    +0.234 A 
+ATOM      5  C   UNL     1      47.059  82.882  39.432  0.00  0.00    +0.045 A 
+ATOM      6  C   UNL     1      47.883  82.825  40.536  0.00  0.00    -0.001 A 
+ATOM      7  O   UNL     1      45.219  82.097  38.094  0.00  0.00    -0.283 OA
+ATOM      8  O   UNL     1      44.772  80.094  40.015  0.00  0.00    -0.283 OA
+ENDROOT
+BRANCH   1   9
+ATOM      9  C   UNL     1      48.534  81.769  42.662  0.00  0.00    +0.055 C 
+BRANCH   9  11
+ATOM     10  C   UNL     1      49.758  79.650  42.969  0.00  0.00    +0.031 C 
+ATOM     11  C   UNL     1      49.820  81.022  42.330  0.00  0.00    +0.174 C 
+ATOM     12  N   UNL     1      49.937  80.969  40.905  0.00  0.00    -0.123 NA
+BRANCH  11  13
+ATOM     13  C   UNL     1      50.973  81.739  42.911  0.00  0.00    +0.380 C 
+ATOM     14  O   UNL     1      51.075  81.882  44.149  0.00  0.00    -0.244 OA
+ATOM     15  O   UNL     1      51.942  82.250  42.072  0.00  0.00    -0.244 OA
+ENDBRANCH  11  13
+ENDBRANCH   9  11
+ENDBRANCH   1   9
+TORSDOF 3

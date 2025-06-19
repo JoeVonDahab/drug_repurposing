@@ -1,0 +1,42 @@
+REMARK  Name = Lomefloxacin
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  N_3
+REMARK    2  A    between atoms: C_5  and  C_23
+REMARK    3  A    between atoms: C_11  and  N_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1      45.269  79.124  40.825  0.00  0.00    -0.324 N 
+ATOM      2  C   UNL     1      46.127  80.192  40.748  0.00  0.00    +0.086 A 
+ATOM      3  C   UNL     1      45.954  81.087  39.733  0.00  0.00    +0.136 A 
+ATOM      4  C   UNL     1      44.946  80.920  38.816  0.00  0.00    +0.205 A 
+ATOM      5  O   UNL     1      44.781  81.741  37.879  0.00  0.00    -0.286 OA
+ATOM      6  C   UNL     1      44.097  79.854  38.898  0.00  0.00    +0.060 A 
+ATOM      7  C   UNL     1      43.084  79.640  37.995  0.00  0.00    +0.036 A 
+ATOM      8  C   UNL     1      42.231  78.571  38.050  0.00  0.00    +0.156 A 
+ATOM      9  C   UNL     1      42.421  77.681  39.073  0.00  0.00    +0.105 A 
+ATOM     10  C   UNL     1      43.425  77.849  40.010  0.00  0.00    +0.171 A 
+ATOM     11  C   UNL     1      44.272  78.930  39.940  0.00  0.00    +0.092 A 
+ATOM     12  F   UNL     1      43.563  76.909  40.969  0.00  0.00    -0.201 F 
+ATOM     13  F   UNL     1      41.250  78.398  37.145  0.00  0.00    -0.203 F 
+ENDROOT
+BRANCH   9  14
+ATOM     14  N   UNL     1      41.583  76.547  39.204  0.00  0.00    -0.301 N 
+ATOM     15  C   UNL     1      40.140  76.607  39.250  0.00  0.00    +0.110 C 
+ATOM     16  C   UNL     1      39.570  75.512  40.120  0.00  0.00    +0.110 C 
+ATOM     17  N   UNL     1      40.075  74.216  39.831  0.00  0.00    -0.216 NA
+ATOM     18  C   UNL     1      41.096  74.260  38.808  0.00  0.00    +0.093 C 
+ATOM     19  C   UNL     1      42.176  75.213  39.301  0.00  0.00    +0.108 C 
+ATOM     20  C   UNL     1      41.718  72.925  38.549  0.00  0.00    +0.021 C 
+ENDBRANCH   9  14
+BRANCH   3  21
+ATOM     21  C   UNL     1      46.855  82.235  39.627  0.00  0.00    +0.392 C 
+ATOM     22  O   UNL     1      46.712  83.073  38.709  0.00  0.00    -0.240 OA
+ATOM     23  O   UNL     1      47.879  82.421  40.533  0.00  0.00    -0.240 OA
+ENDBRANCH   3  21
+BRANCH   1  25
+ATOM     24  C   UNL     1      46.693  77.428  41.723  0.00  0.00    +0.026 C 
+ATOM     25  C   UNL     1      45.424  78.214  41.943  0.00  0.00    +0.106 C 
+ENDBRANCH   1  25
+TORSDOF 3

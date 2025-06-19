@@ -1,0 +1,81 @@
+REMARK  Name = Mepyramine_maleate
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  C_4
+REMARK    2  A    between atoms: C_4  and  C_5
+REMARK    3  A    between atoms: C_5  and  N_6
+REMARK    4  A    between atoms: N_6  and  C_7
+REMARK    5  A    between atoms: N_6  and  C_16
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_11  and  O_14
+REMARK    8  A    between atoms: C_22  and  C_27
+REMARK    9  A    between atoms: C_23  and  C_24
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1      46.150  79.101  40.766  0.00  0.00    -0.288 N 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      45.502  78.113  41.536  0.00  0.00    +0.132 A 
+ATOM      3  C   UNL     1      45.410  76.781  41.184  0.00  0.00    +0.034 A 
+ATOM      4  C   UNL     1      44.765  75.853  41.975  0.00  0.00    +0.004 A 
+ATOM      5  C   UNL     1      44.185  76.242  43.161  0.00  0.00    +0.021 A 
+ATOM      6  C   UNL     1      44.288  77.577  43.498  0.00  0.00    +0.100 A 
+ATOM      7  N   UNL     1      44.926  78.465  42.703  0.00  0.00    -0.229 NA
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C   UNL     1      45.382  79.944  39.888  0.00  0.00    +0.110 C 
+BRANCH   8   9
+ATOM      9  C   UNL     1      43.995  79.414  39.638  0.00  0.00    +0.094 C 
+BRANCH   9  11
+ATOM     10  C   UNL     1      42.075  79.507  38.211  0.00  0.00    +0.090 C 
+ATOM     11  N   UNL     1      43.427  79.911  38.411  0.00  0.00    -0.269 NA
+ATOM     12  C   UNL     1      44.273  79.705  37.266  0.00  0.00    +0.090 C 
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   1  13
+ATOM     13  C   UNL     1      47.575  79.278  40.854  0.00  0.00    +0.119 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1      47.957  80.633  41.334  0.00  0.00    -0.002 A 
+ATOM     15  C   UNL     1      47.045  81.520  41.868  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1      47.413  82.774  42.309  0.00  0.00    +0.037 A 
+ATOM     17  C   UNL     1      48.738  83.208  42.233  0.00  0.00    +0.139 A 
+ATOM     18  C   UNL     1      49.648  82.327  41.702  0.00  0.00    +0.037 A 
+ATOM     19  C   UNL     1      49.266  81.060  41.259  0.00  0.00    +0.000 A 
+BRANCH  17  20
+ATOM     20  O   UNL     1      49.079  84.473  42.684  0.00  0.00    -0.471 OA
+ATOM     21  C   UNL     1      50.397  84.886  42.900  0.00  0.00    +0.252 C 
+ENDBRANCH  17  20
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+TORSDOF 7
+REMARK  Name = Mepyramine_maleate
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  C_4
+REMARK    2  A    between atoms: C_4  and  C_5
+REMARK    3  A    between atoms: C_5  and  N_6
+REMARK    4  A    between atoms: N_6  and  C_7
+REMARK    5  A    between atoms: N_6  and  C_16
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_11  and  O_14
+REMARK    8  A    between atoms: C_22  and  C_27
+REMARK    9  A    between atoms: C_23  and  C_24
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      45.748  79.427  41.089  0.00  0.00    +0.093 C 
+ATOM      2  C   UNL     1      46.088  80.698  41.149  0.00  0.00    +0.093 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C   UNL     1      47.281  81.166  41.831  0.00  0.00    +0.388 C 
+ATOM      4  O   UNL     1      47.368  82.420  42.057  0.00  0.00    -0.241 OA
+ATOM      5  O   UNL     1      48.278  80.287  42.217  0.00  0.00    -0.241 OA
+ENDBRANCH   2   3
+BRANCH   1   6
+ATOM      6  C   UNL     1      44.557  78.990  40.380  0.00  0.00    +0.388 C 
+ATOM      7  O   UNL     1      44.501  77.966  39.675  0.00  0.00    -0.241 OA
+ATOM      8  O   UNL     1      43.389  79.761  40.487  0.00  0.00    -0.241 OA
+ENDBRANCH   1   6
+TORSDOF 2

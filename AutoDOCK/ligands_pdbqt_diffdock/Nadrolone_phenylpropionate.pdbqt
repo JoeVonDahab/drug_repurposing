@@ -1,0 +1,53 @@
+REMARK  Name = Nadrolone_phenylpropionate
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_10  and  O_11
+REMARK    2  A    between atoms: O_11  and  C_12
+REMARK    3  A    between atoms: C_12  and  C_14
+REMARK    4  A    between atoms: C_14  and  C_15
+REMARK    5  A    between atoms: C_15  and  C_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      45.193  80.467  41.765  0.00  0.00    +0.004 C 
+ATOM      2  C   UNL     1      45.231  79.483  40.590  0.00  0.00    +0.037 C 
+ATOM      3  C   UNL     1      44.400  80.089  39.498  0.00  0.00    +0.003 C 
+ATOM      4  C   UNL     1      43.763  79.065  38.622  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      42.836  78.228  39.459  0.00  0.00    +0.004 C 
+ATOM      6  C   UNL     1      43.414  77.735  40.729  0.00  0.00    +0.001 C 
+ATOM      7  C   UNL     1      44.801  78.140  41.032  0.00  0.00    +0.003 C 
+ATOM      8  C   UNL     1      45.853  77.200  40.474  0.00  0.00    +0.004 C 
+ATOM      9  C   UNL     1      47.115  78.012  40.793  0.00  0.00    +0.044 C 
+ATOM     10  C   UNL     1      46.699  79.365  40.200  0.00  0.00    +0.169 C 
+ATOM     11  C   UNL     1      43.366  76.209  40.842  0.00  0.00    +0.004 C 
+ATOM     12  C   UNL     1      41.919  75.773  40.766  0.00  0.00    +0.022 C 
+ATOM     13  C   UNL     1      41.401  76.247  39.453  0.00  0.00    -0.042 C 
+ATOM     14  C   UNL     1      40.166  75.908  39.144  0.00  0.00    +0.029 C 
+ATOM     15  C   UNL     1      39.648  76.367  37.860  0.00  0.00    +0.173 C 
+ATOM     16  O   UNL     1      38.410  76.530  37.709  0.00  0.00    -0.291 OA
+ATOM     17  C   UNL     1      40.643  76.619  36.786  0.00  0.00    +0.069 C 
+ATOM     18  C   UNL     1      41.729  77.520  37.329  0.00  0.00    +0.012 C 
+ATOM     19  C   UNL     1      42.313  77.053  38.618  0.00  0.00    +0.019 C 
+ENDROOT
+BRANCH  10  20
+ATOM     20  O   UNL     1      47.486  80.352  40.792  0.00  0.00    -0.452 OA
+BRANCH  20  21
+ATOM     21  C   UNL     1      47.469  81.636  40.304  0.00  0.00    +0.317 C 
+ATOM     22  O   UNL     1      46.661  81.895  39.360  0.00  0.00    -0.250 OA
+BRANCH  21  23
+ATOM     23  C   UNL     1      48.366  82.714  40.853  0.00  0.00    +0.114 C 
+BRANCH  23  24
+ATOM     24  C   UNL     1      48.480  82.517  42.350  0.00  0.00    +0.038 C 
+BRANCH  24  25
+ATOM     25  C   UNL     1      49.415  83.567  42.864  0.00  0.00    -0.022 A 
+ATOM     26  C   UNL     1      50.768  83.317  42.775  0.00  0.00    -0.004 A 
+ATOM     27  C   UNL     1      51.703  84.217  43.219  0.00  0.00    -0.000 A 
+ATOM     28  C   UNL     1      51.264  85.405  43.769  0.00  0.00    -0.000 A 
+ATOM     29  C   UNL     1      49.912  85.678  43.869  0.00  0.00    -0.000 A 
+ATOM     30  C   UNL     1      48.997  84.746  43.411  0.00  0.00    -0.004 A 
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  21  23
+ENDBRANCH  20  21
+ENDBRANCH  10  20
+TORSDOF 5

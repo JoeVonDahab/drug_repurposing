@@ -1,0 +1,71 @@
+REMARK  Name = Dexchlorpheniramine_Maleate
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  C_4
+REMARK    2  A    between atoms: C_4  and  C_5
+REMARK    3  A    between atoms: C_5  and  C_6
+REMARK    4  A    between atoms: C_6  and  C_7
+REMARK    5  A    between atoms: C_6  and  C_14
+REMARK    6  A    between atoms: C_20  and  C_25
+REMARK    7  A    between atoms: C_21  and  C_22
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      46.706  80.458  40.258  0.00  0.00    +0.064 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      47.509  81.458  41.011  0.00  0.00    -0.017 A 
+ATOM      3  C   UNL     1      48.808  81.759  40.673  0.00  0.00    -0.003 A 
+ATOM      4  C   UNL     1      49.558  82.693  41.379  0.00  0.00    +0.011 A 
+ATOM      5  C   UNL     1      49.016  83.366  42.465  0.00  0.00    +0.058 A 
+ATOM      6  C   UNL     1      47.718  83.067  42.804  0.00  0.00    +0.011 A 
+ATOM      7  C   UNL     1      46.977  82.140  42.103  0.00  0.00    -0.003 A 
+ATOM      8 CL   UNL     1      49.966  84.548  43.360  0.00  0.00    -0.082 Cl
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C   UNL     1      46.428  79.255  41.030  0.00  0.00    +0.063 A 
+ATOM     10  C   UNL     1      47.074  78.049  40.857  0.00  0.00    +0.015 A 
+ATOM     11  C   UNL     1      46.786  76.935  41.601  0.00  0.00    +0.003 A 
+ATOM     12  C   UNL     1      45.798  77.045  42.566  0.00  0.00    +0.021 A 
+ATOM     13  C   UNL     1      45.147  78.243  42.747  0.00  0.00    +0.098 A 
+ATOM     14  N   UNL     1      45.477  79.296  41.985  0.00  0.00    -0.248 NA
+ENDBRANCH   1   9
+BRANCH   1  15
+ATOM     15  C   UNL     1      45.499  81.101  39.630  0.00  0.00    +0.028 C 
+BRANCH  15  16
+ATOM     16  C   UNL     1      44.405  80.062  39.488  0.00  0.00    +0.073 C 
+BRANCH  16  18
+ATOM     17  C   UNL     1      44.188  79.318  37.201  0.00  0.00    +0.090 C 
+ATOM     18  N   UNL     1      43.731  80.178  38.238  0.00  0.00    -0.270 NA
+ATOM     19  C   UNL     1      42.327  80.398  38.311  0.00  0.00    +0.090 C 
+ENDBRANCH  16  18
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 5
+REMARK  Name = Dexchlorpheniramine_Maleate
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  C_4
+REMARK    2  A    between atoms: C_4  and  C_5
+REMARK    3  A    between atoms: C_5  and  C_6
+REMARK    4  A    between atoms: C_6  and  C_7
+REMARK    5  A    between atoms: C_6  and  C_14
+REMARK    6  A    between atoms: C_20  and  C_25
+REMARK    7  A    between atoms: C_21  and  C_22
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      45.980  81.125  40.115  0.00  0.00    +0.093 C 
+ATOM      2  C   UNL     1      45.713  80.192  41.003  0.00  0.00    +0.093 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C   UNL     1      46.584  80.083  42.180  0.00  0.00    +0.388 C 
+ATOM      4  O   UNL     1      46.895  78.968  42.663  0.00  0.00    -0.241 OA
+ATOM      5  O   UNL     1      47.100  81.207  42.808  0.00  0.00    -0.241 OA
+ENDBRANCH   2   3
+BRANCH   1   6
+ATOM      6  C   UNL     1      45.218  81.120  38.872  0.00  0.00    +0.388 C 
+ATOM      7  O   UNL     1      45.214  82.184  38.200  0.00  0.00    -0.241 OA
+ATOM      8  O   UNL     1      44.524  80.028  38.421  0.00  0.00    -0.241 OA
+ENDBRANCH   1   6
+TORSDOF 2

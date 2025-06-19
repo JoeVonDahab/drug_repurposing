@@ -1,0 +1,44 @@
+REMARK  Name = Inamrinone_Lactate
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3
+REMARK    2  A    between atoms: C_12  and  C_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      49.421  81.765  40.858  0.00  0.00    +0.048 C 
+ATOM      2  C   UNL     1      48.160  81.796  41.686  0.00  0.00    +0.254 C 
+ATOM      3  O   UNL     1      48.264  82.848  42.587  0.00  0.00    -0.211 OA
+ENDROOT
+BRANCH   2   4
+ATOM      4  C   UNL     1      46.943  81.910  40.842  0.00  0.00    +0.395 C 
+ATOM      5  O   UNL     1      45.862  81.411  41.265  0.00  0.00    -0.243 OA
+ATOM      6  O   UNL     1      46.971  82.546  39.614  0.00  0.00    -0.243 OA
+ENDBRANCH   2   4
+TORSDOF 1
+REMARK  Name = Inamrinone_Lactate
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3
+REMARK    2  A    between atoms: C_12  and  C_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      48.092  82.001  41.581  0.00  0.00    +0.021 A 
+ATOM      2  C   UNL     1      49.055  81.108  41.998  0.00  0.00    +0.102 A 
+ATOM      3  N   UNL     1      49.953  81.458  42.925  0.00  0.00    -0.205 NA
+ATOM      4  C   UNL     1      49.955  82.679  43.486  0.00  0.00    +0.296 A 
+ATOM      5  O   UNL     1      50.823  82.991  44.372  0.00  0.00    -0.264 OA
+ATOM      6  C   UNL     1      49.020  83.622  43.116  0.00  0.00    +0.147 A 
+ATOM      7  C   UNL     1      48.091  83.261  42.155  0.00  0.00    +0.025 A 
+ATOM      8  N   UNL     1      49.052  84.895  43.729  0.00  0.00    -0.123 NA
+ENDROOT
+BRANCH   1  14
+ATOM      9  C   UNL     1      46.631  80.312  40.448  0.00  0.00    +0.021 A 
+ATOM     10  C   UNL     1      45.722  79.981  39.456  0.00  0.00    +0.099 A 
+ATOM     11  N   UNL     1      45.311  80.918  38.610  0.00  0.00    -0.242 NA
+ATOM     12  C   UNL     1      45.752  82.201  38.679  0.00  0.00    +0.099 A 
+ATOM     13  C   UNL     1      46.661  82.519  39.673  0.00  0.00    +0.021 A 
+ATOM     14  C   UNL     1      47.124  81.594  40.579  0.00  0.00    +0.005 A 
+ENDBRANCH   1  14
+TORSDOF 1

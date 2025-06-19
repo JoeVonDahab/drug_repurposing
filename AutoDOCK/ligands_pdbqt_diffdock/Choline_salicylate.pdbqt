@@ -1,0 +1,45 @@
+REMARK  Name = Choline_salicylate
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  C_5
+REMARK    2  A    between atoms: C_5  and  C_6
+REMARK    3  A    between atoms: C_12  and  C_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      48.397  82.645  40.863  0.00  0.00    -0.096 C 
+ATOM      2  N   UNL     1      48.867  82.102  42.144  0.00  0.00    +0.387 N 
+ATOM      3  C   UNL     1      49.248  80.732  41.889  0.00  0.00    -0.096 C 
+ATOM      4  C   UNL     1      47.758  82.079  43.077  0.00  0.00    -0.096 C 
+ENDROOT
+BRANCH   2   5
+ATOM      5  C   UNL     1      49.935  82.899  42.675  0.00  0.00    -0.037 C 
+BRANCH   5   6
+ATOM      6  C   UNL     1      49.482  84.195  43.277  0.00  0.00    +0.160 C 
+ATOM      7  O   UNL     1      50.569  84.716  43.994  0.00  0.00    -0.223 OA
+ENDBRANCH   5   6
+ENDBRANCH   2   5
+TORSDOF 2
+REMARK  Name = Choline_salicylate
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  C_5
+REMARK    2  A    between atoms: C_5  and  C_6
+REMARK    3  A    between atoms: C_12  and  C_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      48.158  82.068  40.714  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      47.264  82.134  41.760  0.00  0.00    +0.003 A 
+ATOM      3  C   UNL     1      47.710  82.333  43.050  0.00  0.00    +0.042 A 
+ATOM      4  C   UNL     1      49.077  82.466  43.271  0.00  0.00    +0.202 A 
+ATOM      5  C   UNL     1      49.988  82.403  42.241  0.00  0.00    +0.119 A 
+ATOM      6  C   UNL     1      49.526  82.204  40.959  0.00  0.00    +0.010 A 
+ATOM      7  O   UNL     1      49.540  82.667  44.567  0.00  0.00    -0.286 OA
+ENDROOT
+BRANCH   5   8
+ATOM      8  C   UNL     1      51.423  82.543  42.479  0.00  0.00    +0.391 C 
+ATOM      9  O   UNL     1      52.221  82.603  41.509  0.00  0.00    -0.240 OA
+ATOM     10  O   UNL     1      51.954  82.615  43.764  0.00  0.00    -0.240 OA
+ENDBRANCH   5   8
+TORSDOF 1

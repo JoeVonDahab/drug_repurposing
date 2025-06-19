@@ -1,0 +1,26 @@
+REMARK  Name = Sulfamylon
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  S_9
+REMARK    2  A    between atoms: C_6  and  C_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      47.697  80.436  41.776  0.00  0.00    -0.001 A 
+ATOM      2  C   UNL     1      46.661  80.038  40.972  0.00  0.00    +0.020 A 
+ATOM      3  C   UNL     1      46.217  80.879  39.968  0.00  0.00    +0.125 A 
+ATOM      4  C   UNL     1      46.819  82.104  39.786  0.00  0.00    +0.020 A 
+ATOM      5  C   UNL     1      47.858  82.480  40.608  0.00  0.00    -0.001 A 
+ATOM      6  C   UNL     1      48.318  81.661  41.614  0.00  0.00    -0.003 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  S   UNL     1      44.908  80.344  38.973  0.00  0.00    +0.093 S 
+ATOM      8  O   UNL     1      44.405  81.476  38.109  0.00  0.00    -0.150 OA
+ATOM      9  O   UNL     1      45.370  79.236  38.057  0.00  0.00    -0.150 OA
+ATOM     10  N   UNL     1      43.572  79.764  39.879  0.00  0.00    +0.039 NA
+ENDBRANCH   3   7
+BRANCH   6  11
+ATOM     11  C   UNL     1      49.433  82.060  42.499  0.00  0.00    +0.136 C 
+ATOM     12  N   UNL     1      50.578  82.410  41.681  0.00  0.00    -0.126 NA
+ENDBRANCH   6  11
+TORSDOF 2

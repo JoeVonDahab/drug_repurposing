@@ -1,0 +1,111 @@
+REMARK  Name = Oxidized_glutathione
+REMARK  21 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_36
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: N_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: C_6  and  C_29
+REMARK    7  A    between atoms: C_7  and  S_8
+REMARK    8  A    between atoms: S_8  and  S_9
+REMARK    9  A    between atoms: S_9  and  C_10
+REMARK   10  A    between atoms: C_10  and  C_11
+REMARK   11  A    between atoms: C_11  and  C_12
+REMARK   12  A    between atoms: C_11  and  N_19
+REMARK   13  A    between atoms: N_14  and  CA_15
+REMARK   14  A    between atoms: CA_15  and  C_16
+REMARK   15  A    between atoms: C_20  and  C_22
+REMARK   16  A    between atoms: C_22  and  C_23
+REMARK   17  A    between atoms: C_23  and  C_24
+REMARK   18  A    between atoms: C_24  and  C_25
+REMARK   19  A    between atoms: N_31  and  CA_32
+REMARK   20  A    between atoms: CA_32  and  C_33
+REMARK   21  A    between atoms: C_36  and  C_37
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  S   UNK A   1      42.454  79.374  37.959  0.00  0.00    -0.080 S 
+ENDROOT
+BRANCH   1   2
+ATOM      2  S   UNK A   1      43.917  79.575  39.487  0.00  0.00    -0.080 S 
+BRANCH   2   3
+ATOM      3  C   UNK A   1      45.336  78.491  39.166  0.00  0.00    +0.100 C 
+BRANCH   3   4
+ATOM      4  C   UNK A   1      46.177  78.237  40.384  0.00  0.00    +0.184 C 
+BRANCH   4   5
+ATOM      5  N   UNK A   1      46.179  79.333  41.294  0.00  0.00    -0.197 NA
+ATOM      6  C   UNK A   1      47.053  80.458  41.100  0.00  0.00    +0.242 C 
+ATOM      7  O   UNK A   1      47.799  80.382  40.097  0.00  0.00    -0.273 OA
+BRANCH   6   8
+ATOM      8  C   UNK A   1      47.028  81.587  42.047  0.00  0.00    +0.089 C 
+BRANCH   8   9
+ATOM      9  C   UNK A   1      48.193  81.693  42.936  0.00  0.00    +0.040 C 
+BRANCH   9  10
+ATOM     10  C   UNK A   1      49.554  81.784  42.344  0.00  0.00    +0.195 C 
+ATOM     11  N   UNK A   1      49.622  82.078  40.944  0.00  0.00    -0.121 NA
+BRANCH  10  12
+ATOM     12  C   UNK A   1      50.480  82.629  43.125  0.00  0.00    +0.382 C 
+ATOM     13  O   UNK A   1      50.502  82.573  44.405  0.00  0.00    -0.244 OA
+ATOM     14  O   UNK A   1      51.376  83.526  42.570  0.00  0.00    -0.244 OA
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   6   8
+ENDBRANCH   4   5
+BRANCH   4  15
+ATOM     15  C   UNK A   1      45.647  76.973  40.997  0.00  0.00    +0.263 C 
+ATOM     16  O   UNK A   1      45.445  76.002  40.220  0.00  0.00    -0.271 OA
+ATOM     17  N   GLY A   2      45.365  76.808  42.359  0.00  0.00    -0.192 NA
+BRANCH  17  18
+ATOM     18  CA  GLY A   2      44.891  75.585  42.962  0.00  0.00    +0.228 C 
+BRANCH  18  19
+ATOM     19  C   GLY A   2      44.820  75.794  44.431  0.00  0.00    +0.387 C 
+ATOM     20  O   GLY A   2      45.283  76.853  44.975  0.00  0.00    -0.244 OA
+ATOM     21  OXT GLY A   2      44.256  74.871  45.298  0.00  0.00    -0.244 OA
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   4  15
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  22
+ATOM     22  C   UNK A   1      40.833  78.891  38.619  0.00  0.00    +0.100 C 
+BRANCH  22  23
+ATOM     23  C   UNK A   1      40.457  77.504  38.262  0.00  0.00    +0.184 C 
+BRANCH  23  24
+ATOM     24  C   UNK A   1      40.127  76.683  39.459  0.00  0.00    +0.263 C 
+ATOM     25  O   UNK A   1      39.084  76.925  40.091  0.00  0.00    -0.271 OA
+ATOM     26  N   GLY A   2      40.937  75.629  39.932  0.00  0.00    -0.192 NA
+BRANCH  26  27
+ATOM     27  CA  GLY A   2      40.589  74.885  41.124  0.00  0.00    +0.228 C 
+BRANCH  27  28
+ATOM     28  C   GLY A   2      40.901  73.452  40.910  0.00  0.00    +0.387 C 
+ATOM     29  O   GLY A   2      41.284  73.023  39.778  0.00  0.00    -0.244 OA
+ATOM     30  OXT GLY A   2      40.781  72.544  41.942  0.00  0.00    -0.244 OA
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH  23  24
+BRANCH  23  33
+ATOM     31  C   UNK A   1      39.713  76.727  35.958  0.00  0.00    +0.242 C 
+ATOM     32  O   UNK A   1      40.809  76.187  35.696  0.00  0.00    -0.273 OA
+ATOM     33  N   UNK A   1      39.513  77.403  37.194  0.00  0.00    -0.197 NA
+BRANCH  31  34
+ATOM     34  C   UNK A   1      38.631  76.635  34.935  0.00  0.00    +0.089 C 
+BRANCH  34  35
+ATOM     35  C   UNK A   1      38.419  75.182  34.600  0.00  0.00    +0.040 C 
+BRANCH  35  36
+ATOM     36  C   UNK A   1      37.404  74.989  33.503  0.00  0.00    +0.195 C 
+ATOM     37  N   UNK A   1      36.071  75.356  33.965  0.00  0.00    -0.121 NA
+BRANCH  36  38
+ATOM     38  C   UNK A   1      37.436  73.647  32.916  0.00  0.00    +0.382 C 
+ATOM     39  O   UNK A   1      36.445  72.892  33.057  0.00  0.00    -0.244 OA
+ATOM     40  O   UNK A   1      38.514  73.134  32.195  0.00  0.00    -0.244 OA
+ENDBRANCH  36  38
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH  31  34
+ENDBRANCH  23  33
+ENDBRANCH  22  23
+ENDBRANCH   1  22
+TORSDOF 21
