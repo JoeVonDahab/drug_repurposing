@@ -1,5 +1,5 @@
 *.sdf
-DiffDock/*.npy
+*.npy
 *.pt
 *.pdb
 *.pdbqt
