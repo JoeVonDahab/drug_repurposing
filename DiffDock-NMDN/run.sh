@@ -1,2 +1,5 @@
 #!/usr/bin/env bash
-python predict.py --prot 2GQG_one_chain_docking.pdb --ligs all_sdf/*.sdf --save_csv results_nmdn.csv
+
+python predict.py --prot receptor_ready_5tbm.pdb --ligs $(find all_sdf -name "*.sdf") --save_csv results_nmdn.csv
+
+echo "Done!"

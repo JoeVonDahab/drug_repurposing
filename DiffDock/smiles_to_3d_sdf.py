@@ -68,9 +68,9 @@ def prepare_ligands_from_smiles(smiles_file, out_dir, n_workers=None):
             for error in errors: f.write(f"{error}\n")
 
 if __name__ == "__main__":
-    SMILES_INPUT_FILE = "approved_drugs.smi"
-    OUTPUT_DIRECTORY = "ligand_sdf_files"
+    SMILES_INPUT_FILE = "benchmarking.smi"
+    OUTPUT_DIRECTORY = "ligand_sdf_files_benchmarking"
     # Safe number of workers to prevent system crashes. Tune if needed.
-    NUMBER_OF_WORKERS = 16
+    NUMBER_OF_WORKERS = 24
     
     prepare_ligands_from_smiles(SMILES_INPUT_FILE, OUTPUT_DIRECTORY, NUMBER_OF_WORKERS)

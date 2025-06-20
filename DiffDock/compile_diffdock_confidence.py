@@ -16,8 +16,8 @@ RESULT_DIRS = ["results_gpu0", "results_gpu1"]
 OUTPUT_CSV  = "best_confidence_per_drug.csv"
 OUTPUT_SDF_DIR = Path("in_pocket_sdfs")
 # pocket boundaries (min, max) — edit if you change the box
-BOX_MIN = (36.8440, 71.9041, 33.2743)
-BOX_MAX = (52.2194, 87.1073, 47.0206)
+BOX_MIN = (15.4116, -4.725237, -16.6718)
+BOX_MAX = (30.8764, 6.455263, -4.6052)
 # ----------------------------------------------------------------------
 
 CONF_RE = re.compile(r"_confidence(-?\d+\.\d+)\.sdf$", re.I)

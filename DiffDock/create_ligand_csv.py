@@ -1,8 +1,8 @@
 # create_ligand_csv.py
 import os
 
-protein_path = "2GQG_one_chain_docking.pdb"
-ligand_dir = "ligand_sdf_files"
+protein_path = "receptor_ready_5tbm.pdb"
+ligand_dir = "ligand_sdf_files_benchmarking"
 output_csv = "all_ligands.csv"
 
 def create_master_list():
